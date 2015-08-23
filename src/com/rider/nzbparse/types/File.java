@@ -35,8 +35,7 @@ public class File {
     @XmlJavaTypeAdapter(NormalizedStringAdapter.class)
     protected String poster;
     @XmlAttribute(name = "date")
-    @XmlJavaTypeAdapter(NormalizedStringAdapter.class)
-    protected String date;
+    protected long date;
     protected Groups groups;
     protected Segments segments;
 
@@ -93,10 +92,10 @@ public class File {
      * 
      * @return
      *     possible object is
-     *     {@link String }
+     *     {@link long }
      *     
      */
-    public String getDate() {
+    public long getDate() {
         return date;
     }
 
@@ -105,10 +104,10 @@ public class File {
      * 
      * @param value
      *     allowed object is
-     *     {@link String }
+     *     {@link long }
      *     
      */
-    public void setDate(String value) {
+    public void setDate(long value) {
         this.date = value;
     }
 

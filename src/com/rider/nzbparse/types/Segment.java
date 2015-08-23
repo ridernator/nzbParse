@@ -29,11 +29,9 @@ import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 public class Segment {
 
     @XmlAttribute(name = "bytes")
-    @XmlJavaTypeAdapter(NormalizedStringAdapter.class)
-    protected String bytes;
+    protected long bytes;
     @XmlAttribute(name = "number")
-    @XmlJavaTypeAdapter(NormalizedStringAdapter.class)
-    protected String number;
+    protected long number;
     @XmlValue
     protected String value;
 
@@ -42,10 +40,10 @@ public class Segment {
      * 
      * @return
      *     possible object is
-     *     {@link String }
+     *     {@link long }
      *     
      */
-    public String getBytes() {
+    public long getBytes() {
         return bytes;
     }
 
@@ -54,10 +52,10 @@ public class Segment {
      * 
      * @param value
      *     allowed object is
-     *     {@link String }
+     *     {@link long }
      *     
      */
-    public void setBytes(String value) {
+    public void setBytes(long value) {
         this.bytes = value;
     }
 
@@ -66,10 +64,10 @@ public class Segment {
      * 
      * @return
      *     possible object is
-     *     {@link String }
+     *     {@link long }
      *     
      */
-    public String getNumber() {
+    public long getNumber() {
         return number;
     }
 
@@ -78,10 +76,10 @@ public class Segment {
      * 
      * @param value
      *     allowed object is
-     *     {@link String }
+     *     {@link long }
      *     
      */
-    public void setNumber(String value) {
+    public void setNumber(long value) {
         this.number = value;
     }
 

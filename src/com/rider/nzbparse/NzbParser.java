@@ -170,6 +170,46 @@ public class NzbParser {
     }
 
     /**
+     * Calculate the published date the oldest or newest item in the nzb
+     *
+     * @param nzb The nzb to use for the calculation
+     * @param oldest If set to true then find the oldest, else find the newest
+     * @return The published date (in ms since 1970) of the oldest or newest item in the nzb
+     */
+    private long calculatePublishDateInMs(final Nzb nzb,
+                                          final boolean oldest) {
+        long returnVal = 0;
+
+        // If the nzb has some files
+        if (!nzb.getFile().isEmpty()) {
+            long date;
+
+            // Set oldest date to the first file's date
+            returnVal = Long.valueOf(nzb.getFile().get(0).getDate());
+
+            // For each file in the nzb
+            for (final com.rider.nzbparse.types.File file : nzb.getFile()) {
+                date = Long.valueOf(file.getDate());
+
+                if (oldest) { // Are we looking for the oldest
+                    // If the files date is older than our stored date then set our stores date to the file's date
+                    if (returnVal > date) {
+                        returnVal = date;
+                    }
+                } else { // Or the newest
+                    // If the files date is newwe than our stored date then set our stores date to the file's date
+                    if (returnVal < date) {
+                        returnVal = date;
+                    }
+                }
+            }
+        }
+
+        // Convert from s to ms
+        return returnVal * 1000;
+    }
+
+    /**
      * Calculate the age of the oldest item in an nzb
      *
      * @param nzb The nzb to use for the calculation
@@ -180,34 +220,33 @@ public class NzbParser {
     }
 
     /**
+     * Calculate the age of the oldest item in an nzb
+     *
+     * @param nzb The nzb to use for the calculation
+     * @return The age (in ms since 1970) of the oldest item in the nzb
+     */
+    public long calculateNewestAgeInMs(final Nzb nzb) {
+        return System.currentTimeMillis() - calculateOldestPublishDateInMs(nzb);
+    }
+
+    /**
      * Calculate the published date the oldest item in the nzb
      *
      * @param nzb The nzb to use for the calculation
      * @return The published date (in ms since 1970) of the oldest item in the nzb
      */
     public long calculateOldestPublishDateInMs(final Nzb nzb) {
-        long oldestDate = 0;
+        return calculatePublishDateInMs(nzb, true);
+    }
 
-        // If the nzb has some files
-        if (!nzb.getFile().isEmpty()) {
-            long date;
-
-            // Set oldest date to the first file's date
-            oldestDate = Long.valueOf(nzb.getFile().get(0).getDate());
-
-            // For each file in the nzb
-            for (final com.rider.nzbparse.types.File file : nzb.getFile()) {
-                date = Long.valueOf(file.getDate());
-
-                // If the files date is older than our stored date then set our stores date to the file's date
-                if (oldestDate > date) {
-                    oldestDate = date;
-                }
-            }
-        }
-
-        // Convert from s to ms
-        return oldestDate * 1000;
+    /**
+     * Calculate the published date the newest item in the nzb
+     *
+     * @param nzb The nzb to use for the calculation
+     * @return The published date (in ms since 1970) of the newest item in the nzb
+     */
+    public long calculateNewestPublishDateInMs(final Nzb nzb) {
+        return calculatePublishDateInMs(nzb, false);
     }
 
     /**
@@ -218,6 +257,16 @@ public class NzbParser {
      */
     public Date calculateOldestPublishDate(final Nzb nzb) {
         return new Date(calculateOldestPublishDateInMs(nzb));
+    }
+
+    /**
+     * Calculate the published date the newest item in the nzb
+     *
+     * @param nzb The nzb to use for the calculation
+     * @return The published date of the newest item in the nzb
+     */
+    public Date calculateNewestPublishDate(final Nzb nzb) {
+        return new Date(calculateNewestPublishDateInMs(nzb));
     }
 
     /**
