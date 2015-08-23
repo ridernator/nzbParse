@@ -4,8 +4,9 @@ import com.rider.nzbparse.types.File;
 import java.util.Comparator;
 
 /**
+ * Compare two File objects by comparing their dates
  *
- * @author rider
+ * @author Ciaron Rider
  */
 public class FileComparator implements Comparator<File> {
     @Override
