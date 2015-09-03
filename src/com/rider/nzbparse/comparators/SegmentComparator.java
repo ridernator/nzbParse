@@ -4,7 +4,7 @@ import com.rider.nzbparse.types.Segment;
 import java.util.Comparator;
 
 /**
- * Compare two Segment objects by comparing their number fields
+ * Compare two Segment objects by comparing their number fields.
  *
  * @author Ciaron Rider
  */
@@ -24,7 +24,7 @@ public class SegmentComparator implements Comparator<Segment> {
             returnVal = 1; // If second is null but first isn't
         } else {
             // If first and second are not null, then compare their numbers as longs
-            returnVal = Long.compare(first.getNumber(), second.getNumber());
+            returnVal = Long.compare(first.getIndex(), second.getIndex());
         }
 
         return returnVal;

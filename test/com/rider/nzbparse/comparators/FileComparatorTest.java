@@ -1,23 +1,23 @@
 package com.rider.nzbparse.comparators;
 
-import com.rider.nzbparse.types.File;
+import com.rider.nzbparse.types.FileItem;
 import org.junit.Assert;
 import org.junit.Test;
 
 /**
- * Test of the FileComparator class
+ * Test of the FileItemComparator class.
  *
  * @author Ciaron Rider
  */
 public class FileComparatorTest {
     /**
-     * Test of compare method, of class FileComparator.
+     * Test of compare method, of class FileItemComparator.
      */
     @Test
     public void testCompare() {
-        final File first = new File();
-        final File second = new File();
-        final FileComparator fileComparator = new FileComparator();
+        final FileItem first = new FileItem();
+        final FileItem second = new FileItem();
+        final FileItemComparator fileComparator = new FileItemComparator();
 
         first.setDate(1);
         second.setDate(2);
@@ -29,9 +29,19 @@ public class FileComparatorTest {
         first.setDate(2);
         second.setDate(2);
         Assert.assertEquals(0, fileComparator.compare(first, second));
+    }
 
-        Assert.assertEquals(1, fileComparator.compare(first, null));
-        Assert.assertEquals(-1, fileComparator.compare(null, second));
+    /**
+     * Test of compare method, of class FileItemComparator. This time with
+     * nulls.
+     */
+    @Test
+    public void testCompareWithNulls() {
+        final FileItem file = new FileItem();
+        final FileItemComparator fileComparator = new FileItemComparator();
+
+        Assert.assertEquals(1, fileComparator.compare(file, null));
+        Assert.assertEquals(-1, fileComparator.compare(null, file));
         Assert.assertEquals(0, fileComparator.compare(null, null));
     }
 }

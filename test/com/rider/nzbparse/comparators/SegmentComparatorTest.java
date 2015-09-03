@@ -5,7 +5,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 /**
- * Test of the SegmentComparator class
+ * Test of the SegmentComparator class.
  *
  * @author Ciaron Rider
  */
@@ -19,19 +19,28 @@ public class SegmentComparatorTest {
         final Segment second = new Segment();
         final SegmentComparator segmentComparator = new SegmentComparator();
 
-        first.setNumber(1);
-        second.setNumber(2);
+        first.setIndex(1);
+        second.setIndex(2);
         Assert.assertEquals(-1, segmentComparator.compare(first, second));
         Assert.assertEquals(1, segmentComparator.compare(second, first));
         Assert.assertEquals(0, segmentComparator.compare(first, first));
         Assert.assertEquals(0, segmentComparator.compare(second, second));
 
-        first.setNumber(2);
-        second.setNumber(2);
+        first.setIndex(2);
+        second.setIndex(2);
         Assert.assertEquals(0, segmentComparator.compare(first, second));
-        
-        Assert.assertEquals(1, segmentComparator.compare(first, null));
-        Assert.assertEquals(-1, segmentComparator.compare(null, second));
+    }
+
+    /**
+     * Test of compare method, of class SegmentComparator. This time with nulls.
+     */
+    @Test
+    public void testCompareWithNulls() {
+        final Segment segment = new Segment();
+        final SegmentComparator segmentComparator = new SegmentComparator();
+
+        Assert.assertEquals(1, segmentComparator.compare(segment, null));
+        Assert.assertEquals(-1, segmentComparator.compare(null, segment));
         Assert.assertEquals(0, segmentComparator.compare(null, null));
     }
 }

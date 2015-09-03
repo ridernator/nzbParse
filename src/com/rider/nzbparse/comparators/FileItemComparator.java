@@ -1,17 +1,17 @@
 package com.rider.nzbparse.comparators;
 
-import com.rider.nzbparse.types.File;
+import com.rider.nzbparse.types.FileItem;
 import java.util.Comparator;
 
 /**
- * Compare two File objects by comparing their dates
+ * Compare two FileItem objects by comparing their dates.
  *
  * @author Ciaron Rider
  */
-public class FileComparator implements Comparator<File> {
+public class FileItemComparator implements Comparator<FileItem> {
     @Override
-    public int compare(final File first,
-                       final File second) {
+    public int compare(final FileItem first,
+                       final FileItem second) {
         int returnVal;
 
         if (first == null) {
