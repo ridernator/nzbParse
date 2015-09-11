@@ -25,11 +25,18 @@ public class Groups {
     private List<Group> group;
 
     /**
+     * Protected constructor. Users never need see this
+     */
+    protected Groups() {
+        // Do nothing
+    }
+
+    /**
      * Get the list of groups (Never returns null).
      *
      * @return The list of groups
      */
-    public List<Group> getGroups() {
+    protected List<Group> getGroups() {
         if (group == null) {
             group = new ArrayList<>();
         }
@@ -42,7 +49,7 @@ public class Groups {
      *
      * @param group The group to add
      */
-    public void addGroup(final Group group) {
+    protected void addGroup(final Group group) {
         if (this.group == null) {
             this.group = new ArrayList<>();
         }

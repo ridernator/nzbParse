@@ -167,7 +167,7 @@ public class NzbParser {
                 final NzbParser parser = new NzbParser();
                 final Nzb nzb = parser.unmarshal(new File(args[0]));
 
-                nzb.organise();
+                nzb.sort();
                 parser.marshal(nzb, args[1]);
             } catch (final ParserConfigurationException | JAXBException | FileNotFoundException exception) {
                 System.err.println("Exception : \"" + exception.getMessage() + "\"");

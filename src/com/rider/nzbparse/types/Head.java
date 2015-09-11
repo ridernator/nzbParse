@@ -25,11 +25,18 @@ public class Head {
     private List<MetaDatum> meta;
 
     /**
+     * Protected constructor. Users never need see this
+     */
+    protected Head() {
+        // Do nothing
+    }
+
+    /**
      * Get the list of metadata (Never returns null).
      *
      * @return The list of metadata
      */
-    public List<MetaDatum> getMetadata() {
+    protected List<MetaDatum> getMetadata() {
         if (meta == null) {
             meta = new ArrayList<>();
         }
@@ -42,7 +49,7 @@ public class Head {
      *
      * @param metadatum The metadatum to add
      */
-    public void addGroup(final MetaDatum metadatum) {
+    protected void addMetaDatum(final MetaDatum metadatum) {
         if (meta == null) {
             meta = new ArrayList<>();
         }

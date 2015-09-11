@@ -37,6 +37,56 @@ public class Segment {
     private String value;
 
     /**
+     * Constructor for this class
+     */
+    public Segment() {
+        // Do nothing
+    }
+
+    /**
+     * Constructor for this class
+     *
+     * @param index The value to set for index
+     * @param name The value to set for name
+     * @param sizeInBytes The value to set for sizeInBytes
+     */
+    public Segment(final long index,
+                   final String name,
+                   final long sizeInBytes) {
+        setIndex(index);
+        setName(name);
+        setSizeInBytes(sizeInBytes);
+    }
+
+    /**
+     * Copy constructor
+     *
+     * @param segment The segment to copy from
+     */
+    public Segment(final Segment segment) {
+        setIndex(segment.getIndex());
+        setName(segment.getName());
+        setSizeInBytes(segment.getSizeInBytes());
+    }
+
+    @Override
+    public boolean equals(final Object other) {
+        boolean returnVal = false;
+
+        if (other instanceof Segment) {
+            final Segment otherSegment = (Segment) other;
+
+            if ((otherSegment.getIndex() == getIndex())
+                    && (otherSegment.getName().equals(getName()))
+                    && (otherSegment.getSizeInBytes() == getSizeInBytes())) {
+                returnVal = true;
+            }
+        }
+
+        return returnVal;
+    }
+
+    /**
      * Get the size of the segment in bytes.
      *
      * @return The size of the segment in bytes

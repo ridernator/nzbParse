@@ -33,11 +33,18 @@ public class Segments {
     private List<Segment> segment;
 
     /**
+     * Protected constructor. Users never need see this
+     */
+    protected Segments() {
+        // Do nothing
+    }
+
+    /**
      * Get the list of segments.
      *
      * @return The list of segments
      */
-    public List<Segment> getSegment() {
+    protected List<Segment> getSegments() {
         if (segment == null) {
             segment = new ArrayList<>();
         }
@@ -50,7 +57,7 @@ public class Segments {
      *
      * @param segment The segment to add
      */
-    public void addSegment(final Segment segment) {
+    protected void addSegment(final Segment segment) {
         if (this.segment == null) {
             this.segment = new ArrayList<>();
         }
@@ -61,7 +68,7 @@ public class Segments {
     /**
      * Sort the segments in this segments object by index
      */
-    public void organise() {
+    protected void sort() {
         if (segmentComparator == null) {
             segmentComparator = new SegmentComparator();
         }

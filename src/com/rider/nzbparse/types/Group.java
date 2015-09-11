@@ -24,6 +24,44 @@ public class Group {
     private String name;
 
     /**
+     * Constructor for this class
+     */
+    public Group() {
+        // Do nothing
+    }
+
+    /**
+     * Constructor for this class
+     *
+     * @param name The name to set
+     */
+    public Group(final String name) {
+        setName(name);
+    }
+
+    /**
+     * Copy constructor
+     *
+     * @param group The group to copy from
+     */
+    public Group(final Group group) {
+        setName(group.getName());
+    }
+
+    @Override
+    public boolean equals(final Object other) {
+        boolean returnVal = false;
+
+        if (other instanceof Group) {
+            if (((Group) other).getName().equals(getName())) {
+                returnVal = true;
+            }
+        }
+
+        return returnVal;
+    }
+
+    /**
      * Get the name of the group.
      *
      * @return The name of the group

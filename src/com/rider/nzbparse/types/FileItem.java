@@ -142,7 +142,7 @@ public class FileItem {
             segments = new Segments();
         }
 
-        return segments.getSegment();
+        return segments.getSegments();
     }
 
     /**
@@ -161,7 +161,7 @@ public class FileItem {
     /**
      * Sort the segments in this file by index.
      */
-    public void organise() {
-        segments.organise();
+    public void sort() {
+        segments.sort();
     }
 }

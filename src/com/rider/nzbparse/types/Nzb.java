@@ -102,7 +102,7 @@ public class Nzb {
     /**
      * Organise the nzb so that its contents are sorted by date.
      */
-    public void organise() {
+    public void sort() {
         if (fileComparator == null) {
             fileComparator = new FileItemComparator();
         }
@@ -112,7 +112,7 @@ public class Nzb {
 
         // Sort segments of all files
         for (final FileItem file : getFiles()) {
-            file.organise();
+            file.sort();
         }
     }
 
