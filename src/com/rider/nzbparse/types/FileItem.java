@@ -1,5 +1,6 @@
 package com.rider.nzbparse.types;
 
+import java.util.Collection;
 import java.util.List;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -133,6 +134,39 @@ public class FileItem {
     }
 
     /**
+     * Add groups to the list of groups this file has been posted in.
+     *
+     * @param groups The Groups to add
+     */
+    public void addGroups(final Collection<? extends Group> groups) {
+        if (this.groups == null) {
+            this.groups = new Groups();
+        }
+
+        this.groups.addGroups(groups);
+    }
+
+    /**
+     * Remove a group from the list of groups this file has been posted in.
+     *
+     * @param group The Group to remove
+     */
+    public void removeGroup(final Group group) {
+        if (groups != null) {
+            groups.removeGroup(group);
+        }
+    }
+
+    /**
+     * Remove all groups from the list of groups this file has been posted in.
+     */
+    public void clearGroups() {
+        if (groups != null) {
+            groups.clearGroups();
+        }
+    }
+
+    /**
      * Get the list of segments which make up this file (Will not return null).
      *
      * @return The list of segments which make up this file
@@ -156,6 +190,39 @@ public class FileItem {
         }
 
         segments.addSegment(segment);
+    }
+
+    /**
+     * Add segments to the list of segments which make up this file.
+     *
+     * @param segments The segments to add
+     */
+    public void addSegments(final Collection<? extends Segment> segments) {
+        if (this.segments == null) {
+            this.segments = new Segments();
+        }
+
+        this.segments.addSegments(segments);
+    }
+
+    /**
+     * Remove a segment from the list of segments which make up this file.
+     *
+     * @param segment The segment to remove
+     */
+    public void removeSegment(final Segment segment) {
+        if (segments != null) {
+            segments.removeSegment(segment);
+        }
+    }
+
+    /**
+     * Remove all segments from the list of segments which make up this file.
+     */
+    public void clearSegment() {
+        if (segments != null) {
+            segments.clearSegments();
+        }
     }
 
     /**

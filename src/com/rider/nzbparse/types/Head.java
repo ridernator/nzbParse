@@ -1,6 +1,7 @@
 package com.rider.nzbparse.types;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 import javax.xml.bind.annotation.XmlAccessType;
@@ -55,5 +56,38 @@ public class Head {
         }
 
         meta.add(metadatum);
+    }
+
+    /**
+     * Add metadata to the list of metadata.
+     *
+     * @param metadata The metadata to add
+     */
+    protected void addMetaData(final Collection<? extends MetaDatum> metadata) {
+        if (meta == null) {
+            meta = new ArrayList<>();
+        }
+
+        meta.addAll(metadata);
+    }
+
+    /**
+     * Remove a metadatum from the list of metadata.
+     *
+     * @param metadatum The metadatum to remove
+     */
+    protected void removeMetaDatum(final MetaDatum metadatum) {
+        if (meta != null) {
+            meta.remove(metadatum);
+        }
+    }
+
+    /**
+     * Remove all metadata from the list of metadata.
+     */
+    protected void clearMetaData() {
+        if (meta != null) {
+            meta.clear();
+        }
     }
 }

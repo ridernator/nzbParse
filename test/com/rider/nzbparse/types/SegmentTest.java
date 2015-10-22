@@ -52,7 +52,7 @@ public class SegmentTest {
     public void testCopy() {
         final Segment segment = new Segment(1, "testName", 2);
         final Segment segment2 = new Segment(segment);
-        
+
         Assert.assertEquals(1, segment2.getIndex());
         Assert.assertEquals("testName", segment2.getName());
         Assert.assertEquals(2, segment2.getSizeInBytes());
@@ -65,7 +65,7 @@ public class SegmentTest {
     public void testEquals() {
         final Segment segment = new Segment(1, "testName", 2);
         final Segment segment2 = new Segment(1, "testName", 2);
-        
+
         Assert.assertEquals(segment, segment2);
     }
 }

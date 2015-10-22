@@ -28,7 +28,7 @@ public class GroupTest {
     public void testCopy() {
         final Group group = new Group("testName");
         final Group group2 = new Group(group);
-        
+
         Assert.assertEquals("testName", group2.getName());
     }
 
@@ -39,7 +39,7 @@ public class GroupTest {
     public void testEquals() {
         final Group group = new Group("testName");
         final Group group2 = new Group("testName");
-        
+
         Assert.assertEquals(group, group2);
     }
 }

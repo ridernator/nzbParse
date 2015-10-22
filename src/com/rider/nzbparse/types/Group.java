@@ -16,7 +16,7 @@ import javax.xml.bind.annotation.XmlValue;
     "name"
 })
 @XmlRootElement(name = "group")
-public class Group {
+public final class Group {
     /**
      * The name of the group.
      */
@@ -45,16 +45,20 @@ public class Group {
      * @param group The group to copy from
      */
     public Group(final Group group) {
-        setName(group.getName());
+        if (group != null) {
+            setName(group.getName());
+        }
     }
 
     @Override
     public boolean equals(final Object other) {
         boolean returnVal = false;
 
-        if (other instanceof Group) {
-            if (((Group) other).getName().equals(getName())) {
-                returnVal = true;
+        if (other != null) {
+            if (other instanceof Group) {
+                if (((Group) other).getName().equals(getName())) {
+                    returnVal = true;
+                }
             }
         }
 

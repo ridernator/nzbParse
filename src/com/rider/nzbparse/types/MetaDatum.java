@@ -1,5 +1,6 @@
 package com.rider.nzbparse.types;
 
+import java.util.Objects;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlAttribute;
@@ -19,7 +20,7 @@ import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
     "value"
 })
 @XmlRootElement(name = "meta")
-public class MetaDatum {
+public final class MetaDatum {
     /**
      * The type (The Name in the Name->Value pair).
      */
@@ -58,24 +59,45 @@ public class MetaDatum {
      * @param metaDatum The metaDatum to copy from
      */
     public MetaDatum(final MetaDatum metaDatum) {
-        setName(metaDatum.getName());
-        setValue(metaDatum.getValue());
+        if (metaDatum != null) {
+            setName(metaDatum.getName());
+            setValue(metaDatum.getValue());
+        }
     }
 
     @Override
     public boolean equals(final Object other) {
-        boolean returnVal = false;
+        if (other == null) {
+            return false;
+        }
 
-        if (other instanceof MetaDatum) {
-            final MetaDatum otherMetaDatum = (MetaDatum) other;
+        if (!(other instanceof MetaDatum)) {
+            return false;
+        }
 
-            if ((otherMetaDatum.getName().equals(getName()))
-                    && (otherMetaDatum.getValue().equals(getValue()))) {
-                returnVal = true;
+        final MetaDatum otherMetaDatum = (MetaDatum) other;
+
+        if (getName() == null) {
+            if (otherMetaDatum.getName() != null) {
+                return false;
+            }
+        } else {
+            if (!getName().equals(otherMetaDatum.getName())) {
+                return false;
             }
         }
 
-        return returnVal;
+        if (getValue() == null) {
+            if (otherMetaDatum.getValue() != null) {
+                return false;
+            }
+        } else {
+            if (!getValue().equals(otherMetaDatum.getValue())) {
+                return false;
+            }
+        }
+
+        return true;
     }
 
     /**

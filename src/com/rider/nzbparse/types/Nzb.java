@@ -1,8 +1,8 @@
 package com.rider.nzbparse.types;
 
 import com.rider.nzbparse.comparators.FileItemComparator;
-import com.rider.nzbparse.comparators.SegmentComparator;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.Date;
 import java.util.List;
@@ -65,12 +65,45 @@ public class Nzb {
      *
      * @param metadatum The metadatum to add
      */
-    public void addMetadatum(final MetaDatum metadatum) {
+    public void addMetaDatum(final MetaDatum metadatum) {
         if (head == null) {
             head = new Head();
         }
 
-        head.getMetadata().add(metadatum);
+        head.addMetaDatum(metadatum);
+    }
+
+    /**
+     * Add metadata to the nzb.
+     *
+     * @param metadata The metadata to add
+     */
+    public void addMetaDatum(final Collection<? extends MetaDatum> metadata) {
+        if (head == null) {
+            head = new Head();
+        }
+
+        head.addMetaData(metadata);
+    }
+
+    /**
+     * Remove a metadatum from the nzb.
+     *
+     * @param metadatum The metadatum to remove
+     */
+    public void removeMetaDatum(final MetaDatum metadatum) {
+        if (head != null) {
+            head.removeMetaDatum(metadatum);
+        }
+    }
+
+    /**
+     * Remove all metadata from the nzb.
+     */
+    public void clearMetaData() {
+        if (head != null) {
+            head.clearMetaData();
+        }
     }
 
     /**
@@ -87,7 +120,7 @@ public class Nzb {
     }
 
     /**
-     * Add a file to the list of file.
+     * Add a file to the list of files.
      *
      * @param file The file to add
      */
@@ -97,6 +130,39 @@ public class Nzb {
         }
 
         this.file.add(file);
+    }
+
+    /**
+     * Add files to the list of files.
+     *
+     * @param files The files to add
+     */
+    public void addFiles(final Collection<? extends FileItem> files) {
+        if (file == null) {
+            file = new ArrayList<>();
+        }
+
+        this.file.addAll(files);
+    }
+
+    /**
+     * Remove a file from the list of files.
+     *
+     * @param file The file to remove
+     */
+    public void removeFile(final FileItem file) {
+        if (this.file != null) {
+            this.file.remove(file);
+        }
+    }
+
+    /**
+     * Remove all files from the list of files.
+     */
+    public void clearFiles() {
+        if (this.file != null) {
+            this.file.clear();
+        }
     }
 
     /**

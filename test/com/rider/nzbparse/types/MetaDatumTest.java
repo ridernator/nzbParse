@@ -40,7 +40,7 @@ public class MetaDatumTest {
     public void testCopy() {
         final MetaDatum metaDatum = new MetaDatum("testName", "testValue");
         final MetaDatum metaDatum2 = new MetaDatum(metaDatum);
-        
+
         Assert.assertEquals("testName", metaDatum2.getName());
         Assert.assertEquals("testValue", metaDatum2.getValue());
     }
@@ -52,7 +52,7 @@ public class MetaDatumTest {
     public void testEquals() {
         final MetaDatum metaDatum = new MetaDatum("testName", "testValue");
         final MetaDatum metaDatum2 = new MetaDatum("testName", "testValue");
-        
+
         Assert.assertEquals(metaDatum, metaDatum2);
     }
 }
