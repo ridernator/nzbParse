@@ -15,10 +15,10 @@ public class MetaDatumTest {
     @Test
     public void testGetName() {
         final MetaDatum metaDatum = new MetaDatum("testName", "testValue");
-        Assert.assertEquals("testName", metaDatum.getName());
+        Assert.assertEquals("Constructor in \"MetaDatum\" does not set \"name\"", "testName", metaDatum.getName());
 
         metaDatum.setName("otherTestName");
-        Assert.assertEquals("otherTestName", metaDatum.getName());
+        Assert.assertEquals("Error in \"getName\" or \"setName\" in \"MetaDatum\"", "otherTestName", metaDatum.getName());
     }
 
     /**
@@ -27,10 +27,10 @@ public class MetaDatumTest {
     @Test
     public void testGetValue() {
         final MetaDatum metaDatum = new MetaDatum("testName", "testValue");
-        Assert.assertEquals("testValue", metaDatum.getValue());
+        Assert.assertEquals("Constructor in \"MetaDatum\" does not set \"value\"", "testValue", metaDatum.getValue());
 
         metaDatum.setValue("otherTestValue");
-        Assert.assertEquals("otherTestValue", metaDatum.getValue());
+        Assert.assertEquals("Error in \"getValue\" or \"setValue\" in \"MetaDatum\"", "otherTestValue", metaDatum.getValue());
     }
 
     /**
@@ -41,8 +41,8 @@ public class MetaDatumTest {
         final MetaDatum metaDatum = new MetaDatum("testName", "testValue");
         final MetaDatum metaDatum2 = new MetaDatum(metaDatum);
 
-        Assert.assertEquals("testName", metaDatum2.getName());
-        Assert.assertEquals("testValue", metaDatum2.getValue());
+        Assert.assertEquals("Copy constructor in \"MetaDatum\" does not set \"name\"", "testName", metaDatum2.getName());
+        Assert.assertEquals("Copy constructor in \"MetaDatum\" does not set \"value\"", "testValue", metaDatum2.getValue());
     }
 
     /**
@@ -53,6 +53,12 @@ public class MetaDatumTest {
         final MetaDatum metaDatum = new MetaDatum("testName", "testValue");
         final MetaDatum metaDatum2 = new MetaDatum("testName", "testValue");
 
-        Assert.assertEquals(metaDatum, metaDatum2);
+        Assert.assertEquals("Error in \"equals\" method of \"MetaDatum\"", metaDatum, metaDatum2);
+
+        MetaDatum metaDatum3 = new MetaDatum("testName", "testValue2");
+        Assert.assertNotSame("Error in \"equals\" method of \"MetaDatum\"", metaDatum, metaDatum3);
+
+        metaDatum3 = new MetaDatum("testName2", "testValue");
+        Assert.assertNotSame("Error in \"equals\" method of \"MetaDatum\"", metaDatum, metaDatum3);
     }
 }

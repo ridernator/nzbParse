@@ -20,7 +20,7 @@ import javax.xml.bind.annotation.XmlTransient;
  */
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.NONE)
-public class Nzb {
+public final class Nzb {
     /**
      * xmlns field.
      */
@@ -37,7 +37,7 @@ public class Nzb {
      * List of files which makes up the nzb.
      */
     @XmlElement(name = "file")
-    private List<FileItem> file;
+    private List<FileItem> files;
 
     /**
      * Used for comparing files
@@ -46,11 +46,28 @@ public class Nzb {
     private FileItemComparator fileComparator;
 
     /**
+     * Constructor for this class
+     */
+    public Nzb() {
+        // Do nothing
+    }
+
+    /**
+     * Copy constructor
+     *
+     * @param nzb The Nzb to copy from
+     */
+    public Nzb(final Nzb nzb) {
+        addFiles(nzb.getFiles());
+        addMetaData(nzb.getMetaData());
+    }
+
+    /**
      * Get the metadata for this nzb.
      *
      * @return The metadata for this nzb
      */
-    public List<MetaDatum> getMetadata() {
+    public List<MetaDatum> getMetaData() {
         if (head == null) {
             head = new Head();
         }
@@ -110,11 +127,11 @@ public class Nzb {
      * @return The list of files
      */
     public List<FileItem> getFiles() {
-        if (file == null) {
-            file = new ArrayList<>();
+        if (files == null) {
+            files = new ArrayList<>();
         }
 
-        return Collections.unmodifiableList(file);
+        return Collections.unmodifiableList(files);
     }
 
     /**
@@ -123,24 +140,24 @@ public class Nzb {
      * @param file The file to add
      */
     public void addFile(final FileItem file) {
-        if (this.file == null) {
-            this.file = new ArrayList<>();
+        if (files == null) {
+            files = new ArrayList<>();
         }
 
-        this.file.add(file);
+        files.add(file);
     }
 
     /**
      * Add files to the list of files.
      *
-     * @param files The files to add
+     * @param newFiles The files to add
      */
-    public void addFiles(final Collection<? extends FileItem> files) {
-        if (file == null) {
-            file = new ArrayList<>();
+    public void addFiles(final Collection<? extends FileItem> newFiles) {
+        if (files == null) {
+            files = new ArrayList<>();
         }
 
-        this.file.addAll(files);
+        files.addAll(newFiles);
     }
 
     /**
@@ -149,8 +166,8 @@ public class Nzb {
      * @param file The file to remove
      */
     public void removeFile(final FileItem file) {
-        if (this.file != null) {
-            this.file.remove(file);
+        if (files != null) {
+            files.remove(file);
         }
     }
 
@@ -158,8 +175,8 @@ public class Nzb {
      * Remove all files from the list of files.
      */
     public void clearFiles() {
-        if (this.file != null) {
-            this.file.clear();
+        if (files != null) {
+            files.clear();
         }
     }
 
@@ -172,7 +189,7 @@ public class Nzb {
         }
 
         // Sort files
-        Collections.sort(file, fileComparator);
+        Collections.sort(files, fileComparator);
 
         // Sort segments of all files
         for (final FileItem file : getFiles()) {
@@ -181,9 +198,9 @@ public class Nzb {
     }
 
     /**
-     * Calculate the size of the files that the nzb points to.
+     * Calculate the size of the files that the nzb points to (in bytes).
      *
-     * @return The size of the files that the nzb points to
+     * @return The size of the files that the nzb points to (in bytes)
      */
     public long calculateSize() {
         long returnVal = 0;
@@ -285,5 +302,32 @@ public class Nzb {
      */
     public Date calculateNewestPublishDate() {
         return new Date(calculateNewestPublishDateInMs());
+    }
+
+    @Override
+    public boolean equals(final Object other) {
+        if (other == null) {
+            return false;
+        }
+
+        if (!(other instanceof Nzb)) {
+            return false;
+        }
+
+        final Nzb otherNzb = (Nzb) other;
+
+        if (!getFiles().containsAll(otherNzb.getFiles())) {
+            return false;
+        }
+
+        if (!otherNzb.getFiles().containsAll(getFiles())) {
+            return false;
+        }
+
+        if (!getMetaData().containsAll(otherNzb.getMetaData())) {
+            return false;
+        }
+
+        return otherNzb.getMetaData().containsAll(getMetaData());
     }
 }

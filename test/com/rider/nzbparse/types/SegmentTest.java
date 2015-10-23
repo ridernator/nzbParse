@@ -15,10 +15,10 @@ public class SegmentTest {
     @Test
     public void testGetSizeInBytes() {
         final Segment segment = new Segment(1, "testName", 2);
-        Assert.assertEquals(2, segment.getSizeInBytes());
+        Assert.assertEquals("Constructor in \"Segment\" does not set \"sizeInBytes\"", 2, segment.getSizeInBytes());
 
         segment.setSizeInBytes(10);
-        Assert.assertEquals(10, segment.getSizeInBytes());
+        Assert.assertEquals("Error in \"getSizeInBytes\" or \"setSizeInBytes\" in \"Segment\"", 10, segment.getSizeInBytes());
     }
 
     /**
@@ -27,10 +27,10 @@ public class SegmentTest {
     @Test
     public void testGetIndex() {
         final Segment segment = new Segment(1, "testName", 2);
-        Assert.assertEquals(1, segment.getIndex());
+        Assert.assertEquals("Constructor in \"Segment\" does not set \"index\"", 1, segment.getIndex());
 
         segment.setIndex(10);
-        Assert.assertEquals(10, segment.getIndex());
+        Assert.assertEquals("Error in \"getIndex\" or \"setIndex\" in \"Segment\"", 10, segment.getIndex());
     }
 
     /**
@@ -39,10 +39,10 @@ public class SegmentTest {
     @Test
     public void testGetName() {
         final Segment segment = new Segment(1, "testName", 2);
-        Assert.assertEquals("testName", segment.getName());
+        Assert.assertEquals("Constructor in \"Segment\" does not set \"name\"", "testName", segment.getName());
 
         segment.setName("otherTestName");
-        Assert.assertEquals("otherTestName", segment.getName());
+        Assert.assertEquals("Error in \"getName\" or \"setName\" in \"Segment\"", "otherTestName", segment.getName());
     }
 
     /**
@@ -51,11 +51,18 @@ public class SegmentTest {
     @Test
     public void testCopy() {
         final Segment segment = new Segment(1, "testName", 2);
-        final Segment segment2 = new Segment(segment);
+        Segment copyTo = new Segment(segment);
 
-        Assert.assertEquals(1, segment2.getIndex());
-        Assert.assertEquals("testName", segment2.getName());
-        Assert.assertEquals(2, segment2.getSizeInBytes());
+        Assert.assertEquals("Copy constructor in \"Segment\" does not set \"index\"", 1, copyTo.getIndex());
+        Assert.assertEquals("Copy constructor in \"Segment\" does not set \"name\"", "testName", copyTo.getName());
+        Assert.assertEquals("Copy constructor in \"Segment\" does not set \"sizeInBytes\"", 2, copyTo.getSizeInBytes());
+
+        try {
+            copyTo = new Segment(null);
+            Assert.fail("Passing null to copy constructor of \"Segment\" did not throw NullPointerException");
+        } catch (final NullPointerException exception) {
+            // Expected
+        }
     }
 
     /**
@@ -66,6 +73,15 @@ public class SegmentTest {
         final Segment segment = new Segment(1, "testName", 2);
         final Segment segment2 = new Segment(1, "testName", 2);
 
-        Assert.assertEquals(segment, segment2);
+        Assert.assertEquals("Error in \"equals\" method of \"Segment\"", segment, segment2);
+
+        Segment segment3 = new Segment(1, "testName", 3);
+        Assert.assertNotSame("Error in \"equals\" method of \"Segment\"", segment, segment3);
+
+        segment3 = new Segment(3, "testName", 2);
+        Assert.assertNotSame("Error in \"equals\" method of \"Segment\"", segment, segment3);
+
+        segment3 = new Segment(1, "testName2", 2);
+        Assert.assertNotSame("Error in \"equals\" method of \"Segment\"", segment, segment3);
     }
 }

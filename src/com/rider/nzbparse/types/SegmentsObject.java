@@ -81,7 +81,7 @@ public class SegmentsObject {
      *
      * @param segment The segment to remove
      */
-    public void removeSegment(final Segment segment) {
+    protected void removeSegment(final Segment segment) {
         if (segments != null) {
             segments.remove(segment);
         }
@@ -90,7 +90,7 @@ public class SegmentsObject {
     /**
      * Remove all segments from the list of segments.
      */
-    public void clearSegments() {
+    protected void clearSegments() {
         if (segments != null) {
             segments.clear();
         }

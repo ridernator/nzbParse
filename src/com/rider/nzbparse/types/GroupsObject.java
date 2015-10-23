@@ -76,7 +76,7 @@ public class GroupsObject {
      * @param group The group to remove
      */
     protected void removeGroup(final Group group) {
-        if (groups == null) {
+        if (groups != null) {
             groups.remove(group);
         }
     }
@@ -85,7 +85,7 @@ public class GroupsObject {
      * Remove all groups from the list of groups.
      */
     protected void clearGroups() {
-        if (groups == null) {
+        if (groups != null) {
             groups.clear();
         }
     }

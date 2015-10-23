@@ -15,10 +15,10 @@ public class GroupTest {
     @Test
     public void testGetName() {
         final Group group = new Group("testName");
-        Assert.assertEquals("testName", group.getName());
+        Assert.assertEquals("Constructor in \"Group\" does not set \"name\"", "testName", group.getName());
 
         group.setName("otherTestName");
-        Assert.assertEquals("otherTestName", group.getName());
+        Assert.assertEquals("\"setName\" or \"getName\" error in \"Group\"", "otherTestName", group.getName());
     }
 
     /**
@@ -27,9 +27,16 @@ public class GroupTest {
     @Test
     public void testCopy() {
         final Group group = new Group("testName");
-        final Group group2 = new Group(group);
+        Group copyTo = new Group(group);
 
-        Assert.assertEquals("testName", group2.getName());
+        Assert.assertEquals("Copy constructor in \"Group\" does not set \"name\"", "testName", copyTo.getName());
+
+        try {
+            copyTo = new Group((Group)null);
+            Assert.fail("Passing null to copy constructor of \"Group\" did not throw NullPointerException");
+        } catch (final NullPointerException exception) {
+            // Expected
+        }
     }
 
     /**
@@ -39,7 +46,9 @@ public class GroupTest {
     public void testEquals() {
         final Group group = new Group("testName");
         final Group group2 = new Group("testName");
+        final Group group3 = new Group("testName2");
 
-        Assert.assertEquals(group, group2);
+        Assert.assertEquals("Error in \"equals\" method of \"Group\"", group, group2);
+        Assert.assertNotSame("Error in \"equals\" method of \"Group\"", group, group3);
     }
 }

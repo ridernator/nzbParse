@@ -15,7 +15,7 @@ import javax.xml.bind.annotation.XmlRootElement;
  */
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.NONE)
-public class FileItem {
+public final class FileItem {
     /**
      * The subject of the file.
      */
@@ -45,6 +45,41 @@ public class FileItem {
      */
     @XmlElement(name = "segments")
     private SegmentsObject segmentsObject;
+
+    /**
+     * Constructor for this class.
+     */
+    public FileItem() {
+        // Do nothing
+    }
+
+    /**
+     * Constructor for this class.
+     *
+     * @param subject The subject of the file
+     * @param poster The email address of the poster of the file.
+     * @param date The date the file was posted (in seconds since UNIX epoch).
+     */
+    public FileItem(final String subject,
+                    final String poster,
+                    final long date) {
+        this.subject = subject;
+        this.poster = poster;
+        this.date = date;
+    }
+
+    /**
+     * Copy constructor
+     *
+     * @param fileItem The FileItem to copy from
+     */
+    public FileItem(final FileItem fileItem) {
+        setDate(fileItem.getDate());
+        setPoster(fileItem.getPoster());
+        setSubject(fileItem.getSubject());
+        addGroups(fileItem.getGroups());
+        addSegments(fileItem.getSegments());
+    }
 
     /**
      * Get the subject of the file.
@@ -213,7 +248,7 @@ public class FileItem {
     /**
      * Remove all segments from the list of segments which make up this file.
      */
-    public void clearSegment() {
+    public void clearSegments() {
         if (segmentsObject != null) {
             segmentsObject.clearSegments();
         }
@@ -224,5 +259,56 @@ public class FileItem {
      */
     public void sort() {
         segmentsObject.sort();
+    }
+
+    @Override
+    public boolean equals(final Object other) {
+        if (other == null) {
+            return false;
+        }
+
+        if (!(other instanceof FileItem)) {
+            return false;
+        }
+
+        final FileItem otherFileItem = (FileItem) other;
+
+        if (getDate() != otherFileItem.getDate()) {
+            return false;
+        }
+
+        if (getPoster() == null) {
+            if (otherFileItem.getPoster() != null) {
+                return false;
+            }
+        } else {
+            if (!getPoster().equals(otherFileItem.getPoster())) {
+                return false;
+            }
+        }
+
+        if (getSubject() == null) {
+            if (otherFileItem.getSubject() != null) {
+                return false;
+            }
+        } else {
+            if (!getSubject().equals(otherFileItem.getSubject())) {
+                return false;
+            }
+        }
+
+        if (!getGroups().containsAll(otherFileItem.getGroups())) {
+            return false;
+        }
+
+        if (!otherFileItem.getGroups().containsAll(getGroups())) {
+            return false;
+        }
+
+        if (!getSegments().containsAll(otherFileItem.getSegments())) {
+            return false;
+        }
+
+        return otherFileItem.getSegments().containsAll(getSegments());
     }
 }

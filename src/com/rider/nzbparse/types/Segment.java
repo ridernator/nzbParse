@@ -60,11 +60,9 @@ public final class Segment {
      * @param segment The segment to copy from
      */
     public Segment(final Segment segment) {
-        if (segment != null) {
-            setIndex(segment.getIndex());
-            setName(segment.getName());
-            setSizeInBytes(segment.getSizeInBytes());
-        }
+        setIndex(segment.getIndex());
+        setName(segment.getName());
+        setSizeInBytes(segment.getSizeInBytes());
     }
 
     @Override
@@ -79,11 +77,11 @@ public final class Segment {
 
         final Segment otherSegment = (Segment) other;
 
-        if (otherSegment.getIndex() != getIndex()) {
+        if (getIndex() != otherSegment.getIndex()) {
             return false;
         }
 
-        if (otherSegment.getSizeInBytes() != getSizeInBytes()) {
+        if (getSizeInBytes() != otherSegment.getSizeInBytes()) {
             return false;
         }
 

@@ -41,9 +41,7 @@ public final class Group {
      * @param group The group to copy from
      */
     public Group(final Group group) {
-        if (group != null) {
-            setName(group.getName());
-        }
+        setName(group.getName());
     }
 
     @Override
