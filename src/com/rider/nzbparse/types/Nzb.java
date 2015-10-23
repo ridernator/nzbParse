@@ -9,36 +9,34 @@ import java.util.List;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlAttribute;
+import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlTransient;
-import javax.xml.bind.annotation.XmlType;
 
 /**
  * Class which models an NZB file.
  *
  * @author Ciaron Rider
  */
-@XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "", propOrder = {
-    "head",
-    "file"
-})
-@XmlRootElement(name = "nzb")
+@XmlRootElement
+@XmlAccessorType(XmlAccessType.NONE)
 public class Nzb {
     /**
      * xmlns field.
      */
-    @XmlAttribute(name = "xmlns")
-    private String xmlns = "http://www.newzbin.com/DTD/2003/nzb";
+    @XmlAttribute
+    private final String xmlns = "http://www.newzbin.com/DTD/2003/nzb";
 
     /**
-     * Head object of the NZB which contains the metadata.
+     * Head object of the NZB which contains the metaData.
      */
+    @XmlElement
     private Head head;
 
     /**
      * List of files which makes up the nzb.
      */
+    @XmlElement(name = "file")
     private List<FileItem> file;
 
     /**
@@ -57,7 +55,7 @@ public class Nzb {
             head = new Head();
         }
 
-        return head.getMetadata();
+        return head.getMetaData();
     }
 
     /**
@@ -78,7 +76,7 @@ public class Nzb {
      *
      * @param metadata The metadata to add
      */
-    public void addMetaDatum(final Collection<? extends MetaDatum> metadata) {
+    public void addMetaData(final Collection<? extends MetaDatum> metadata) {
         if (head == null) {
             head = new Head();
         }
@@ -192,13 +190,10 @@ public class Nzb {
 
         // For each file
         for (final FileItem file : getFiles()) {
-            // If the file has any segments
-            if (file.getSegments() != null) {
-                // For each segment in the file
-                for (final Segment segment : file.getSegments()) {
-                    // Add the number of bytes in the segment to the total
-                    returnVal += segment.getSizeInBytes();
-                }
+            // For each segment in the file
+            for (final Segment segment : file.getSegments()) {
+                // Add the number of bytes in the segment to the total
+                returnVal += segment.getSizeInBytes();
             }
         }
 

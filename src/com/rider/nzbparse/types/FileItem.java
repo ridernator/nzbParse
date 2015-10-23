@@ -5,52 +5,46 @@ import java.util.List;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlAttribute;
+import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.adapters.NormalizedStringAdapter;
-import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
 /**
  * Represents a file item in a NZB file.
  *
  * @author Ciaron Rider
  */
-@XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "", propOrder = {
-    "groups",
-    "segments"
-})
-@XmlRootElement(name = "file")
+@XmlRootElement
+@XmlAccessorType(XmlAccessType.NONE)
 public class FileItem {
     /**
      * The subject of the file.
      */
-    @XmlAttribute(name = "subject", required = true)
-    @XmlJavaTypeAdapter(NormalizedStringAdapter.class)
+    @XmlAttribute
     private String subject;
 
     /**
      * The email address of the poster of the file.
      */
-    @XmlAttribute(name = "poster")
-    @XmlJavaTypeAdapter(NormalizedStringAdapter.class)
+    @XmlAttribute
     private String poster;
 
     /**
      * The date the file was posted (in seconds since UNIX epoch).
      */
-    @XmlAttribute(name = "date")
+    @XmlAttribute
     private long date;
 
     /**
-     * Groups object (Contains the groups the file is posted in).
+     * GroupsObject object (Contains the groups the file is posted in).
      */
-    private Groups groups;
+    @XmlElement(name = "groups")
+    private GroupsObject groupsObject;
 
     /**
-     * Segments object (Contains all the segments of the file).
+     * SegmentsObject object (Contains all the segments of the file).
      */
-    private Segments segments;
+    @XmlElement(name = "segments")
+    private SegmentsObject segmentsObject;
 
     /**
      * Get the subject of the file.
@@ -113,11 +107,11 @@ public class FileItem {
      * @return The list of groups
      */
     public List<Group> getGroups() {
-        if (groups == null) {
-            groups = new Groups();
+        if (groupsObject == null) {
+            groupsObject = new GroupsObject();
         }
 
-        return groups.getGroups();
+        return groupsObject.getGroups();
     }
 
     /**
@@ -126,24 +120,24 @@ public class FileItem {
      * @param group The Group to add
      */
     public void addGroup(final Group group) {
-        if (groups == null) {
-            groups = new Groups();
+        if (groupsObject == null) {
+            groupsObject = new GroupsObject();
         }
 
-        groups.addGroup(group);
+        groupsObject.addGroup(group);
     }
 
     /**
      * Add groups to the list of groups this file has been posted in.
      *
-     * @param groups The Groups to add
+     * @param groups The GroupsObject to add
      */
     public void addGroups(final Collection<? extends Group> groups) {
-        if (this.groups == null) {
-            this.groups = new Groups();
+        if (groupsObject == null) {
+            groupsObject = new GroupsObject();
         }
 
-        this.groups.addGroups(groups);
+        groupsObject.addGroups(groups);
     }
 
     /**
@@ -152,8 +146,8 @@ public class FileItem {
      * @param group The Group to remove
      */
     public void removeGroup(final Group group) {
-        if (groups != null) {
-            groups.removeGroup(group);
+        if (groupsObject != null) {
+            groupsObject.removeGroup(group);
         }
     }
 
@@ -161,8 +155,8 @@ public class FileItem {
      * Remove all groups from the list of groups this file has been posted in.
      */
     public void clearGroups() {
-        if (groups != null) {
-            groups.clearGroups();
+        if (groupsObject != null) {
+            groupsObject.clearGroups();
         }
     }
 
@@ -172,11 +166,11 @@ public class FileItem {
      * @return The list of segments which make up this file
      */
     public List<Segment> getSegments() {
-        if (segments == null) {
-            segments = new Segments();
+        if (segmentsObject == null) {
+            segmentsObject = new SegmentsObject();
         }
 
-        return segments.getSegments();
+        return segmentsObject.getSegments();
     }
 
     /**
@@ -185,11 +179,11 @@ public class FileItem {
      * @param segment The segment to add
      */
     public void addSegment(final Segment segment) {
-        if (segments == null) {
-            segments = new Segments();
+        if (segmentsObject == null) {
+            segmentsObject = new SegmentsObject();
         }
 
-        segments.addSegment(segment);
+        segmentsObject.addSegment(segment);
     }
 
     /**
@@ -198,11 +192,11 @@ public class FileItem {
      * @param segments The segments to add
      */
     public void addSegments(final Collection<? extends Segment> segments) {
-        if (this.segments == null) {
-            this.segments = new Segments();
+        if (segmentsObject == null) {
+            segmentsObject = new SegmentsObject();
         }
 
-        this.segments.addSegments(segments);
+        segmentsObject.addSegments(segments);
     }
 
     /**
@@ -211,8 +205,8 @@ public class FileItem {
      * @param segment The segment to remove
      */
     public void removeSegment(final Segment segment) {
-        if (segments != null) {
-            segments.removeSegment(segment);
+        if (segmentsObject != null) {
+            segmentsObject.removeSegment(segment);
         }
     }
 
@@ -220,8 +214,8 @@ public class FileItem {
      * Remove all segments from the list of segments which make up this file.
      */
     public void clearSegment() {
-        if (segments != null) {
-            segments.clearSegments();
+        if (segmentsObject != null) {
+            segmentsObject.clearSegments();
         }
     }
 
@@ -229,6 +223,6 @@ public class FileItem {
      * Sort the segments in this file by index.
      */
     public void sort() {
-        segments.sort();
+        segmentsObject.sort();
     }
 }

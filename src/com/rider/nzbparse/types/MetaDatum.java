@@ -1,31 +1,23 @@
 package com.rider.nzbparse.types;
 
-import java.util.Objects;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlType;
 import javax.xml.bind.annotation.XmlValue;
-import javax.xml.bind.annotation.adapters.NormalizedStringAdapter;
-import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
 /**
- * A metadatum concerning a nzb.
+ * A metaDatum concerning a nzb.
  *
  * @author Ciaron Rider
  */
-@XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "", propOrder = {
-    "value"
-})
-@XmlRootElement(name = "meta")
+@XmlRootElement
+@XmlAccessorType(XmlAccessType.NONE)
 public final class MetaDatum {
     /**
      * The type (The Name in the Name->Value pair).
      */
-    @XmlAttribute(name = "type", required = true)
-    @XmlJavaTypeAdapter(NormalizedStringAdapter.class)
+    @XmlAttribute
     private String type;
 
     /**

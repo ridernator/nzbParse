@@ -4,7 +4,6 @@ import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlType;
 import javax.xml.bind.annotation.XmlValue;
 
 /**
@@ -12,22 +11,19 @@ import javax.xml.bind.annotation.XmlValue;
  *
  * @author Ciaron Rider
  */
-@XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "", propOrder = {
-    "value"
-})
-@XmlRootElement(name = "segment")
+@XmlRootElement
+@XmlAccessorType(XmlAccessType.NONE)
 public final class Segment {
     /**
      * The number of bytes in the segment.
      */
-    @XmlAttribute(name = "bytes")
+    @XmlAttribute
     private long bytes;
 
     /**
      * The index of this segment in its file.
      */
-    @XmlAttribute(name = "number")
+    @XmlAttribute
     private long number;
 
     /**

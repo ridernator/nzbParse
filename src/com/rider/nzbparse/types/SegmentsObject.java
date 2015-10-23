@@ -7,9 +7,8 @@ import java.util.Collections;
 import java.util.List;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlTransient;
-import javax.xml.bind.annotation.XmlType;
 
 /**
  * Object which contains a list of segments. Never needs to be seen by the end
@@ -17,27 +16,24 @@ import javax.xml.bind.annotation.XmlType;
  *
  * @author Ciaron Rider
  */
-@XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "", propOrder = {
-    "segment"
-})
-@XmlRootElement(name = "segments")
-public class Segments {
+@XmlRootElement
+@XmlAccessorType(XmlAccessType.NONE)
+public class SegmentsObject {
     /**
      * Used for comparing segments of files.
      */
-    @XmlTransient
     private SegmentComparator segmentComparator;
 
     /**
      * The list of segments.
      */
-    private List<Segment> segment;
+    @XmlElement(name = "segment")
+    private List<Segment> segments;
 
     /**
      * Protected constructor. Users never need see this
      */
-    protected Segments() {
+    protected SegmentsObject() {
         // Do nothing
     }
 
@@ -47,11 +43,11 @@ public class Segments {
      * @return The list of segments
      */
     protected List<Segment> getSegments() {
-        if (segment == null) {
-            segment = new ArrayList<>();
+        if (segments == null) {
+            segments = new ArrayList<>();
         }
 
-        return Collections.unmodifiableList(segment);
+        return Collections.unmodifiableList(segments);
     }
 
     /**
@@ -60,24 +56,24 @@ public class Segments {
      * @param segment The segment to add
      */
     protected void addSegment(final Segment segment) {
-        if (this.segment == null) {
-            this.segment = new ArrayList<>();
+        if (segments == null) {
+            segments = new ArrayList<>();
         }
 
-        this.segment.add(segment);
+        segments.add(segment);
     }
 
     /**
      * Add segments to the list of segments.
      *
-     * @param segments The segments to add
+     * @param newSegments The segments to add
      */
-    protected void addSegments(final Collection<? extends Segment> segments) {
-        if (segment == null) {
-            segment = new ArrayList<>();
+    protected void addSegments(final Collection<? extends Segment> newSegments) {
+        if (segments == null) {
+            segments = new ArrayList<>();
         }
 
-        segment.addAll(segments);
+        segments.addAll(newSegments);
     }
 
     /**
@@ -86,8 +82,8 @@ public class Segments {
      * @param segment The segment to remove
      */
     public void removeSegment(final Segment segment) {
-        if (this.segment != null) {
-            this.segment.remove(segment);
+        if (segments != null) {
+            segments.remove(segment);
         }
     }
 
@@ -95,8 +91,8 @@ public class Segments {
      * Remove all segments from the list of segments.
      */
     public void clearSegments() {
-        if (this.segment != null) {
-            this.segment.clear();
+        if (segments != null) {
+            segments.clear();
         }
     }
 
@@ -108,6 +104,6 @@ public class Segments {
             segmentComparator = new SegmentComparator();
         }
 
-        Collections.sort(segment, segmentComparator);
+        Collections.sort(segments, segmentComparator);
     }
 }

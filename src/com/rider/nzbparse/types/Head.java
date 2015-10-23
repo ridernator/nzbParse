@@ -6,24 +6,22 @@ import java.util.Collections;
 import java.util.List;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlType;
 
 /**
- * Head object which contains a list of metadata.
+ * Head object which contains a list of metaData.
  *
  * @author Ciaron Rider
  */
-@XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "", propOrder = {
-    "meta"
-})
-@XmlRootElement(name = "head")
+@XmlRootElement
+@XmlAccessorType(XmlAccessType.NONE)
 public class Head {
     /**
-     * The list of metadata.
+     * The list of metaData.
      */
-    private List<MetaDatum> meta;
+    @XmlElement(name = "meta")
+    private List<MetaDatum> metaData;
 
     /**
      * Protected constructor. Users never need see this
@@ -33,61 +31,61 @@ public class Head {
     }
 
     /**
-     * Get the list of metadata (Never returns null).
+     * Get the list of metaData (Never returns null).
      *
-     * @return The list of metadata
+     * @return The list of metaData
      */
-    protected List<MetaDatum> getMetadata() {
-        if (meta == null) {
-            meta = new ArrayList<>();
+    protected List<MetaDatum> getMetaData() {
+        if (metaData == null) {
+            metaData = new ArrayList<>();
         }
 
-        return Collections.unmodifiableList(meta);
+        return Collections.unmodifiableList(metaData);
     }
 
     /**
-     * Add a metadatum to the list of metadata.
+     * Add a metaDatum to the list of metaData.
      *
-     * @param metadatum The metadatum to add
+     * @param metaDatum The metaDatum to add
      */
-    protected void addMetaDatum(final MetaDatum metadatum) {
-        if (meta == null) {
-            meta = new ArrayList<>();
+    protected void addMetaDatum(final MetaDatum metaDatum) {
+        if (metaData == null) {
+            metaData = new ArrayList<>();
         }
 
-        meta.add(metadatum);
+        metaData.add(metaDatum);
     }
 
     /**
-     * Add metadata to the list of metadata.
+     * Add metaData to the list of metaData.
      *
-     * @param metadata The metadata to add
+     * @param newMetaData The metaData to add
      */
-    protected void addMetaData(final Collection<? extends MetaDatum> metadata) {
-        if (meta == null) {
-            meta = new ArrayList<>();
+    protected void addMetaData(final Collection<? extends MetaDatum> newMetaData) {
+        if (metaData == null) {
+            metaData = new ArrayList<>();
         }
 
-        meta.addAll(metadata);
+        metaData.addAll(newMetaData);
     }
 
     /**
-     * Remove a metadatum from the list of metadata.
+     * Remove a metaDatum from the list of metaData.
      *
-     * @param metadatum The metadatum to remove
+     * @param metaDatum The metaDatum to remove
      */
-    protected void removeMetaDatum(final MetaDatum metadatum) {
-        if (meta != null) {
-            meta.remove(metadatum);
+    protected void removeMetaDatum(final MetaDatum metaDatum) {
+        if (metaData != null) {
+            metaData.remove(metaDatum);
         }
     }
 
     /**
-     * Remove all metadata from the list of metadata.
+     * Remove all metaData from the list of metaData.
      */
     protected void clearMetaData() {
-        if (meta != null) {
-            meta.clear();
+        if (metaData != null) {
+            metaData.clear();
         }
     }
 }

@@ -4,17 +4,17 @@ import org.junit.Assert;
 import org.junit.Test;
 
 /**
- * Test of the Groups class
+ * Test of the GroupsObject class
  *
  * @author Ciaron Rider
  */
 public class GroupsTest {
     /**
-     * Test of addGroup and getGroups methods, of class Groups.
+     * Test of addGroup and getGroups methods, of class GroupsObject.
      */
     @Test
     public void testAddGroup() {
-        final Groups groups = new Groups();
+        final GroupsObject groups = new GroupsObject();
         Assert.assertEquals(0, groups.getGroups().size());
 
         final Group group1 = new Group("testName");

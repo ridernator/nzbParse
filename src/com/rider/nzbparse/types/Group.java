@@ -3,7 +3,6 @@ package com.rider.nzbparse.types;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlType;
 import javax.xml.bind.annotation.XmlValue;
 
 /**
@@ -11,11 +10,8 @@ import javax.xml.bind.annotation.XmlValue;
  *
  * @author Ciaron Rider
  */
-@XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "", propOrder = {
-    "name"
-})
-@XmlRootElement(name = "group")
+@XmlRootElement
+@XmlAccessorType(XmlAccessType.NONE)
 public final class Group {
     /**
      * The name of the group.
@@ -52,17 +48,27 @@ public final class Group {
 
     @Override
     public boolean equals(final Object other) {
-        boolean returnVal = false;
+        if (other == null) {
+            return false;
+        }
 
-        if (other != null) {
-            if (other instanceof Group) {
-                if (((Group) other).getName().equals(getName())) {
-                    returnVal = true;
-                }
+        if (!(other instanceof Group)) {
+            return false;
+        }
+
+        final Group otherGroup = (Group) other;
+
+        if (getName() == null) {
+            if (otherGroup.getName() != null) {
+                return false;
+            }
+        } else {
+            if (!getName().equals(otherGroup.getName())) {
+                return false;
             }
         }
 
-        return returnVal;
+        return true;
     }
 
     /**

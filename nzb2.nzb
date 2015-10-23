@@ -1,0 +1,1449 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<nzb xmlns="http://www.newzbin.com/DTD/2003/nzb">
+    <file subject="[265047]-[FULL]-[#a.b.teevee@EFNet]-[ Mr.Robot.S01E08.REAL.720p.HDTV.x264-KILLERS ]-[01/33] - &quot;sample-mr.robot.s01e08.real.720p.hdtv.x264-killers.mkv&quot; yEnc (1/29)" poster="r@ndom.tv (r@ndom)" date="1439435383">
+        <groups>
+            <group>alt.binaries.teevee</group>
+        </groups>
+        <segments>
+            <segment bytes="793289" number="1">1439435383.37206.1@reader.easyusenet.nl</segment>
+            <segment bytes="793401" number="2">1439435383.37650.2@reader.easyusenet.nl</segment>
+            <segment bytes="793355" number="3">1439435383.38113.3@reader.easyusenet.nl</segment>
+            <segment bytes="793475" number="4">1439435383.38558.4@reader.easyusenet.nl</segment>
+            <segment bytes="793379" number="5">1439435383.39002.5@reader.easyusenet.nl</segment>
+            <segment bytes="793484" number="6">1439435383.39443.6@reader.easyusenet.nl</segment>
+            <segment bytes="793122" number="7">1439435383.39887.7@reader.easyusenet.nl</segment>
+            <segment bytes="793470" number="8">1439435383.40333.8@reader.easyusenet.nl</segment>
+            <segment bytes="793123" number="9">1439435383.40830.9@reader.easyusenet.nl</segment>
+            <segment bytes="793286" number="10">1439435383.41269.10@reader.easyusenet.nl</segment>
+            <segment bytes="793457" number="11">1439435383.41714.11@reader.easyusenet.nl</segment>
+            <segment bytes="793592" number="12">1439435383.42150.12@reader.easyusenet.nl</segment>
+            <segment bytes="793525" number="13">1439435383.42587.13@reader.easyusenet.nl</segment>
+            <segment bytes="793216" number="14">1439435383.43021.14@reader.easyusenet.nl</segment>
+            <segment bytes="793273" number="15">1439435383.43460.15@reader.easyusenet.nl</segment>
+            <segment bytes="793334" number="16">1439435383.43898.16@reader.easyusenet.nl</segment>
+            <segment bytes="793394" number="17">1439435383.44335.17@reader.easyusenet.nl</segment>
+            <segment bytes="793107" number="18">1439435383.44786.18@reader.easyusenet.nl</segment>
+            <segment bytes="793447" number="19">1439435383.45224.19@reader.easyusenet.nl</segment>
+            <segment bytes="793309" number="20">1439435383.45661.20@reader.easyusenet.nl</segment>
+            <segment bytes="793353" number="21">1439435383.70179.21@reader.easyusenet.nl</segment>
+            <segment bytes="793450" number="22">1439435383.71271.22@reader.easyusenet.nl</segment>
+            <segment bytes="793379" number="23">1439435383.71642.23@reader.easyusenet.nl</segment>
+            <segment bytes="793514" number="24">1439435383.72042.24@reader.easyusenet.nl</segment>
+            <segment bytes="793440" number="25">1439435383.72426.25@reader.easyusenet.nl</segment>
+            <segment bytes="793397" number="26">1439435383.72807.26@reader.easyusenet.nl</segment>
+            <segment bytes="793399" number="27">1439435383.73205.27@reader.easyusenet.nl</segment>
+            <segment bytes="793524" number="28">1439435383.73595.28@reader.easyusenet.nl</segment>
+            <segment bytes="224112" number="29">1439435383.73984.29@reader.easyusenet.nl</segment>
+        </segments>
+    </file>
+    <file subject="[265047]-[FULL]-[#a.b.teevee@EFNet]-[ Mr.Robot.S01E08.REAL.720p.HDTV.x264-KILLERS ]-[02/33] - &quot;sample-mr.robot.s01e08.real.720p.hdtv.x264-killers.par2&quot; yEnc (1/1)" poster="r@ndom.tv (r@ndom)" date="1439435383">
+        <groups>
+            <group>alt.binaries.teevee</group>
+        </groups>
+        <segments>
+            <segment bytes="2776" number="1">1439435383.74091.1@reader.easyusenet.nl</segment>
+        </segments>
+    </file>
+    <file subject="[265047]-[FULL]-[#a.b.teevee@EFNet]-[ Mr.Robot.S01E08.REAL.720p.HDTV.x264-KILLERS ]-[03/33] - &quot;sample-mr.robot.s01e08.real.720p.hdtv.x264-killers.vol00+01.par2&quot; yEnc (1/1)" poster="r@ndom.tv (r@ndom)" date="1439435383">
+        <groups>
+            <group>alt.binaries.teevee</group>
+        </groups>
+        <segments>
+            <segment bytes="399090" number="1">1439435383.74110.1@reader.easyusenet.nl</segment>
+        </segments>
+    </file>
+    <file subject="[265047]-[FULL]-[#a.b.teevee@EFNet]-[ Mr.Robot.S01E08.REAL.720p.HDTV.x264-KILLERS ]-[04/33] - &quot;sample-mr.robot.s01e08.real.720p.hdtv.x264-killers.vol01+02.par2&quot; yEnc (1/2)" poster="r@ndom.tv (r@ndom)" date="1439435383">
+        <groups>
+            <group>alt.binaries.teevee</group>
+        </groups>
+        <segments>
+            <segment bytes="793406" number="1">1439435383.74331.1@reader.easyusenet.nl</segment>
+            <segment bytes="4464" number="2">1439435383.74694.2@reader.easyusenet.nl</segment>
+        </segments>
+    </file>
+    <file subject="[265047]-[FULL]-[#a.b.teevee@EFNet]-[ Mr.Robot.S01E08.REAL.720p.HDTV.x264-KILLERS ]-[05/33] - &quot;sample-mr.robot.s01e08.real.720p.hdtv.x264-killers.vol03+04.par2&quot; yEnc (1/3)" poster="r@ndom.tv (r@ndom)" date="1439435383">
+        <groups>
+            <group>alt.binaries.teevee</group>
+        </groups>
+        <segments>
+            <segment bytes="793519" number="1">1439435383.74717.1@reader.easyusenet.nl</segment>
+            <segment bytes="793406" number="2">1439435383.75090.2@reader.easyusenet.nl</segment>
+            <segment bytes="6046" number="3">1439435383.75504.3@reader.easyusenet.nl</segment>
+        </segments>
+    </file>
+    <file subject="[265047]-[FULL]-[#a.b.teevee@EFNet]-[ Mr.Robot.S01E08.REAL.720p.HDTV.x264-KILLERS ]-[06/33] - &quot;sample-mr.robot.s01e08.real.720p.hdtv.x264-killers.vol07+08.par2&quot; yEnc (1/5)" poster="r@ndom.tv (r@ndom)" date="1439435383">
+        <groups>
+            <group>alt.binaries.teevee</group>
+        </groups>
+        <segments>
+            <segment bytes="793398" number="1">1439435383.75530.1@reader.easyusenet.nl</segment>
+            <segment bytes="793551" number="2">1439435383.75950.2@reader.easyusenet.nl</segment>
+            <segment bytes="793322" number="3">1439435383.76328.3@reader.easyusenet.nl</segment>
+            <segment bytes="793522" number="4">1439435383.76734.4@reader.easyusenet.nl</segment>
+            <segment bytes="7885" number="5">1439435383.78305.5@reader.easyusenet.nl</segment>
+        </segments>
+    </file>
+    <file subject="[265047]-[FULL]-[#a.b.teevee@EFNet]-[ Mr.Robot.S01E08.REAL.720p.HDTV.x264-KILLERS ]-[07/33] - &quot;sample-mr.robot.s01e08.real.720p.hdtv.x264-killers.vol15+14.par2&quot; yEnc (1/8)" poster="r@ndom.tv (r@ndom)" date="1439435383">
+        <groups>
+            <group>alt.binaries.teevee</group>
+        </groups>
+        <segments>
+            <segment bytes="793429" number="1">1439435383.78328.1@reader.easyusenet.nl</segment>
+            <segment bytes="793509" number="2">1439435383.78788.2@reader.easyusenet.nl</segment>
+            <segment bytes="793353" number="3">1439435383.80087.3@reader.easyusenet.nl</segment>
+            <segment bytes="793266" number="4">1439435383.82440.4@reader.easyusenet.nl</segment>
+            <segment bytes="793381" number="5">1439435383.85919.5@reader.easyusenet.nl</segment>
+            <segment bytes="793259" number="6">1439435383.88627.6@reader.easyusenet.nl</segment>
+            <segment bytes="793185" number="7">1439435383.92928.7@reader.easyusenet.nl</segment>
+            <segment bytes="8366" number="8">1439435383.93471.8@reader.easyusenet.nl</segment>
+        </segments>
+    </file>
+    <file subject="[265047]-[FULL]-[#a.b.teevee@EFNet]-[ Mr.Robot.S01E08.REAL.720p.HDTV.x264-KILLERS ]-[08/33] - &quot;mr.robot.s01e08.real.720p.hdtv.x264-killers.nfo&quot; yEnc (1/1)" poster="r@ndom.tv (r@ndom)" date="1439435383">
+        <groups>
+            <group>alt.binaries.teevee</group>
+        </groups>
+        <segments>
+            <segment bytes="12180" number="1">1439435383.93830.1@reader.easyusenet.nl</segment>
+        </segments>
+    </file>
+    <file subject="[265047]-[FULL]-[#a.b.teevee@EFNet]-[ Mr.Robot.S01E08.REAL.720p.HDTV.x264-KILLERS ]-[09/33] - &quot;mr.robot.s01e08.real.720p.hdtv.x264-killers.par2&quot; yEnc (1/1)" poster="r@ndom.tv (r@ndom)" date="1439435383">
+        <groups>
+            <group>alt.binaries.teevee</group>
+        </groups>
+        <segments>
+            <segment bytes="16918" number="1">1439435383.94185.1@reader.easyusenet.nl</segment>
+        </segments>
+    </file>
+    <file subject="[265047]-[FULL]-[#a.b.teevee@EFNet]-[ Mr.Robot.S01E08.REAL.720p.HDTV.x264-KILLERS ]-[10/33] - &quot;mr.robot.s01e08.real.720p.hdtv.x264-killers.r00&quot; yEnc (1/66)" poster="r@ndom.tv (r@ndom)" date="1439435384">
+        <groups>
+            <group>alt.binaries.teevee</group>
+        </groups>
+        <segments>
+            <segment bytes="793219" number="1">1439435383.94420.1@reader.easyusenet.nl</segment>
+            <segment bytes="793498" number="2">1439435383.94779.2@reader.easyusenet.nl</segment>
+            <segment bytes="793507" number="3">1439435383.95154.3@reader.easyusenet.nl</segment>
+            <segment bytes="793394" number="4">1439435383.95511.4@reader.easyusenet.nl</segment>
+            <segment bytes="793418" number="5">1439435383.95887.5@reader.easyusenet.nl</segment>
+            <segment bytes="793399" number="6">1439435383.96252.6@reader.easyusenet.nl</segment>
+            <segment bytes="793227" number="7">1439435383.96645.7@reader.easyusenet.nl</segment>
+            <segment bytes="793148" number="8">1439435383.97018.8@reader.easyusenet.nl</segment>
+            <segment bytes="793225" number="9">1439435383.97432.9@reader.easyusenet.nl</segment>
+            <segment bytes="793471" number="10">1439435383.97806.10@reader.easyusenet.nl</segment>
+            <segment bytes="793463" number="11">1439435383.98168.11@reader.easyusenet.nl</segment>
+            <segment bytes="793527" number="12">1439435383.98555.12@reader.easyusenet.nl</segment>
+            <segment bytes="793440" number="13">1439435383.98936.13@reader.easyusenet.nl</segment>
+            <segment bytes="793569" number="14">1439435383.99287.14@reader.easyusenet.nl</segment>
+            <segment bytes="793421" number="15">1439435383.99647.15@reader.easyusenet.nl</segment>
+            <segment bytes="793333" number="16">1439435384.00087.16@reader.easyusenet.nl</segment>
+            <segment bytes="793325" number="17">1439435384.00483.17@reader.easyusenet.nl</segment>
+            <segment bytes="793357" number="18">1439435384.03709.18@reader.easyusenet.nl</segment>
+            <segment bytes="793260" number="19">1439435384.06635.19@reader.easyusenet.nl</segment>
+            <segment bytes="793249" number="20">1439435384.11458.20@reader.easyusenet.nl</segment>
+            <segment bytes="793346" number="21">1439435384.12911.21@reader.easyusenet.nl</segment>
+            <segment bytes="793301" number="22">1439435384.14538.22@reader.easyusenet.nl</segment>
+            <segment bytes="793422" number="23">1439435384.16009.23@reader.easyusenet.nl</segment>
+            <segment bytes="793493" number="24">1439435384.17290.24@reader.easyusenet.nl</segment>
+            <segment bytes="793201" number="25">1439435384.17675.25@reader.easyusenet.nl</segment>
+            <segment bytes="793386" number="26">1439435384.18048.26@reader.easyusenet.nl</segment>
+            <segment bytes="793498" number="27">1439435384.18421.27@reader.easyusenet.nl</segment>
+            <segment bytes="793260" number="28">1439435384.18779.28@reader.easyusenet.nl</segment>
+            <segment bytes="793375" number="29">1439435384.19182.29@reader.easyusenet.nl</segment>
+            <segment bytes="793355" number="30">1439435384.19541.30@reader.easyusenet.nl</segment>
+            <segment bytes="793436" number="31">1439435384.19897.31@reader.easyusenet.nl</segment>
+            <segment bytes="793255" number="32">1439435384.20256.32@reader.easyusenet.nl</segment>
+            <segment bytes="793567" number="33">1439435384.20672.33@reader.easyusenet.nl</segment>
+            <segment bytes="793520" number="34">1439435384.21039.34@reader.easyusenet.nl</segment>
+            <segment bytes="793382" number="35">1439435384.21410.35@reader.easyusenet.nl</segment>
+            <segment bytes="793098" number="36">1439435384.21777.36@reader.easyusenet.nl</segment>
+            <segment bytes="793444" number="37">1439435384.22138.37@reader.easyusenet.nl</segment>
+            <segment bytes="793245" number="38">1439435384.22580.38@reader.easyusenet.nl</segment>
+            <segment bytes="793365" number="39">1439435384.24633.39@reader.easyusenet.nl</segment>
+            <segment bytes="793389" number="40">1439435384.29398.40@reader.easyusenet.nl</segment>
+            <segment bytes="793463" number="41">1439435384.30539.41@reader.easyusenet.nl</segment>
+            <segment bytes="793377" number="42">1439435384.32911.42@reader.easyusenet.nl</segment>
+            <segment bytes="793385" number="43">1439435384.34146.43@reader.easyusenet.nl</segment>
+            <segment bytes="793478" number="44">1439435384.38478.44@reader.easyusenet.nl</segment>
+            <segment bytes="793485" number="45">1439435384.38850.45@reader.easyusenet.nl</segment>
+            <segment bytes="793264" number="46">1439435384.39538.46@reader.easyusenet.nl</segment>
+            <segment bytes="793385" number="47">1439435384.40628.47@reader.easyusenet.nl</segment>
+            <segment bytes="793413" number="48">1439435384.41796.48@reader.easyusenet.nl</segment>
+            <segment bytes="793232" number="49">1439435384.42182.49@reader.easyusenet.nl</segment>
+            <segment bytes="793402" number="50">1439435384.42552.50@reader.easyusenet.nl</segment>
+            <segment bytes="793145" number="51">1439435384.42939.51@reader.easyusenet.nl</segment>
+            <segment bytes="793346" number="52">1439435384.43340.52@reader.easyusenet.nl</segment>
+            <segment bytes="793466" number="53">1439435384.43734.53@reader.easyusenet.nl</segment>
+            <segment bytes="793293" number="54">1439435384.44186.54@reader.easyusenet.nl</segment>
+            <segment bytes="793363" number="55">1439435384.44553.55@reader.easyusenet.nl</segment>
+            <segment bytes="793552" number="56">1439435384.44982.56@reader.easyusenet.nl</segment>
+            <segment bytes="793514" number="57">1439435384.51224.57@reader.easyusenet.nl</segment>
+            <segment bytes="793477" number="58">1439435384.52644.58@reader.easyusenet.nl</segment>
+            <segment bytes="793329" number="59">1439435384.54548.59@reader.easyusenet.nl</segment>
+            <segment bytes="793503" number="60">1439435384.57056.60@reader.easyusenet.nl</segment>
+            <segment bytes="793499" number="61">1439435384.57442.61@reader.easyusenet.nl</segment>
+            <segment bytes="793518" number="62">1439435384.57867.62@reader.easyusenet.nl</segment>
+            <segment bytes="793437" number="63">1439435384.58927.63@reader.easyusenet.nl</segment>
+            <segment bytes="793441" number="64">1439435384.59927.64@reader.easyusenet.nl</segment>
+            <segment bytes="793338" number="65">1439435384.60953.65@reader.easyusenet.nl</segment>
+            <segment bytes="83617" number="66">1439435384.61742.66@reader.easyusenet.nl</segment>
+        </segments>
+    </file>
+    <file subject="[265047]-[FULL]-[#a.b.teevee@EFNet]-[ Mr.Robot.S01E08.REAL.720p.HDTV.x264-KILLERS ]-[11/33] - &quot;mr.robot.s01e08.real.720p.hdtv.x264-killers.r01&quot; yEnc (1/66)" poster="r@ndom.tv (r@ndom)" date="1439435385">
+        <groups>
+            <group>alt.binaries.teevee</group>
+        </groups>
+        <segments>
+            <segment bytes="793358" number="1">1439435384.61966.1@reader.easyusenet.nl</segment>
+            <segment bytes="793304" number="2">1439435384.62363.2@reader.easyusenet.nl</segment>
+            <segment bytes="793452" number="3">1439435384.65195.3@reader.easyusenet.nl</segment>
+            <segment bytes="793465" number="4">1439435384.65615.4@reader.easyusenet.nl</segment>
+            <segment bytes="793313" number="5">1439435384.66785.5@reader.easyusenet.nl</segment>
+            <segment bytes="793512" number="6">1439435384.68248.6@reader.easyusenet.nl</segment>
+            <segment bytes="793474" number="7">1439435384.71215.7@reader.easyusenet.nl</segment>
+            <segment bytes="793643" number="8">1439435384.72078.8@reader.easyusenet.nl</segment>
+            <segment bytes="793490" number="9">1439435384.72898.9@reader.easyusenet.nl</segment>
+            <segment bytes="793301" number="10">1439435384.74154.10@reader.easyusenet.nl</segment>
+            <segment bytes="793343" number="11">1439435384.74932.11@reader.easyusenet.nl</segment>
+            <segment bytes="793478" number="12">1439435384.75655.12@reader.easyusenet.nl</segment>
+            <segment bytes="793519" number="13">1439435384.79594.13@reader.easyusenet.nl</segment>
+            <segment bytes="793531" number="14">1439435384.81143.14@reader.easyusenet.nl</segment>
+            <segment bytes="793573" number="15">1439435384.83259.15@reader.easyusenet.nl</segment>
+            <segment bytes="793266" number="16">1439435384.83639.16@reader.easyusenet.nl</segment>
+            <segment bytes="793457" number="17">1439435384.84067.17@reader.easyusenet.nl</segment>
+            <segment bytes="793498" number="18">1439435384.86281.18@reader.easyusenet.nl</segment>
+            <segment bytes="793410" number="19">1439435384.86968.19@reader.easyusenet.nl</segment>
+            <segment bytes="793398" number="20">1439435384.87545.20@reader.easyusenet.nl</segment>
+            <segment bytes="793177" number="21">1439435384.90373.21@reader.easyusenet.nl</segment>
+            <segment bytes="793534" number="22">1439435384.90765.22@reader.easyusenet.nl</segment>
+            <segment bytes="793463" number="23">1439435384.91153.23@reader.easyusenet.nl</segment>
+            <segment bytes="793415" number="24">1439435384.91535.24@reader.easyusenet.nl</segment>
+            <segment bytes="793411" number="25">1439435384.92164.25@reader.easyusenet.nl</segment>
+            <segment bytes="793428" number="26">1439435384.95236.26@reader.easyusenet.nl</segment>
+            <segment bytes="793228" number="27">1439435384.99666.27@reader.easyusenet.nl</segment>
+            <segment bytes="793148" number="28">1439435385.00395.28@reader.easyusenet.nl</segment>
+            <segment bytes="793363" number="29">1439435385.01352.29@reader.easyusenet.nl</segment>
+            <segment bytes="793497" number="30">1439435385.02839.30@reader.easyusenet.nl</segment>
+            <segment bytes="793520" number="31">1439435385.04029.31@reader.easyusenet.nl</segment>
+            <segment bytes="793194" number="32">1439435385.04496.32@reader.easyusenet.nl</segment>
+            <segment bytes="793490" number="33">1439435385.06109.33@reader.easyusenet.nl</segment>
+            <segment bytes="793389" number="34">1439435385.07206.34@reader.easyusenet.nl</segment>
+            <segment bytes="793298" number="35">1439435385.07606.35@reader.easyusenet.nl</segment>
+            <segment bytes="793288" number="36">1439435385.08600.36@reader.easyusenet.nl</segment>
+            <segment bytes="793293" number="37">1439435385.10212.37@reader.easyusenet.nl</segment>
+            <segment bytes="793294" number="38">1439435385.10606.38@reader.easyusenet.nl</segment>
+            <segment bytes="793324" number="39">1439435385.11136.39@reader.easyusenet.nl</segment>
+            <segment bytes="793121" number="40">1439435385.11900.40@reader.easyusenet.nl</segment>
+            <segment bytes="793695" number="41">1439435385.12959.41@reader.easyusenet.nl</segment>
+            <segment bytes="793477" number="42">1439435385.14889.42@reader.easyusenet.nl</segment>
+            <segment bytes="793422" number="43">1439435385.17592.43@reader.easyusenet.nl</segment>
+            <segment bytes="793421" number="44">1439435385.20718.44@reader.easyusenet.nl</segment>
+            <segment bytes="793442" number="45">1439435385.22090.45@reader.easyusenet.nl</segment>
+            <segment bytes="793401" number="46">1439435385.22491.46@reader.easyusenet.nl</segment>
+            <segment bytes="793251" number="47">1439435385.23155.47@reader.easyusenet.nl</segment>
+            <segment bytes="793176" number="48">1439435385.25293.48@reader.easyusenet.nl</segment>
+            <segment bytes="793227" number="49">1439435385.25681.49@reader.easyusenet.nl</segment>
+            <segment bytes="793295" number="50">1439435385.28056.50@reader.easyusenet.nl</segment>
+            <segment bytes="793309" number="51">1439435385.28667.51@reader.easyusenet.nl</segment>
+            <segment bytes="793102" number="52">1439435385.29064.52@reader.easyusenet.nl</segment>
+            <segment bytes="793212" number="53">1439435385.30012.53@reader.easyusenet.nl</segment>
+            <segment bytes="793509" number="54">1439435385.32219.54@reader.easyusenet.nl</segment>
+            <segment bytes="793453" number="55">1439435385.32593.55@reader.easyusenet.nl</segment>
+            <segment bytes="793333" number="56">1439435385.33011.56@reader.easyusenet.nl</segment>
+            <segment bytes="793251" number="57">1439435385.34881.57@reader.easyusenet.nl</segment>
+            <segment bytes="793349" number="58">1439435385.35608.58@reader.easyusenet.nl</segment>
+            <segment bytes="793509" number="59">1439435385.36039.59@reader.easyusenet.nl</segment>
+            <segment bytes="793081" number="60">1439435385.37937.60@reader.easyusenet.nl</segment>
+            <segment bytes="793234" number="61">1439435385.45575.61@reader.easyusenet.nl</segment>
+            <segment bytes="793404" number="62">1439435385.45965.62@reader.easyusenet.nl</segment>
+            <segment bytes="793478" number="63">1439435385.47479.63@reader.easyusenet.nl</segment>
+            <segment bytes="793270" number="64">1439435385.49474.64@reader.easyusenet.nl</segment>
+            <segment bytes="793338" number="65">1439435385.49857.65@reader.easyusenet.nl</segment>
+            <segment bytes="83618" number="66">1439435385.50226.66@reader.easyusenet.nl</segment>
+        </segments>
+    </file>
+    <file subject="[265047]-[FULL]-[#a.b.teevee@EFNet]-[ Mr.Robot.S01E08.REAL.720p.HDTV.x264-KILLERS ]-[12/33] - &quot;mr.robot.s01e08.real.720p.hdtv.x264-killers.r02&quot; yEnc (1/66)" poster="r@ndom.tv (r@ndom)" date="1439435386">
+        <groups>
+            <group>alt.binaries.teevee</group>
+        </groups>
+        <segments>
+            <segment bytes="793356" number="1">1439435385.51117.1@reader.easyusenet.nl</segment>
+            <segment bytes="793342" number="2">1439435385.53457.2@reader.easyusenet.nl</segment>
+            <segment bytes="793422" number="3">1439435385.53843.3@reader.easyusenet.nl</segment>
+            <segment bytes="793470" number="4">1439435385.54225.4@reader.easyusenet.nl</segment>
+            <segment bytes="793277" number="5">1439435385.54627.5@reader.easyusenet.nl</segment>
+            <segment bytes="793395" number="6">1439435385.55028.6@reader.easyusenet.nl</segment>
+            <segment bytes="793371" number="7">1439435385.56446.7@reader.easyusenet.nl</segment>
+            <segment bytes="793453" number="8">1439435385.57193.8@reader.easyusenet.nl</segment>
+            <segment bytes="793497" number="9">1439435385.60913.9@reader.easyusenet.nl</segment>
+            <segment bytes="793288" number="10">1439435385.61295.10@reader.easyusenet.nl</segment>
+            <segment bytes="793317" number="11">1439435385.61720.11@reader.easyusenet.nl</segment>
+            <segment bytes="793413" number="12">1439435385.62106.12@reader.easyusenet.nl</segment>
+            <segment bytes="793380" number="13">1439435385.62531.13@reader.easyusenet.nl</segment>
+            <segment bytes="793154" number="14">1439435385.64636.14@reader.easyusenet.nl</segment>
+            <segment bytes="793493" number="15">1439435385.67079.15@reader.easyusenet.nl</segment>
+            <segment bytes="793121" number="16">1439435385.67983.16@reader.easyusenet.nl</segment>
+            <segment bytes="793265" number="17">1439435385.69120.17@reader.easyusenet.nl</segment>
+            <segment bytes="793539" number="18">1439435385.73818.18@reader.easyusenet.nl</segment>
+            <segment bytes="793509" number="19">1439435385.74963.19@reader.easyusenet.nl</segment>
+            <segment bytes="793187" number="20">1439435385.75352.20@reader.easyusenet.nl</segment>
+            <segment bytes="793452" number="21">1439435385.75742.21@reader.easyusenet.nl</segment>
+            <segment bytes="793308" number="22">1439435385.76124.22@reader.easyusenet.nl</segment>
+            <segment bytes="793320" number="23">1439435385.76704.23@reader.easyusenet.nl</segment>
+            <segment bytes="793545" number="24">1439435385.78405.24@reader.easyusenet.nl</segment>
+            <segment bytes="793346" number="25">1439435385.78799.25@reader.easyusenet.nl</segment>
+            <segment bytes="793384" number="26">1439435385.79787.26@reader.easyusenet.nl</segment>
+            <segment bytes="793145" number="27">1439435385.84008.27@reader.easyusenet.nl</segment>
+            <segment bytes="793199" number="28">1439435385.87006.28@reader.easyusenet.nl</segment>
+            <segment bytes="793471" number="29">1439435385.87383.29@reader.easyusenet.nl</segment>
+            <segment bytes="793525" number="30">1439435385.87842.30@reader.easyusenet.nl</segment>
+            <segment bytes="793158" number="31">1439435385.88835.31@reader.easyusenet.nl</segment>
+            <segment bytes="793378" number="32">1439435385.90681.32@reader.easyusenet.nl</segment>
+            <segment bytes="793344" number="33">1439435385.91066.33@reader.easyusenet.nl</segment>
+            <segment bytes="793060" number="34">1439435385.91812.34@reader.easyusenet.nl</segment>
+            <segment bytes="793464" number="35">1439435385.92575.35@reader.easyusenet.nl</segment>
+            <segment bytes="793313" number="36">1439435385.94019.36@reader.easyusenet.nl</segment>
+            <segment bytes="793590" number="37">1439435385.94411.37@reader.easyusenet.nl</segment>
+            <segment bytes="793545" number="38">1439435385.97629.38@reader.easyusenet.nl</segment>
+            <segment bytes="793570" number="39">1439435385.98072.39@reader.easyusenet.nl</segment>
+            <segment bytes="793240" number="40">1439435385.99700.40@reader.easyusenet.nl</segment>
+            <segment bytes="793354" number="41">1439435386.00070.41@reader.easyusenet.nl</segment>
+            <segment bytes="793593" number="42">1439435386.03377.42@reader.easyusenet.nl</segment>
+            <segment bytes="793395" number="43">1439435386.03759.43@reader.easyusenet.nl</segment>
+            <segment bytes="793451" number="44">1439435386.04908.44@reader.easyusenet.nl</segment>
+            <segment bytes="793425" number="45">1439435386.08791.45@reader.easyusenet.nl</segment>
+            <segment bytes="793402" number="46">1439435386.09479.46@reader.easyusenet.nl</segment>
+            <segment bytes="793318" number="47">1439435386.09941.47@reader.easyusenet.nl</segment>
+            <segment bytes="793249" number="48">1439435386.14472.48@reader.easyusenet.nl</segment>
+            <segment bytes="793281" number="49">1439435386.15478.49@reader.easyusenet.nl</segment>
+            <segment bytes="793181" number="50">1439435386.16652.50@reader.easyusenet.nl</segment>
+            <segment bytes="793242" number="51">1439435386.17019.51@reader.easyusenet.nl</segment>
+            <segment bytes="793292" number="52">1439435386.17390.52@reader.easyusenet.nl</segment>
+            <segment bytes="793411" number="53">1439435386.17758.53@reader.easyusenet.nl</segment>
+            <segment bytes="793449" number="54">1439435386.18130.54@reader.easyusenet.nl</segment>
+            <segment bytes="793376" number="55">1439435386.19317.55@reader.easyusenet.nl</segment>
+            <segment bytes="793589" number="56">1439435386.19696.56@reader.easyusenet.nl</segment>
+            <segment bytes="793244" number="57">1439435386.21832.57@reader.easyusenet.nl</segment>
+            <segment bytes="793344" number="58">1439435386.22541.58@reader.easyusenet.nl</segment>
+            <segment bytes="793458" number="59">1439435386.23710.59@reader.easyusenet.nl</segment>
+            <segment bytes="793483" number="60">1439435386.24120.60@reader.easyusenet.nl</segment>
+            <segment bytes="793451" number="61">1439435386.24514.61@reader.easyusenet.nl</segment>
+            <segment bytes="793516" number="62">1439435386.29592.62@reader.easyusenet.nl</segment>
+            <segment bytes="793305" number="63">1439435386.30791.63@reader.easyusenet.nl</segment>
+            <segment bytes="793546" number="64">1439435386.31832.64@reader.easyusenet.nl</segment>
+            <segment bytes="793354" number="65">1439435386.32531.65@reader.easyusenet.nl</segment>
+            <segment bytes="83559" number="66">1439435386.42690.66@reader.easyusenet.nl</segment>
+        </segments>
+    </file>
+    <file subject="[265047]-[FULL]-[#a.b.teevee@EFNet]-[ Mr.Robot.S01E08.REAL.720p.HDTV.x264-KILLERS ]-[13/33] - &quot;mr.robot.s01e08.real.720p.hdtv.x264-killers.r03&quot; yEnc (1/66)" poster="r@ndom.tv (r@ndom)" date="1439435387">
+        <groups>
+            <group>alt.binaries.teevee</group>
+        </groups>
+        <segments>
+            <segment bytes="793267" number="1">1439435386.43446.1@reader.easyusenet.nl</segment>
+            <segment bytes="793308" number="2">1439435386.43822.2@reader.easyusenet.nl</segment>
+            <segment bytes="793261" number="3">1439435386.44557.3@reader.easyusenet.nl</segment>
+            <segment bytes="793339" number="4">1439435386.45715.4@reader.easyusenet.nl</segment>
+            <segment bytes="793468" number="5">1439435386.47513.5@reader.easyusenet.nl</segment>
+            <segment bytes="793221" number="6">1439435386.47884.6@reader.easyusenet.nl</segment>
+            <segment bytes="793285" number="7">1439435386.48258.7@reader.easyusenet.nl</segment>
+            <segment bytes="793375" number="8">1439435386.48757.8@reader.easyusenet.nl</segment>
+            <segment bytes="793274" number="9">1439435386.49306.9@reader.easyusenet.nl</segment>
+            <segment bytes="793192" number="10">1439435386.50484.10@reader.easyusenet.nl</segment>
+            <segment bytes="793421" number="11">1439435386.50866.11@reader.easyusenet.nl</segment>
+            <segment bytes="793417" number="12">1439435386.52746.12@reader.easyusenet.nl</segment>
+            <segment bytes="793436" number="13">1439435386.54443.13@reader.easyusenet.nl</segment>
+            <segment bytes="793315" number="14">1439435386.55215.14@reader.easyusenet.nl</segment>
+            <segment bytes="793340" number="15">1439435386.60861.15@reader.easyusenet.nl</segment>
+            <segment bytes="793419" number="16">1439435386.63630.16@reader.easyusenet.nl</segment>
+            <segment bytes="793484" number="17">1439435386.64010.17@reader.easyusenet.nl</segment>
+            <segment bytes="793427" number="18">1439435386.64400.18@reader.easyusenet.nl</segment>
+            <segment bytes="793292" number="19">1439435386.65545.19@reader.easyusenet.nl</segment>
+            <segment bytes="793465" number="20">1439435386.66906.20@reader.easyusenet.nl</segment>
+            <segment bytes="793554" number="21">1439435386.67291.21@reader.easyusenet.nl</segment>
+            <segment bytes="793108" number="22">1439435386.67664.22@reader.easyusenet.nl</segment>
+            <segment bytes="793068" number="23">1439435386.68108.23@reader.easyusenet.nl</segment>
+            <segment bytes="793313" number="24">1439435386.68783.24@reader.easyusenet.nl</segment>
+            <segment bytes="793357" number="25">1439435386.70321.25@reader.easyusenet.nl</segment>
+            <segment bytes="793191" number="26">1439435386.70854.26@reader.easyusenet.nl</segment>
+            <segment bytes="793372" number="27">1439435386.71624.27@reader.easyusenet.nl</segment>
+            <segment bytes="793339" number="28">1439435386.72684.28@reader.easyusenet.nl</segment>
+            <segment bytes="793455" number="29">1439435386.73076.29@reader.easyusenet.nl</segment>
+            <segment bytes="793558" number="30">1439435386.73464.30@reader.easyusenet.nl</segment>
+            <segment bytes="793269" number="31">1439435386.73870.31@reader.easyusenet.nl</segment>
+            <segment bytes="793167" number="32">1439435386.75647.32@reader.easyusenet.nl</segment>
+            <segment bytes="793207" number="33">1439435386.78480.33@reader.easyusenet.nl</segment>
+            <segment bytes="793458" number="34">1439435386.81138.34@reader.easyusenet.nl</segment>
+            <segment bytes="793401" number="35">1439435386.82183.35@reader.easyusenet.nl</segment>
+            <segment bytes="793394" number="36">1439435386.82686.36@reader.easyusenet.nl</segment>
+            <segment bytes="793100" number="37">1439435386.84310.37@reader.easyusenet.nl</segment>
+            <segment bytes="793497" number="38">1439435386.87164.38@reader.easyusenet.nl</segment>
+            <segment bytes="793526" number="39">1439435386.87543.39@reader.easyusenet.nl</segment>
+            <segment bytes="793456" number="40">1439435386.87914.40@reader.easyusenet.nl</segment>
+            <segment bytes="793330" number="41">1439435386.88608.41@reader.easyusenet.nl</segment>
+            <segment bytes="793526" number="42">1439435386.90208.42@reader.easyusenet.nl</segment>
+            <segment bytes="793378" number="43">1439435386.91488.43@reader.easyusenet.nl</segment>
+            <segment bytes="793057" number="44">1439435386.93913.44@reader.easyusenet.nl</segment>
+            <segment bytes="793389" number="45">1439435386.95226.45@reader.easyusenet.nl</segment>
+            <segment bytes="793610" number="46">1439435386.95600.46@reader.easyusenet.nl</segment>
+            <segment bytes="793450" number="47">1439435386.98089.47@reader.easyusenet.nl</segment>
+            <segment bytes="793399" number="48">1439435386.98455.48@reader.easyusenet.nl</segment>
+            <segment bytes="793422" number="49">1439435387.00243.49@reader.easyusenet.nl</segment>
+            <segment bytes="793461" number="50">1439435387.01273.50@reader.easyusenet.nl</segment>
+            <segment bytes="793377" number="51">1439435387.01673.51@reader.easyusenet.nl</segment>
+            <segment bytes="793338" number="52">1439435387.03340.52@reader.easyusenet.nl</segment>
+            <segment bytes="793578" number="53">1439435387.03772.53@reader.easyusenet.nl</segment>
+            <segment bytes="793285" number="54">1439435387.04174.54@reader.easyusenet.nl</segment>
+            <segment bytes="793292" number="55">1439435387.06060.55@reader.easyusenet.nl</segment>
+            <segment bytes="793394" number="56">1439435387.09864.56@reader.easyusenet.nl</segment>
+            <segment bytes="793430" number="57">1439435387.10771.57@reader.easyusenet.nl</segment>
+            <segment bytes="793285" number="58">1439435387.11140.58@reader.easyusenet.nl</segment>
+            <segment bytes="793543" number="59">1439435387.12346.59@reader.easyusenet.nl</segment>
+            <segment bytes="793537" number="60">1439435387.13951.60@reader.easyusenet.nl</segment>
+            <segment bytes="793259" number="61">1439435387.14553.61@reader.easyusenet.nl</segment>
+            <segment bytes="793374" number="62">1439435387.17600.62@reader.easyusenet.nl</segment>
+            <segment bytes="793314" number="63">1439435387.18219.63@reader.easyusenet.nl</segment>
+            <segment bytes="793334" number="64">1439435387.19980.64@reader.easyusenet.nl</segment>
+            <segment bytes="793376" number="65">1439435387.20615.65@reader.easyusenet.nl</segment>
+            <segment bytes="83489" number="66">1439435387.21562.66@reader.easyusenet.nl</segment>
+        </segments>
+    </file>
+    <file subject="[265047]-[FULL]-[#a.b.teevee@EFNet]-[ Mr.Robot.S01E08.REAL.720p.HDTV.x264-KILLERS ]-[14/33] - &quot;mr.robot.s01e08.real.720p.hdtv.x264-killers.r04&quot; yEnc (1/66)" poster="r@ndom.tv (r@ndom)" date="1439435388">
+        <groups>
+            <group>alt.binaries.teevee</group>
+        </groups>
+        <segments>
+            <segment bytes="793293" number="1">1439435387.24966.1@reader.easyusenet.nl</segment>
+            <segment bytes="793410" number="2">1439435387.25334.2@reader.easyusenet.nl</segment>
+            <segment bytes="793379" number="3">1439435387.25722.3@reader.easyusenet.nl</segment>
+            <segment bytes="793326" number="4">1439435387.26103.4@reader.easyusenet.nl</segment>
+            <segment bytes="793212" number="5">1439435387.29625.5@reader.easyusenet.nl</segment>
+            <segment bytes="793342" number="6">1439435387.30027.6@reader.easyusenet.nl</segment>
+            <segment bytes="793119" number="7">1439435387.30418.7@reader.easyusenet.nl</segment>
+            <segment bytes="793071" number="8">1439435387.30790.8@reader.easyusenet.nl</segment>
+            <segment bytes="793359" number="9">1439435387.32108.9@reader.easyusenet.nl</segment>
+            <segment bytes="793565" number="10">1439435387.32499.10@reader.easyusenet.nl</segment>
+            <segment bytes="793183" number="11">1439435387.32898.11@reader.easyusenet.nl</segment>
+            <segment bytes="793389" number="12">1439435387.34138.12@reader.easyusenet.nl</segment>
+            <segment bytes="793338" number="13">1439435387.36738.13@reader.easyusenet.nl</segment>
+            <segment bytes="793297" number="14">1439435387.37407.14@reader.easyusenet.nl</segment>
+            <segment bytes="793430" number="15">1439435387.37787.15@reader.easyusenet.nl</segment>
+            <segment bytes="793406" number="16">1439435387.40695.16@reader.easyusenet.nl</segment>
+            <segment bytes="793248" number="17">1439435387.43373.17@reader.easyusenet.nl</segment>
+            <segment bytes="793322" number="18">1439435387.45472.18@reader.easyusenet.nl</segment>
+            <segment bytes="793288" number="19">1439435387.46294.19@reader.easyusenet.nl</segment>
+            <segment bytes="793333" number="20">1439435387.47270.20@reader.easyusenet.nl</segment>
+            <segment bytes="793367" number="21">1439435387.49928.21@reader.easyusenet.nl</segment>
+            <segment bytes="793485" number="22">1439435387.50320.22@reader.easyusenet.nl</segment>
+            <segment bytes="793532" number="23">1439435387.52444.23@reader.easyusenet.nl</segment>
+            <segment bytes="793269" number="24">1439435387.52827.24@reader.easyusenet.nl</segment>
+            <segment bytes="793342" number="25">1439435387.54194.25@reader.easyusenet.nl</segment>
+            <segment bytes="793326" number="26">1439435387.55994.26@reader.easyusenet.nl</segment>
+            <segment bytes="793609" number="27">1439435387.57122.27@reader.easyusenet.nl</segment>
+            <segment bytes="793390" number="28">1439435387.58342.28@reader.easyusenet.nl</segment>
+            <segment bytes="793272" number="29">1439435387.58738.29@reader.easyusenet.nl</segment>
+            <segment bytes="793431" number="30">1439435387.59523.30@reader.easyusenet.nl</segment>
+            <segment bytes="793214" number="31">1439435387.64642.31@reader.easyusenet.nl</segment>
+            <segment bytes="793554" number="32">1439435387.66724.32@reader.easyusenet.nl</segment>
+            <segment bytes="793161" number="33">1439435387.68445.33@reader.easyusenet.nl</segment>
+            <segment bytes="793422" number="34">1439435387.68826.34@reader.easyusenet.nl</segment>
+            <segment bytes="793413" number="35">1439435387.69214.35@reader.easyusenet.nl</segment>
+            <segment bytes="793381" number="36">1439435387.69614.36@reader.easyusenet.nl</segment>
+            <segment bytes="793379" number="37">1439435387.70040.37@reader.easyusenet.nl</segment>
+            <segment bytes="792985" number="38">1439435387.75061.38@reader.easyusenet.nl</segment>
+            <segment bytes="793340" number="39">1439435387.77412.39@reader.easyusenet.nl</segment>
+            <segment bytes="793242" number="40">1439435387.78009.40@reader.easyusenet.nl</segment>
+            <segment bytes="793221" number="41">1439435387.78406.41@reader.easyusenet.nl</segment>
+            <segment bytes="793380" number="42">1439435387.78796.42@reader.easyusenet.nl</segment>
+            <segment bytes="793372" number="43">1439435387.79174.43@reader.easyusenet.nl</segment>
+            <segment bytes="793365" number="44">1439435387.80077.44@reader.easyusenet.nl</segment>
+            <segment bytes="793511" number="45">1439435387.81989.45@reader.easyusenet.nl</segment>
+            <segment bytes="793410" number="46">1439435387.83201.46@reader.easyusenet.nl</segment>
+            <segment bytes="793309" number="47">1439435387.83576.47@reader.easyusenet.nl</segment>
+            <segment bytes="793263" number="48">1439435387.83950.48@reader.easyusenet.nl</segment>
+            <segment bytes="793145" number="49">1439435387.84312.49@reader.easyusenet.nl</segment>
+            <segment bytes="793243" number="50">1439435387.84728.50@reader.easyusenet.nl</segment>
+            <segment bytes="793330" number="51">1439435387.87604.51@reader.easyusenet.nl</segment>
+            <segment bytes="793401" number="52">1439435387.88006.52@reader.easyusenet.nl</segment>
+            <segment bytes="793270" number="53">1439435387.88409.53@reader.easyusenet.nl</segment>
+            <segment bytes="793144" number="54">1439435387.92777.54@reader.easyusenet.nl</segment>
+            <segment bytes="793273" number="55">1439435387.93660.55@reader.easyusenet.nl</segment>
+            <segment bytes="793302" number="56">1439435387.94882.56@reader.easyusenet.nl</segment>
+            <segment bytes="793232" number="57">1439435387.95808.57@reader.easyusenet.nl</segment>
+            <segment bytes="793340" number="58">1439435388.00364.58@reader.easyusenet.nl</segment>
+            <segment bytes="793077" number="59">1439435388.00761.59@reader.easyusenet.nl</segment>
+            <segment bytes="793370" number="60">1439435388.02089.60@reader.easyusenet.nl</segment>
+            <segment bytes="793509" number="61">1439435388.03392.61@reader.easyusenet.nl</segment>
+            <segment bytes="793258" number="62">1439435388.04614.62@reader.easyusenet.nl</segment>
+            <segment bytes="793503" number="63">1439435388.05359.63@reader.easyusenet.nl</segment>
+            <segment bytes="793096" number="64">1439435388.05738.64@reader.easyusenet.nl</segment>
+            <segment bytes="793394" number="65">1439435388.06121.65@reader.easyusenet.nl</segment>
+            <segment bytes="83659" number="66">1439435388.06498.66@reader.easyusenet.nl</segment>
+        </segments>
+    </file>
+    <file subject="[265047]-[FULL]-[#a.b.teevee@EFNet]-[ Mr.Robot.S01E08.REAL.720p.HDTV.x264-KILLERS ]-[15/33] - &quot;mr.robot.s01e08.real.720p.hdtv.x264-killers.r05&quot; yEnc (1/66)" poster="r@ndom.tv (r@ndom)" date="1439435389">
+        <groups>
+            <group>alt.binaries.teevee</group>
+        </groups>
+        <segments>
+            <segment bytes="793334" number="1">1439435388.07691.1@reader.easyusenet.nl</segment>
+            <segment bytes="793312" number="2">1439435388.09102.2@reader.easyusenet.nl</segment>
+            <segment bytes="793426" number="3">1439435388.10420.3@reader.easyusenet.nl</segment>
+            <segment bytes="793328" number="4">1439435388.10811.4@reader.easyusenet.nl</segment>
+            <segment bytes="793250" number="5">1439435388.11403.5@reader.easyusenet.nl</segment>
+            <segment bytes="793223" number="6">1439435388.11992.6@reader.easyusenet.nl</segment>
+            <segment bytes="793329" number="7">1439435388.15639.7@reader.easyusenet.nl</segment>
+            <segment bytes="793379" number="8">1439435388.17611.8@reader.easyusenet.nl</segment>
+            <segment bytes="793513" number="9">1439435388.20392.9@reader.easyusenet.nl</segment>
+            <segment bytes="793365" number="10">1439435388.21397.10@reader.easyusenet.nl</segment>
+            <segment bytes="793320" number="11">1439435388.21816.11@reader.easyusenet.nl</segment>
+            <segment bytes="793355" number="12">1439435388.24356.12@reader.easyusenet.nl</segment>
+            <segment bytes="793276" number="13">1439435388.24753.13@reader.easyusenet.nl</segment>
+            <segment bytes="793327" number="14">1439435388.28059.14@reader.easyusenet.nl</segment>
+            <segment bytes="793223" number="15">1439435388.28501.15@reader.easyusenet.nl</segment>
+            <segment bytes="793412" number="16">1439435388.32141.16@reader.easyusenet.nl</segment>
+            <segment bytes="793357" number="17">1439435388.32537.17@reader.easyusenet.nl</segment>
+            <segment bytes="793421" number="18">1439435388.32912.18@reader.easyusenet.nl</segment>
+            <segment bytes="793266" number="19">1439435388.33341.19@reader.easyusenet.nl</segment>
+            <segment bytes="793380" number="20">1439435388.33729.20@reader.easyusenet.nl</segment>
+            <segment bytes="793264" number="21">1439435388.34150.21@reader.easyusenet.nl</segment>
+            <segment bytes="793304" number="22">1439435388.34557.22@reader.easyusenet.nl</segment>
+            <segment bytes="793105" number="23">1439435388.34926.23@reader.easyusenet.nl</segment>
+            <segment bytes="793429" number="24">1439435388.35631.24@reader.easyusenet.nl</segment>
+            <segment bytes="793204" number="25">1439435388.38986.25@reader.easyusenet.nl</segment>
+            <segment bytes="793245" number="26">1439435388.40052.26@reader.easyusenet.nl</segment>
+            <segment bytes="793537" number="27">1439435388.42059.27@reader.easyusenet.nl</segment>
+            <segment bytes="793534" number="28">1439435388.47508.28@reader.easyusenet.nl</segment>
+            <segment bytes="793434" number="29">1439435388.48239.29@reader.easyusenet.nl</segment>
+            <segment bytes="793281" number="30">1439435388.48933.30@reader.easyusenet.nl</segment>
+            <segment bytes="793380" number="31">1439435388.49591.31@reader.easyusenet.nl</segment>
+            <segment bytes="793150" number="32">1439435388.49953.32@reader.easyusenet.nl</segment>
+            <segment bytes="793331" number="33">1439435388.50340.33@reader.easyusenet.nl</segment>
+            <segment bytes="793452" number="34">1439435388.52784.34@reader.easyusenet.nl</segment>
+            <segment bytes="793450" number="35">1439435388.55231.35@reader.easyusenet.nl</segment>
+            <segment bytes="793573" number="36">1439435388.57742.36@reader.easyusenet.nl</segment>
+            <segment bytes="793519" number="37">1439435388.58123.37@reader.easyusenet.nl</segment>
+            <segment bytes="793115" number="38">1439435388.58489.38@reader.easyusenet.nl</segment>
+            <segment bytes="793312" number="39">1439435388.58929.39@reader.easyusenet.nl</segment>
+            <segment bytes="793496" number="40">1439435388.59435.40@reader.easyusenet.nl</segment>
+            <segment bytes="793548" number="41">1439435388.61794.41@reader.easyusenet.nl</segment>
+            <segment bytes="793472" number="42">1439435388.62176.42@reader.easyusenet.nl</segment>
+            <segment bytes="793381" number="43">1439435388.62695.43@reader.easyusenet.nl</segment>
+            <segment bytes="793414" number="44">1439435388.63088.44@reader.easyusenet.nl</segment>
+            <segment bytes="793206" number="45">1439435388.63923.45@reader.easyusenet.nl</segment>
+            <segment bytes="793301" number="46">1439435388.67971.46@reader.easyusenet.nl</segment>
+            <segment bytes="793466" number="47">1439435388.68349.47@reader.easyusenet.nl</segment>
+            <segment bytes="793551" number="48">1439435388.69550.48@reader.easyusenet.nl</segment>
+            <segment bytes="793376" number="49">1439435388.72007.49@reader.easyusenet.nl</segment>
+            <segment bytes="793300" number="50">1439435388.72844.50@reader.easyusenet.nl</segment>
+            <segment bytes="793242" number="51">1439435388.79139.51@reader.easyusenet.nl</segment>
+            <segment bytes="793264" number="52">1439435388.80293.52@reader.easyusenet.nl</segment>
+            <segment bytes="793444" number="53">1439435388.80865.53@reader.easyusenet.nl</segment>
+            <segment bytes="793545" number="54">1439435388.81773.54@reader.easyusenet.nl</segment>
+            <segment bytes="793457" number="55">1439435388.82155.55@reader.easyusenet.nl</segment>
+            <segment bytes="793294" number="56">1439435388.82535.56@reader.easyusenet.nl</segment>
+            <segment bytes="793280" number="57">1439435388.82926.57@reader.easyusenet.nl</segment>
+            <segment bytes="793352" number="58">1439435388.83381.58@reader.easyusenet.nl</segment>
+            <segment bytes="793498" number="59">1439435388.83770.59@reader.easyusenet.nl</segment>
+            <segment bytes="793230" number="60">1439435388.84308.60@reader.easyusenet.nl</segment>
+            <segment bytes="793401" number="61">1439435388.84686.61@reader.easyusenet.nl</segment>
+            <segment bytes="793273" number="62">1439435388.87574.62@reader.easyusenet.nl</segment>
+            <segment bytes="793289" number="63">1439435388.90388.63@reader.easyusenet.nl</segment>
+            <segment bytes="793284" number="64">1439435388.91470.64@reader.easyusenet.nl</segment>
+            <segment bytes="793439" number="65">1439435388.91863.65@reader.easyusenet.nl</segment>
+            <segment bytes="83638" number="66">1439435388.93289.66@reader.easyusenet.nl</segment>
+        </segments>
+    </file>
+    <file subject="[265047]-[FULL]-[#a.b.teevee@EFNet]-[ Mr.Robot.S01E08.REAL.720p.HDTV.x264-KILLERS ]-[16/33] - &quot;mr.robot.s01e08.real.720p.hdtv.x264-killers.r06&quot; yEnc (1/66)" poster="r@ndom.tv (r@ndom)" date="1439435389">
+        <groups>
+            <group>alt.binaries.teevee</group>
+        </groups>
+        <segments>
+            <segment bytes="793339" number="1">1439435388.95758.1@reader.easyusenet.nl</segment>
+            <segment bytes="793502" number="2">1439435388.96845.2@reader.easyusenet.nl</segment>
+            <segment bytes="793355" number="3">1439435388.97313.3@reader.easyusenet.nl</segment>
+            <segment bytes="793625" number="4">1439435389.01901.4@reader.easyusenet.nl</segment>
+            <segment bytes="793164" number="5">1439435389.06058.5@reader.easyusenet.nl</segment>
+            <segment bytes="793236" number="6">1439435389.08277.6@reader.easyusenet.nl</segment>
+            <segment bytes="793246" number="7">1439435389.08641.7@reader.easyusenet.nl</segment>
+            <segment bytes="793405" number="8">1439435389.09021.8@reader.easyusenet.nl</segment>
+            <segment bytes="793528" number="9">1439435389.09384.9@reader.easyusenet.nl</segment>
+            <segment bytes="793381" number="10">1439435389.09887.10@reader.easyusenet.nl</segment>
+            <segment bytes="793478" number="11">1439435389.10548.11@reader.easyusenet.nl</segment>
+            <segment bytes="793355" number="12">1439435389.10919.12@reader.easyusenet.nl</segment>
+            <segment bytes="793233" number="13">1439435389.12060.13@reader.easyusenet.nl</segment>
+            <segment bytes="793372" number="14">1439435389.12436.14@reader.easyusenet.nl</segment>
+            <segment bytes="793466" number="15">1439435389.12811.15@reader.easyusenet.nl</segment>
+            <segment bytes="793380" number="16">1439435389.13685.16@reader.easyusenet.nl</segment>
+            <segment bytes="793402" number="17">1439435389.15314.17@reader.easyusenet.nl</segment>
+            <segment bytes="793402" number="18">1439435389.15745.18@reader.easyusenet.nl</segment>
+            <segment bytes="793464" number="19">1439435389.18874.19@reader.easyusenet.nl</segment>
+            <segment bytes="793412" number="20">1439435389.19772.20@reader.easyusenet.nl</segment>
+            <segment bytes="793567" number="21">1439435389.22177.21@reader.easyusenet.nl</segment>
+            <segment bytes="793338" number="22">1439435389.22811.22@reader.easyusenet.nl</segment>
+            <segment bytes="793037" number="23">1439435389.26649.23@reader.easyusenet.nl</segment>
+            <segment bytes="793117" number="24">1439435389.27008.24@reader.easyusenet.nl</segment>
+            <segment bytes="793307" number="25">1439435389.31268.25@reader.easyusenet.nl</segment>
+            <segment bytes="793397" number="26">1439435389.32042.26@reader.easyusenet.nl</segment>
+            <segment bytes="793202" number="27">1439435389.32536.27@reader.easyusenet.nl</segment>
+            <segment bytes="793432" number="28">1439435389.33326.28@reader.easyusenet.nl</segment>
+            <segment bytes="793292" number="29">1439435389.34051.29@reader.easyusenet.nl</segment>
+            <segment bytes="793194" number="30">1439435389.34457.30@reader.easyusenet.nl</segment>
+            <segment bytes="793639" number="31">1439435389.36496.31@reader.easyusenet.nl</segment>
+            <segment bytes="793567" number="32">1439435389.36891.32@reader.easyusenet.nl</segment>
+            <segment bytes="793406" number="33">1439435389.37642.33@reader.easyusenet.nl</segment>
+            <segment bytes="793587" number="34">1439435389.38104.34@reader.easyusenet.nl</segment>
+            <segment bytes="793520" number="35">1439435389.38664.35@reader.easyusenet.nl</segment>
+            <segment bytes="793391" number="36">1439435389.39598.36@reader.easyusenet.nl</segment>
+            <segment bytes="793482" number="37">1439435389.43752.37@reader.easyusenet.nl</segment>
+            <segment bytes="793452" number="38">1439435389.45203.38@reader.easyusenet.nl</segment>
+            <segment bytes="793401" number="39">1439435389.46907.39@reader.easyusenet.nl</segment>
+            <segment bytes="793473" number="40">1439435389.47821.40@reader.easyusenet.nl</segment>
+            <segment bytes="793326" number="41">1439435389.49260.41@reader.easyusenet.nl</segment>
+            <segment bytes="793291" number="42">1439435389.51419.42@reader.easyusenet.nl</segment>
+            <segment bytes="793300" number="43">1439435389.51813.43@reader.easyusenet.nl</segment>
+            <segment bytes="793504" number="44">1439435389.54033.44@reader.easyusenet.nl</segment>
+            <segment bytes="793394" number="45">1439435389.57828.45@reader.easyusenet.nl</segment>
+            <segment bytes="793441" number="46">1439435389.58228.46@reader.easyusenet.nl</segment>
+            <segment bytes="793253" number="47">1439435389.58592.47@reader.easyusenet.nl</segment>
+            <segment bytes="793567" number="48">1439435389.59003.48@reader.easyusenet.nl</segment>
+            <segment bytes="793017" number="49">1439435389.59366.49@reader.easyusenet.nl</segment>
+            <segment bytes="793462" number="50">1439435389.61050.50@reader.easyusenet.nl</segment>
+            <segment bytes="793453" number="51">1439435389.62449.51@reader.easyusenet.nl</segment>
+            <segment bytes="793287" number="52">1439435389.63211.52@reader.easyusenet.nl</segment>
+            <segment bytes="793434" number="53">1439435389.63608.53@reader.easyusenet.nl</segment>
+            <segment bytes="793259" number="54">1439435389.66820.54@reader.easyusenet.nl</segment>
+            <segment bytes="793425" number="55">1439435389.68090.55@reader.easyusenet.nl</segment>
+            <segment bytes="793176" number="56">1439435389.69293.56@reader.easyusenet.nl</segment>
+            <segment bytes="793513" number="57">1439435389.70105.57@reader.easyusenet.nl</segment>
+            <segment bytes="793335" number="58">1439435389.71508.58@reader.easyusenet.nl</segment>
+            <segment bytes="793362" number="59">1439435389.72312.59@reader.easyusenet.nl</segment>
+            <segment bytes="793334" number="60">1439435389.73180.60@reader.easyusenet.nl</segment>
+            <segment bytes="793525" number="61">1439435389.78051.61@reader.easyusenet.nl</segment>
+            <segment bytes="793451" number="62">1439435389.81003.62@reader.easyusenet.nl</segment>
+            <segment bytes="793269" number="63">1439435389.81380.63@reader.easyusenet.nl</segment>
+            <segment bytes="793503" number="64">1439435389.81978.64@reader.easyusenet.nl</segment>
+            <segment bytes="793393" number="65">1439435389.82370.65@reader.easyusenet.nl</segment>
+            <segment bytes="83575" number="66">1439435389.82751.66@reader.easyusenet.nl</segment>
+        </segments>
+    </file>
+    <file subject="[265047]-[FULL]-[#a.b.teevee@EFNet]-[ Mr.Robot.S01E08.REAL.720p.HDTV.x264-KILLERS ]-[17/33] - &quot;mr.robot.s01e08.real.720p.hdtv.x264-killers.r07&quot; yEnc (1/66)" poster="r@ndom.tv (r@ndom)" date="1439435390">
+        <groups>
+            <group>alt.binaries.teevee</group>
+        </groups>
+        <segments>
+            <segment bytes="793266" number="1">1439435389.82805.1@reader.easyusenet.nl</segment>
+            <segment bytes="793360" number="2">1439435389.85042.2@reader.easyusenet.nl</segment>
+            <segment bytes="793459" number="3">1439435389.85429.3@reader.easyusenet.nl</segment>
+            <segment bytes="793249" number="4">1439435389.86879.4@reader.easyusenet.nl</segment>
+            <segment bytes="793713" number="5">1439435389.87269.5@reader.easyusenet.nl</segment>
+            <segment bytes="793338" number="6">1439435389.87648.6@reader.easyusenet.nl</segment>
+            <segment bytes="793439" number="7">1439435389.88407.7@reader.easyusenet.nl</segment>
+            <segment bytes="793356" number="8">1439435389.89068.8@reader.easyusenet.nl</segment>
+            <segment bytes="793665" number="9">1439435389.89548.9@reader.easyusenet.nl</segment>
+            <segment bytes="793287" number="10">1439435389.90697.10@reader.easyusenet.nl</segment>
+            <segment bytes="793301" number="11">1439435389.93701.11@reader.easyusenet.nl</segment>
+            <segment bytes="793323" number="12">1439435389.95296.12@reader.easyusenet.nl</segment>
+            <segment bytes="793297" number="13">1439435389.96436.13@reader.easyusenet.nl</segment>
+            <segment bytes="793464" number="14">1439435390.00144.14@reader.easyusenet.nl</segment>
+            <segment bytes="793471" number="15">1439435390.01871.15@reader.easyusenet.nl</segment>
+            <segment bytes="793365" number="16">1439435390.02343.16@reader.easyusenet.nl</segment>
+            <segment bytes="793200" number="17">1439435390.03653.17@reader.easyusenet.nl</segment>
+            <segment bytes="793322" number="18">1439435390.04170.18@reader.easyusenet.nl</segment>
+            <segment bytes="793314" number="19">1439435390.05826.19@reader.easyusenet.nl</segment>
+            <segment bytes="793364" number="20">1439435390.06198.20@reader.easyusenet.nl</segment>
+            <segment bytes="793477" number="21">1439435390.07357.21@reader.easyusenet.nl</segment>
+            <segment bytes="793261" number="22">1439435390.09111.22@reader.easyusenet.nl</segment>
+            <segment bytes="793638" number="23">1439435390.10658.23@reader.easyusenet.nl</segment>
+            <segment bytes="793554" number="24">1439435390.11705.24@reader.easyusenet.nl</segment>
+            <segment bytes="793276" number="25">1439435390.13800.25@reader.easyusenet.nl</segment>
+            <segment bytes="793239" number="26">1439435390.15001.26@reader.easyusenet.nl</segment>
+            <segment bytes="793578" number="27">1439435390.16300.27@reader.easyusenet.nl</segment>
+            <segment bytes="793260" number="28">1439435390.16677.28@reader.easyusenet.nl</segment>
+            <segment bytes="793472" number="29">1439435390.17053.29@reader.easyusenet.nl</segment>
+            <segment bytes="793305" number="30">1439435390.18515.30@reader.easyusenet.nl</segment>
+            <segment bytes="793097" number="31">1439435390.20295.31@reader.easyusenet.nl</segment>
+            <segment bytes="793253" number="32">1439435390.22964.32@reader.easyusenet.nl</segment>
+            <segment bytes="793337" number="33">1439435390.23331.33@reader.easyusenet.nl</segment>
+            <segment bytes="793315" number="34">1439435390.25514.34@reader.easyusenet.nl</segment>
+            <segment bytes="793276" number="35">1439435390.28424.35@reader.easyusenet.nl</segment>
+            <segment bytes="793340" number="36">1439435390.31411.36@reader.easyusenet.nl</segment>
+            <segment bytes="793277" number="37">1439435390.32140.37@reader.easyusenet.nl</segment>
+            <segment bytes="793163" number="38">1439435390.33699.38@reader.easyusenet.nl</segment>
+            <segment bytes="793295" number="39">1439435390.34079.39@reader.easyusenet.nl</segment>
+            <segment bytes="793427" number="40">1439435390.35980.40@reader.easyusenet.nl</segment>
+            <segment bytes="793298" number="41">1439435390.37100.41@reader.easyusenet.nl</segment>
+            <segment bytes="793543" number="42">1439435390.37678.42@reader.easyusenet.nl</segment>
+            <segment bytes="793267" number="43">1439435390.40208.43@reader.easyusenet.nl</segment>
+            <segment bytes="793446" number="44">1439435390.42531.44@reader.easyusenet.nl</segment>
+            <segment bytes="793484" number="45">1439435390.43345.45@reader.easyusenet.nl</segment>
+            <segment bytes="793110" number="46">1439435390.43868.46@reader.easyusenet.nl</segment>
+            <segment bytes="793304" number="47">1439435390.44378.47@reader.easyusenet.nl</segment>
+            <segment bytes="793689" number="48">1439435390.44745.48@reader.easyusenet.nl</segment>
+            <segment bytes="793498" number="49">1439435390.46552.49@reader.easyusenet.nl</segment>
+            <segment bytes="793521" number="50">1439435390.47148.50@reader.easyusenet.nl</segment>
+            <segment bytes="793432" number="51">1439435390.49152.51@reader.easyusenet.nl</segment>
+            <segment bytes="793323" number="52">1439435390.55157.52@reader.easyusenet.nl</segment>
+            <segment bytes="793423" number="53">1439435390.55531.53@reader.easyusenet.nl</segment>
+            <segment bytes="793361" number="54">1439435390.55925.54@reader.easyusenet.nl</segment>
+            <segment bytes="793188" number="55">1439435390.57602.55@reader.easyusenet.nl</segment>
+            <segment bytes="793765" number="56">1439435390.58716.56@reader.easyusenet.nl</segment>
+            <segment bytes="793352" number="57">1439435390.59204.57@reader.easyusenet.nl</segment>
+            <segment bytes="793178" number="58">1439435390.61387.58@reader.easyusenet.nl</segment>
+            <segment bytes="793349" number="59">1439435390.61781.59@reader.easyusenet.nl</segment>
+            <segment bytes="793515" number="60">1439435390.62165.60@reader.easyusenet.nl</segment>
+            <segment bytes="793168" number="61">1439435390.64217.61@reader.easyusenet.nl</segment>
+            <segment bytes="793589" number="62">1439435390.64618.62@reader.easyusenet.nl</segment>
+            <segment bytes="793348" number="63">1439435390.65579.63@reader.easyusenet.nl</segment>
+            <segment bytes="793373" number="64">1439435390.65966.64@reader.easyusenet.nl</segment>
+            <segment bytes="793388" number="65">1439435390.66356.65@reader.easyusenet.nl</segment>
+            <segment bytes="83593" number="66">1439435390.66735.66@reader.easyusenet.nl</segment>
+        </segments>
+    </file>
+    <file subject="[265047]-[FULL]-[#a.b.teevee@EFNet]-[ Mr.Robot.S01E08.REAL.720p.HDTV.x264-KILLERS ]-[18/33] - &quot;mr.robot.s01e08.real.720p.hdtv.x264-killers.r08&quot; yEnc (1/66)" poster="r@ndom.tv (r@ndom)" date="1439435391">
+        <groups>
+            <group>alt.binaries.teevee</group>
+        </groups>
+        <segments>
+            <segment bytes="793084" number="1">1439435390.67683.1@reader.easyusenet.nl</segment>
+            <segment bytes="793262" number="2">1439435390.70095.2@reader.easyusenet.nl</segment>
+            <segment bytes="793229" number="3">1439435390.70482.3@reader.easyusenet.nl</segment>
+            <segment bytes="793223" number="4">1439435390.71417.4@reader.easyusenet.nl</segment>
+            <segment bytes="793215" number="5">1439435390.71809.5@reader.easyusenet.nl</segment>
+            <segment bytes="793661" number="6">1439435390.74466.6@reader.easyusenet.nl</segment>
+            <segment bytes="793437" number="7">1439435390.79528.7@reader.easyusenet.nl</segment>
+            <segment bytes="793419" number="8">1439435390.80096.8@reader.easyusenet.nl</segment>
+            <segment bytes="793528" number="9">1439435390.80595.9@reader.easyusenet.nl</segment>
+            <segment bytes="793089" number="10">1439435390.80997.10@reader.easyusenet.nl</segment>
+            <segment bytes="793526" number="11">1439435390.81825.11@reader.easyusenet.nl</segment>
+            <segment bytes="793362" number="12">1439435390.84097.12@reader.easyusenet.nl</segment>
+            <segment bytes="793597" number="13">1439435390.85340.13@reader.easyusenet.nl</segment>
+            <segment bytes="793563" number="14">1439435390.86941.14@reader.easyusenet.nl</segment>
+            <segment bytes="793261" number="15">1439435390.87316.15@reader.easyusenet.nl</segment>
+            <segment bytes="793346" number="16">1439435390.89370.16@reader.easyusenet.nl</segment>
+            <segment bytes="793268" number="17">1439435390.89760.17@reader.easyusenet.nl</segment>
+            <segment bytes="793466" number="18">1439435390.92595.18@reader.easyusenet.nl</segment>
+            <segment bytes="793414" number="19">1439435390.95506.19@reader.easyusenet.nl</segment>
+            <segment bytes="793498" number="20">1439435390.96126.20@reader.easyusenet.nl</segment>
+            <segment bytes="793566" number="21">1439435390.96695.21@reader.easyusenet.nl</segment>
+            <segment bytes="793376" number="22">1439435390.97080.22@reader.easyusenet.nl</segment>
+            <segment bytes="793582" number="23">1439435390.97453.23@reader.easyusenet.nl</segment>
+            <segment bytes="793375" number="24">1439435390.98659.24@reader.easyusenet.nl</segment>
+            <segment bytes="793503" number="25">1439435390.99054.25@reader.easyusenet.nl</segment>
+            <segment bytes="793551" number="26">1439435391.02049.26@reader.easyusenet.nl</segment>
+            <segment bytes="793375" number="27">1439435391.04292.27@reader.easyusenet.nl</segment>
+            <segment bytes="793505" number="28">1439435391.04680.28@reader.easyusenet.nl</segment>
+            <segment bytes="793681" number="29">1439435391.05048.29@reader.easyusenet.nl</segment>
+            <segment bytes="793318" number="30">1439435391.06583.30@reader.easyusenet.nl</segment>
+            <segment bytes="793217" number="31">1439435391.08159.31@reader.easyusenet.nl</segment>
+            <segment bytes="793384" number="32">1439435391.08537.32@reader.easyusenet.nl</segment>
+            <segment bytes="793371" number="33">1439435391.09526.33@reader.easyusenet.nl</segment>
+            <segment bytes="793366" number="34">1439435391.12166.34@reader.easyusenet.nl</segment>
+            <segment bytes="793419" number="35">1439435391.15778.35@reader.easyusenet.nl</segment>
+            <segment bytes="793419" number="36">1439435391.17270.36@reader.easyusenet.nl</segment>
+            <segment bytes="793612" number="37">1439435391.17646.37@reader.easyusenet.nl</segment>
+            <segment bytes="793590" number="38">1439435391.18011.38@reader.easyusenet.nl</segment>
+            <segment bytes="793428" number="39">1439435391.20695.39@reader.easyusenet.nl</segment>
+            <segment bytes="793604" number="40">1439435391.21269.40@reader.easyusenet.nl</segment>
+            <segment bytes="793587" number="41">1439435391.22523.41@reader.easyusenet.nl</segment>
+            <segment bytes="793646" number="42">1439435391.23881.42@reader.easyusenet.nl</segment>
+            <segment bytes="793586" number="43">1439435391.24453.43@reader.easyusenet.nl</segment>
+            <segment bytes="793035" number="44">1439435391.25251.44@reader.easyusenet.nl</segment>
+            <segment bytes="793423" number="45">1439435391.25842.45@reader.easyusenet.nl</segment>
+            <segment bytes="793484" number="46">1439435391.26216.46@reader.easyusenet.nl</segment>
+            <segment bytes="793359" number="47">1439435391.26849.47@reader.easyusenet.nl</segment>
+            <segment bytes="793296" number="48">1439435391.28212.48@reader.easyusenet.nl</segment>
+            <segment bytes="793481" number="49">1439435391.28801.49@reader.easyusenet.nl</segment>
+            <segment bytes="793375" number="50">1439435391.34412.50@reader.easyusenet.nl</segment>
+            <segment bytes="793383" number="51">1439435391.34805.51@reader.easyusenet.nl</segment>
+            <segment bytes="793622" number="52">1439435391.38115.52@reader.easyusenet.nl</segment>
+            <segment bytes="793238" number="53">1439435391.38974.53@reader.easyusenet.nl</segment>
+            <segment bytes="793335" number="54">1439435391.39958.54@reader.easyusenet.nl</segment>
+            <segment bytes="793489" number="55">1439435391.43587.55@reader.easyusenet.nl</segment>
+            <segment bytes="793344" number="56">1439435391.43981.56@reader.easyusenet.nl</segment>
+            <segment bytes="793417" number="57">1439435391.45578.57@reader.easyusenet.nl</segment>
+            <segment bytes="793391" number="58">1439435391.45956.58@reader.easyusenet.nl</segment>
+            <segment bytes="793378" number="59">1439435391.48050.59@reader.easyusenet.nl</segment>
+            <segment bytes="793530" number="60">1439435391.49042.60@reader.easyusenet.nl</segment>
+            <segment bytes="793358" number="61">1439435391.49494.61@reader.easyusenet.nl</segment>
+            <segment bytes="793456" number="62">1439435391.50116.62@reader.easyusenet.nl</segment>
+            <segment bytes="793310" number="63">1439435391.50499.63@reader.easyusenet.nl</segment>
+            <segment bytes="793354" number="64">1439435391.51005.64@reader.easyusenet.nl</segment>
+            <segment bytes="793309" number="65">1439435391.51976.65@reader.easyusenet.nl</segment>
+            <segment bytes="83609" number="66">1439435391.53422.66@reader.easyusenet.nl</segment>
+        </segments>
+    </file>
+    <file subject="[265047]-[FULL]-[#a.b.teevee@EFNet]-[ Mr.Robot.S01E08.REAL.720p.HDTV.x264-KILLERS ]-[19/33] - &quot;mr.robot.s01e08.real.720p.hdtv.x264-killers.r09&quot; yEnc (1/66)" poster="r@ndom.tv (r@ndom)" date="1439435392">
+        <groups>
+            <group>alt.binaries.teevee</group>
+        </groups>
+        <segments>
+            <segment bytes="793357" number="1">1439435391.55680.1@reader.easyusenet.nl</segment>
+            <segment bytes="793428" number="2">1439435391.56333.2@reader.easyusenet.nl</segment>
+            <segment bytes="793261" number="3">1439435391.57385.3@reader.easyusenet.nl</segment>
+            <segment bytes="793528" number="4">1439435391.59460.4@reader.easyusenet.nl</segment>
+            <segment bytes="793320" number="5">1439435391.61531.5@reader.easyusenet.nl</segment>
+            <segment bytes="793283" number="6">1439435391.64394.6@reader.easyusenet.nl</segment>
+            <segment bytes="793526" number="7">1439435391.64770.7@reader.easyusenet.nl</segment>
+            <segment bytes="793378" number="8">1439435391.71525.8@reader.easyusenet.nl</segment>
+            <segment bytes="793372" number="9">1439435391.71898.9@reader.easyusenet.nl</segment>
+            <segment bytes="793526" number="10">1439435391.73298.10@reader.easyusenet.nl</segment>
+            <segment bytes="793267" number="11">1439435391.73690.11@reader.easyusenet.nl</segment>
+            <segment bytes="793496" number="12">1439435391.74055.12@reader.easyusenet.nl</segment>
+            <segment bytes="793506" number="13">1439435391.74430.13@reader.easyusenet.nl</segment>
+            <segment bytes="793172" number="14">1439435391.74840.14@reader.easyusenet.nl</segment>
+            <segment bytes="793386" number="15">1439435391.75231.15@reader.easyusenet.nl</segment>
+            <segment bytes="793413" number="16">1439435391.75618.16@reader.easyusenet.nl</segment>
+            <segment bytes="793244" number="17">1439435391.77998.17@reader.easyusenet.nl</segment>
+            <segment bytes="793601" number="18">1439435391.78397.18@reader.easyusenet.nl</segment>
+            <segment bytes="793439" number="19">1439435391.78893.19@reader.easyusenet.nl</segment>
+            <segment bytes="793546" number="20">1439435391.79645.20@reader.easyusenet.nl</segment>
+            <segment bytes="793198" number="21">1439435391.80043.21@reader.easyusenet.nl</segment>
+            <segment bytes="793261" number="22">1439435391.80783.22@reader.easyusenet.nl</segment>
+            <segment bytes="793059" number="23">1439435391.83739.23@reader.easyusenet.nl</segment>
+            <segment bytes="793213" number="24">1439435391.84121.24@reader.easyusenet.nl</segment>
+            <segment bytes="793567" number="25">1439435391.84750.25@reader.easyusenet.nl</segment>
+            <segment bytes="793270" number="26">1439435391.86310.26@reader.easyusenet.nl</segment>
+            <segment bytes="793395" number="27">1439435391.86675.27@reader.easyusenet.nl</segment>
+            <segment bytes="793399" number="28">1439435391.91909.28@reader.easyusenet.nl</segment>
+            <segment bytes="793526" number="29">1439435391.93365.29@reader.easyusenet.nl</segment>
+            <segment bytes="793475" number="30">1439435391.96872.30@reader.easyusenet.nl</segment>
+            <segment bytes="793539" number="31">1439435391.97394.31@reader.easyusenet.nl</segment>
+            <segment bytes="793372" number="32">1439435391.99877.32@reader.easyusenet.nl</segment>
+            <segment bytes="793383" number="33">1439435392.00269.33@reader.easyusenet.nl</segment>
+            <segment bytes="793687" number="34">1439435392.00996.34@reader.easyusenet.nl</segment>
+            <segment bytes="793718" number="35">1439435392.01469.35@reader.easyusenet.nl</segment>
+            <segment bytes="793385" number="36">1439435392.01909.36@reader.easyusenet.nl</segment>
+            <segment bytes="793372" number="37">1439435392.02301.37@reader.easyusenet.nl</segment>
+            <segment bytes="793421" number="38">1439435392.05084.38@reader.easyusenet.nl</segment>
+            <segment bytes="793384" number="39">1439435392.05485.39@reader.easyusenet.nl</segment>
+            <segment bytes="793520" number="40">1439435392.05857.40@reader.easyusenet.nl</segment>
+            <segment bytes="793724" number="41">1439435392.06243.41@reader.easyusenet.nl</segment>
+            <segment bytes="793222" number="42">1439435392.08335.42@reader.easyusenet.nl</segment>
+            <segment bytes="793503" number="43">1439435392.08728.43@reader.easyusenet.nl</segment>
+            <segment bytes="793496" number="44">1439435392.09118.44@reader.easyusenet.nl</segment>
+            <segment bytes="793459" number="45">1439435392.13211.45@reader.easyusenet.nl</segment>
+            <segment bytes="793400" number="46">1439435392.13865.46@reader.easyusenet.nl</segment>
+            <segment bytes="793424" number="47">1439435392.15390.47@reader.easyusenet.nl</segment>
+            <segment bytes="793259" number="48">1439435392.17668.48@reader.easyusenet.nl</segment>
+            <segment bytes="793164" number="49">1439435392.21863.49@reader.easyusenet.nl</segment>
+            <segment bytes="793299" number="50">1439435392.22243.50@reader.easyusenet.nl</segment>
+            <segment bytes="793473" number="51">1439435392.23245.51@reader.easyusenet.nl</segment>
+            <segment bytes="793444" number="52">1439435392.23725.52@reader.easyusenet.nl</segment>
+            <segment bytes="793076" number="53">1439435392.24815.53@reader.easyusenet.nl</segment>
+            <segment bytes="793277" number="54">1439435392.25392.54@reader.easyusenet.nl</segment>
+            <segment bytes="793384" number="55">1439435392.25761.55@reader.easyusenet.nl</segment>
+            <segment bytes="793400" number="56">1439435392.30640.56@reader.easyusenet.nl</segment>
+            <segment bytes="793565" number="57">1439435392.31033.57@reader.easyusenet.nl</segment>
+            <segment bytes="793322" number="58">1439435392.31533.58@reader.easyusenet.nl</segment>
+            <segment bytes="793496" number="59">1439435392.32261.59@reader.easyusenet.nl</segment>
+            <segment bytes="793329" number="60">1439435392.33538.60@reader.easyusenet.nl</segment>
+            <segment bytes="793490" number="61">1439435392.34618.61@reader.easyusenet.nl</segment>
+            <segment bytes="793296" number="62">1439435392.35237.62@reader.easyusenet.nl</segment>
+            <segment bytes="793282" number="63">1439435392.35718.63@reader.easyusenet.nl</segment>
+            <segment bytes="793342" number="64">1439435392.36126.64@reader.easyusenet.nl</segment>
+            <segment bytes="793150" number="65">1439435392.36491.65@reader.easyusenet.nl</segment>
+            <segment bytes="83505" number="66">1439435392.37713.66@reader.easyusenet.nl</segment>
+        </segments>
+    </file>
+    <file subject="[265047]-[FULL]-[#a.b.teevee@EFNet]-[ Mr.Robot.S01E08.REAL.720p.HDTV.x264-KILLERS ]-[20/33] - &quot;mr.robot.s01e08.real.720p.hdtv.x264-killers.r10&quot; yEnc (1/66)" poster="r@ndom.tv (r@ndom)" date="1439435393">
+        <groups>
+            <group>alt.binaries.teevee</group>
+        </groups>
+        <segments>
+            <segment bytes="793265" number="1">1439435392.42349.1@reader.easyusenet.nl</segment>
+            <segment bytes="793485" number="2">1439435392.45187.2@reader.easyusenet.nl</segment>
+            <segment bytes="793249" number="3">1439435392.46103.3@reader.easyusenet.nl</segment>
+            <segment bytes="793311" number="4">1439435392.47341.4@reader.easyusenet.nl</segment>
+            <segment bytes="793196" number="5">1439435392.50280.5@reader.easyusenet.nl</segment>
+            <segment bytes="793398" number="6">1439435392.50676.6@reader.easyusenet.nl</segment>
+            <segment bytes="793466" number="7">1439435392.51063.7@reader.easyusenet.nl</segment>
+            <segment bytes="793372" number="8">1439435392.51438.8@reader.easyusenet.nl</segment>
+            <segment bytes="793456" number="9">1439435392.52053.9@reader.easyusenet.nl</segment>
+            <segment bytes="793532" number="10">1439435392.53054.10@reader.easyusenet.nl</segment>
+            <segment bytes="793391" number="11">1439435392.54999.11@reader.easyusenet.nl</segment>
+            <segment bytes="793540" number="12">1439435392.57527.12@reader.easyusenet.nl</segment>
+            <segment bytes="793587" number="13">1439435392.58691.13@reader.easyusenet.nl</segment>
+            <segment bytes="793249" number="14">1439435392.59667.14@reader.easyusenet.nl</segment>
+            <segment bytes="793342" number="15">1439435392.60248.15@reader.easyusenet.nl</segment>
+            <segment bytes="793276" number="16">1439435392.60628.16@reader.easyusenet.nl</segment>
+            <segment bytes="793257" number="17">1439435392.64268.17@reader.easyusenet.nl</segment>
+            <segment bytes="793167" number="18">1439435392.65770.18@reader.easyusenet.nl</segment>
+            <segment bytes="793411" number="19">1439435392.67156.19@reader.easyusenet.nl</segment>
+            <segment bytes="793384" number="20">1439435392.67549.20@reader.easyusenet.nl</segment>
+            <segment bytes="793373" number="21">1439435392.67943.21@reader.easyusenet.nl</segment>
+            <segment bytes="793444" number="22">1439435392.70181.22@reader.easyusenet.nl</segment>
+            <segment bytes="793446" number="23">1439435392.72016.23@reader.easyusenet.nl</segment>
+            <segment bytes="793500" number="24">1439435392.74756.24@reader.easyusenet.nl</segment>
+            <segment bytes="793571" number="25">1439435392.75760.25@reader.easyusenet.nl</segment>
+            <segment bytes="793108" number="26">1439435392.76140.26@reader.easyusenet.nl</segment>
+            <segment bytes="793392" number="27">1439435392.77244.27@reader.easyusenet.nl</segment>
+            <segment bytes="793208" number="28">1439435392.77625.28@reader.easyusenet.nl</segment>
+            <segment bytes="793312" number="29">1439435392.78755.29@reader.easyusenet.nl</segment>
+            <segment bytes="793132" number="30">1439435392.81548.30@reader.easyusenet.nl</segment>
+            <segment bytes="793402" number="31">1439435392.82518.31@reader.easyusenet.nl</segment>
+            <segment bytes="793452" number="32">1439435392.84565.32@reader.easyusenet.nl</segment>
+            <segment bytes="793677" number="33">1439435392.85153.33@reader.easyusenet.nl</segment>
+            <segment bytes="793380" number="34">1439435392.85545.34@reader.easyusenet.nl</segment>
+            <segment bytes="793475" number="35">1439435392.90174.35@reader.easyusenet.nl</segment>
+            <segment bytes="793394" number="36">1439435392.90622.36@reader.easyusenet.nl</segment>
+            <segment bytes="793633" number="37">1439435392.91793.37@reader.easyusenet.nl</segment>
+            <segment bytes="793432" number="38">1439435392.93621.38@reader.easyusenet.nl</segment>
+            <segment bytes="793513" number="39">1439435392.94029.39@reader.easyusenet.nl</segment>
+            <segment bytes="793470" number="40">1439435392.94392.40@reader.easyusenet.nl</segment>
+            <segment bytes="793359" number="41">1439435392.96312.41@reader.easyusenet.nl</segment>
+            <segment bytes="793333" number="42">1439435392.98888.42@reader.easyusenet.nl</segment>
+            <segment bytes="793275" number="43">1439435393.01302.43@reader.easyusenet.nl</segment>
+            <segment bytes="793619" number="44">1439435393.01709.44@reader.easyusenet.nl</segment>
+            <segment bytes="793484" number="45">1439435393.02072.45@reader.easyusenet.nl</segment>
+            <segment bytes="793442" number="46">1439435393.02485.46@reader.easyusenet.nl</segment>
+            <segment bytes="793271" number="47">1439435393.02851.47@reader.easyusenet.nl</segment>
+            <segment bytes="793441" number="48">1439435393.03227.48@reader.easyusenet.nl</segment>
+            <segment bytes="793593" number="49">1439435393.04375.49@reader.easyusenet.nl</segment>
+            <segment bytes="793486" number="50">1439435393.07285.50@reader.easyusenet.nl</segment>
+            <segment bytes="793570" number="51">1439435393.08157.51@reader.easyusenet.nl</segment>
+            <segment bytes="793485" number="52">1439435393.08841.52@reader.easyusenet.nl</segment>
+            <segment bytes="793386" number="53">1439435393.09222.53@reader.easyusenet.nl</segment>
+            <segment bytes="793614" number="54">1439435393.09616.54@reader.easyusenet.nl</segment>
+            <segment bytes="793526" number="55">1439435393.12476.55@reader.easyusenet.nl</segment>
+            <segment bytes="793683" number="56">1439435393.14558.56@reader.easyusenet.nl</segment>
+            <segment bytes="793609" number="57">1439435393.16609.57@reader.easyusenet.nl</segment>
+            <segment bytes="793283" number="58">1439435393.17001.58@reader.easyusenet.nl</segment>
+            <segment bytes="793517" number="59">1439435393.18357.59@reader.easyusenet.nl</segment>
+            <segment bytes="793288" number="60">1439435393.20398.60@reader.easyusenet.nl</segment>
+            <segment bytes="793577" number="61">1439435393.20814.61@reader.easyusenet.nl</segment>
+            <segment bytes="793480" number="62">1439435393.21203.62@reader.easyusenet.nl</segment>
+            <segment bytes="793179" number="63">1439435393.21799.63@reader.easyusenet.nl</segment>
+            <segment bytes="793042" number="64">1439435393.23817.64@reader.easyusenet.nl</segment>
+            <segment bytes="793678" number="65">1439435393.27152.65@reader.easyusenet.nl</segment>
+            <segment bytes="83627" number="66">1439435393.28409.66@reader.easyusenet.nl</segment>
+        </segments>
+    </file>
+    <file subject="[265047]-[FULL]-[#a.b.teevee@EFNet]-[ Mr.Robot.S01E08.REAL.720p.HDTV.x264-KILLERS ]-[21/33] - &quot;mr.robot.s01e08.real.720p.hdtv.x264-killers.r11&quot; yEnc (1/66)" poster="r@ndom.tv (r@ndom)" date="1439435394">
+        <groups>
+            <group>alt.binaries.teevee</group>
+        </groups>
+        <segments>
+            <segment bytes="793362" number="1">1439435393.28968.1@reader.easyusenet.nl</segment>
+            <segment bytes="793535" number="2">1439435393.29345.2@reader.easyusenet.nl</segment>
+            <segment bytes="793493" number="3">1439435393.29738.3@reader.easyusenet.nl</segment>
+            <segment bytes="793138" number="4">1439435393.30135.4@reader.easyusenet.nl</segment>
+            <segment bytes="793239" number="5">1439435393.32014.5@reader.easyusenet.nl</segment>
+            <segment bytes="793229" number="6">1439435393.32409.6@reader.easyusenet.nl</segment>
+            <segment bytes="793458" number="7">1439435393.33124.7@reader.easyusenet.nl</segment>
+            <segment bytes="793407" number="8">1439435393.35319.8@reader.easyusenet.nl</segment>
+            <segment bytes="793482" number="9">1439435393.35873.9@reader.easyusenet.nl</segment>
+            <segment bytes="793112" number="10">1439435393.39136.10@reader.easyusenet.nl</segment>
+            <segment bytes="793289" number="11">1439435393.42555.11@reader.easyusenet.nl</segment>
+            <segment bytes="793279" number="12">1439435393.42937.12@reader.easyusenet.nl</segment>
+            <segment bytes="793128" number="13">1439435393.43909.13@reader.easyusenet.nl</segment>
+            <segment bytes="793170" number="14">1439435393.45783.14@reader.easyusenet.nl</segment>
+            <segment bytes="793525" number="15">1439435393.48213.15@reader.easyusenet.nl</segment>
+            <segment bytes="793422" number="16">1439435393.48652.16@reader.easyusenet.nl</segment>
+            <segment bytes="793493" number="17">1439435393.51438.17@reader.easyusenet.nl</segment>
+            <segment bytes="793195" number="18">1439435393.52441.18@reader.easyusenet.nl</segment>
+            <segment bytes="793442" number="19">1439435393.54813.19@reader.easyusenet.nl</segment>
+            <segment bytes="793228" number="20">1439435393.55197.20@reader.easyusenet.nl</segment>
+            <segment bytes="793340" number="21">1439435393.55578.21@reader.easyusenet.nl</segment>
+            <segment bytes="793470" number="22">1439435393.55958.22@reader.easyusenet.nl</segment>
+            <segment bytes="793377" number="23">1439435393.56412.23@reader.easyusenet.nl</segment>
+            <segment bytes="793119" number="24">1439435393.58240.24@reader.easyusenet.nl</segment>
+            <segment bytes="793337" number="25">1439435393.58623.25@reader.easyusenet.nl</segment>
+            <segment bytes="793448" number="26">1439435393.59006.26@reader.easyusenet.nl</segment>
+            <segment bytes="793473" number="27">1439435393.59409.27@reader.easyusenet.nl</segment>
+            <segment bytes="793372" number="28">1439435393.59781.28@reader.easyusenet.nl</segment>
+            <segment bytes="793607" number="29">1439435393.65486.29@reader.easyusenet.nl</segment>
+            <segment bytes="793336" number="30">1439435393.68820.30@reader.easyusenet.nl</segment>
+            <segment bytes="793185" number="31">1439435393.71164.31@reader.easyusenet.nl</segment>
+            <segment bytes="793360" number="32">1439435393.73300.32@reader.easyusenet.nl</segment>
+            <segment bytes="793108" number="33">1439435393.73778.33@reader.easyusenet.nl</segment>
+            <segment bytes="793318" number="34">1439435393.74155.34@reader.easyusenet.nl</segment>
+            <segment bytes="793370" number="35">1439435393.74929.35@reader.easyusenet.nl</segment>
+            <segment bytes="793462" number="36">1439435393.75528.36@reader.easyusenet.nl</segment>
+            <segment bytes="793389" number="37">1439435393.77785.37@reader.easyusenet.nl</segment>
+            <segment bytes="793061" number="38">1439435393.80862.38@reader.easyusenet.nl</segment>
+            <segment bytes="793300" number="39">1439435393.82580.39@reader.easyusenet.nl</segment>
+            <segment bytes="793238" number="40">1439435393.82956.40@reader.easyusenet.nl</segment>
+            <segment bytes="793257" number="41">1439435393.83971.41@reader.easyusenet.nl</segment>
+            <segment bytes="793400" number="42">1439435393.84712.42@reader.easyusenet.nl</segment>
+            <segment bytes="793421" number="43">1439435393.85553.43@reader.easyusenet.nl</segment>
+            <segment bytes="793204" number="44">1439435393.85943.44@reader.easyusenet.nl</segment>
+            <segment bytes="793335" number="45">1439435393.86304.45@reader.easyusenet.nl</segment>
+            <segment bytes="793242" number="46">1439435393.86705.46@reader.easyusenet.nl</segment>
+            <segment bytes="793386" number="47">1439435393.89309.47@reader.easyusenet.nl</segment>
+            <segment bytes="793246" number="48">1439435393.89742.48@reader.easyusenet.nl</segment>
+            <segment bytes="793330" number="49">1439435393.90116.49@reader.easyusenet.nl</segment>
+            <segment bytes="793502" number="50">1439435393.90520.50@reader.easyusenet.nl</segment>
+            <segment bytes="793347" number="51">1439435393.92072.51@reader.easyusenet.nl</segment>
+            <segment bytes="793245" number="52">1439435393.94431.52@reader.easyusenet.nl</segment>
+            <segment bytes="793415" number="53">1439435394.00718.53@reader.easyusenet.nl</segment>
+            <segment bytes="793100" number="54">1439435394.02302.54@reader.easyusenet.nl</segment>
+            <segment bytes="793351" number="55">1439435394.02680.55@reader.easyusenet.nl</segment>
+            <segment bytes="793531" number="56">1439435394.05242.56@reader.easyusenet.nl</segment>
+            <segment bytes="793368" number="57">1439435394.05618.57@reader.easyusenet.nl</segment>
+            <segment bytes="793291" number="58">1439435394.07880.58@reader.easyusenet.nl</segment>
+            <segment bytes="793293" number="59">1439435394.08263.59@reader.easyusenet.nl</segment>
+            <segment bytes="793456" number="60">1439435394.10273.60@reader.easyusenet.nl</segment>
+            <segment bytes="793318" number="61">1439435394.12019.61@reader.easyusenet.nl</segment>
+            <segment bytes="793422" number="62">1439435394.12661.62@reader.easyusenet.nl</segment>
+            <segment bytes="793245" number="63">1439435394.14770.63@reader.easyusenet.nl</segment>
+            <segment bytes="793403" number="64">1439435394.15184.64@reader.easyusenet.nl</segment>
+            <segment bytes="793441" number="65">1439435394.15561.65@reader.easyusenet.nl</segment>
+            <segment bytes="83401" number="66">1439435394.15960.66@reader.easyusenet.nl</segment>
+        </segments>
+    </file>
+    <file subject="[265047]-[FULL]-[#a.b.teevee@EFNet]-[ Mr.Robot.S01E08.REAL.720p.HDTV.x264-KILLERS ]-[22/33] - &quot;mr.robot.s01e08.real.720p.hdtv.x264-killers.r12&quot; yEnc (1/66)" poster="r@ndom.tv (r@ndom)" date="1439435395">
+        <groups>
+            <group>alt.binaries.teevee</group>
+        </groups>
+        <segments>
+            <segment bytes="793251" number="1">1439435394.16015.1@reader.easyusenet.nl</segment>
+            <segment bytes="793124" number="2">1439435394.19203.2@reader.easyusenet.nl</segment>
+            <segment bytes="793203" number="3">1439435394.20306.3@reader.easyusenet.nl</segment>
+            <segment bytes="793422" number="4">1439435394.20681.4@reader.easyusenet.nl</segment>
+            <segment bytes="793492" number="5">1439435394.21065.5@reader.easyusenet.nl</segment>
+            <segment bytes="793451" number="6">1439435394.21793.6@reader.easyusenet.nl</segment>
+            <segment bytes="793403" number="7">1439435394.24770.7@reader.easyusenet.nl</segment>
+            <segment bytes="793410" number="8">1439435394.25875.8@reader.easyusenet.nl</segment>
+            <segment bytes="793402" number="9">1439435394.26483.9@reader.easyusenet.nl</segment>
+            <segment bytes="793448" number="10">1439435394.26876.10@reader.easyusenet.nl</segment>
+            <segment bytes="793475" number="11">1439435394.28769.11@reader.easyusenet.nl</segment>
+            <segment bytes="793407" number="12">1439435394.30439.12@reader.easyusenet.nl</segment>
+            <segment bytes="793506" number="13">1439435394.31570.13@reader.easyusenet.nl</segment>
+            <segment bytes="793073" number="14">1439435394.32271.14@reader.easyusenet.nl</segment>
+            <segment bytes="793316" number="15">1439435394.32661.15@reader.easyusenet.nl</segment>
+            <segment bytes="793299" number="16">1439435394.33840.16@reader.easyusenet.nl</segment>
+            <segment bytes="793048" number="17">1439435394.36773.17@reader.easyusenet.nl</segment>
+            <segment bytes="793378" number="18">1439435394.38306.18@reader.easyusenet.nl</segment>
+            <segment bytes="793217" number="19">1439435394.38678.19@reader.easyusenet.nl</segment>
+            <segment bytes="793172" number="20">1439435394.40534.20@reader.easyusenet.nl</segment>
+            <segment bytes="793429" number="21">1439435394.41224.21@reader.easyusenet.nl</segment>
+            <segment bytes="793172" number="22">1439435394.44562.22@reader.easyusenet.nl</segment>
+            <segment bytes="793233" number="23">1439435394.45597.23@reader.easyusenet.nl</segment>
+            <segment bytes="793295" number="24">1439435394.46609.24@reader.easyusenet.nl</segment>
+            <segment bytes="793364" number="25">1439435394.47744.25@reader.easyusenet.nl</segment>
+            <segment bytes="793341" number="26">1439435394.48131.26@reader.easyusenet.nl</segment>
+            <segment bytes="793173" number="27">1439435394.49289.27@reader.easyusenet.nl</segment>
+            <segment bytes="793433" number="28">1439435394.50710.28@reader.easyusenet.nl</segment>
+            <segment bytes="793349" number="29">1439435394.51914.29@reader.easyusenet.nl</segment>
+            <segment bytes="793140" number="30">1439435394.54179.30@reader.easyusenet.nl</segment>
+            <segment bytes="793125" number="31">1439435394.56022.31@reader.easyusenet.nl</segment>
+            <segment bytes="793340" number="32">1439435394.56404.32@reader.easyusenet.nl</segment>
+            <segment bytes="793312" number="33">1439435394.57282.33@reader.easyusenet.nl</segment>
+            <segment bytes="793112" number="34">1439435394.57667.34@reader.easyusenet.nl</segment>
+            <segment bytes="793385" number="35">1439435394.59446.35@reader.easyusenet.nl</segment>
+            <segment bytes="793300" number="36">1439435394.62311.36@reader.easyusenet.nl</segment>
+            <segment bytes="793229" number="37">1439435394.64358.37@reader.easyusenet.nl</segment>
+            <segment bytes="793172" number="38">1439435394.67210.38@reader.easyusenet.nl</segment>
+            <segment bytes="793393" number="39">1439435394.67606.39@reader.easyusenet.nl</segment>
+            <segment bytes="793531" number="40">1439435394.67988.40@reader.easyusenet.nl</segment>
+            <segment bytes="793426" number="41">1439435394.69526.41@reader.easyusenet.nl</segment>
+            <segment bytes="793401" number="42">1439435394.69906.42@reader.easyusenet.nl</segment>
+            <segment bytes="793157" number="43">1439435394.70597.43@reader.easyusenet.nl</segment>
+            <segment bytes="793487" number="44">1439435394.72771.44@reader.easyusenet.nl</segment>
+            <segment bytes="793416" number="45">1439435394.73501.45@reader.easyusenet.nl</segment>
+            <segment bytes="793584" number="46">1439435394.73879.46@reader.easyusenet.nl</segment>
+            <segment bytes="793473" number="47">1439435394.74251.47@reader.easyusenet.nl</segment>
+            <segment bytes="793326" number="48">1439435394.75915.48@reader.easyusenet.nl</segment>
+            <segment bytes="793304" number="49">1439435394.77981.49@reader.easyusenet.nl</segment>
+            <segment bytes="793310" number="50">1439435394.78365.50@reader.easyusenet.nl</segment>
+            <segment bytes="793137" number="51">1439435394.79845.51@reader.easyusenet.nl</segment>
+            <segment bytes="793509" number="52">1439435394.84798.52@reader.easyusenet.nl</segment>
+            <segment bytes="793544" number="53">1439435394.88068.53@reader.easyusenet.nl</segment>
+            <segment bytes="793285" number="54">1439435394.88624.54@reader.easyusenet.nl</segment>
+            <segment bytes="793478" number="55">1439435394.89593.55@reader.easyusenet.nl</segment>
+            <segment bytes="793363" number="56">1439435394.89999.56@reader.easyusenet.nl</segment>
+            <segment bytes="793425" number="57">1439435394.94045.57@reader.easyusenet.nl</segment>
+            <segment bytes="793155" number="58">1439435394.94429.58@reader.easyusenet.nl</segment>
+            <segment bytes="793237" number="59">1439435394.95623.59@reader.easyusenet.nl</segment>
+            <segment bytes="793500" number="60">1439435394.95999.60@reader.easyusenet.nl</segment>
+            <segment bytes="793293" number="61">1439435394.96374.61@reader.easyusenet.nl</segment>
+            <segment bytes="793419" number="62">1439435394.96756.62@reader.easyusenet.nl</segment>
+            <segment bytes="793170" number="63">1439435394.97123.63@reader.easyusenet.nl</segment>
+            <segment bytes="793261" number="64">1439435394.97488.64@reader.easyusenet.nl</segment>
+            <segment bytes="793386" number="65">1439435394.97890.65@reader.easyusenet.nl</segment>
+            <segment bytes="83606" number="66">1439435394.98652.66@reader.easyusenet.nl</segment>
+        </segments>
+    </file>
+    <file subject="[265047]-[FULL]-[#a.b.teevee@EFNet]-[ Mr.Robot.S01E08.REAL.720p.HDTV.x264-KILLERS ]-[23/33] - &quot;mr.robot.s01e08.real.720p.hdtv.x264-killers.r13&quot; yEnc (1/66)" poster="r@ndom.tv (r@ndom)" date="1439435395">
+        <groups>
+            <group>alt.binaries.teevee</group>
+        </groups>
+        <segments>
+            <segment bytes="793452" number="1">1439435394.99896.1@reader.easyusenet.nl</segment>
+            <segment bytes="793544" number="2">1439435395.02042.2@reader.easyusenet.nl</segment>
+            <segment bytes="793187" number="3">1439435395.02716.3@reader.easyusenet.nl</segment>
+            <segment bytes="793304" number="4">1439435395.03882.4@reader.easyusenet.nl</segment>
+            <segment bytes="793408" number="5">1439435395.05390.5@reader.easyusenet.nl</segment>
+            <segment bytes="793341" number="6">1439435395.06035.6@reader.easyusenet.nl</segment>
+            <segment bytes="793268" number="7">1439435395.12017.7@reader.easyusenet.nl</segment>
+            <segment bytes="793302" number="8">1439435395.13754.8@reader.easyusenet.nl</segment>
+            <segment bytes="793258" number="9">1439435395.14626.9@reader.easyusenet.nl</segment>
+            <segment bytes="793322" number="10">1439435395.18368.10@reader.easyusenet.nl</segment>
+            <segment bytes="793314" number="11">1439435395.19995.11@reader.easyusenet.nl</segment>
+            <segment bytes="793402" number="12">1439435395.20370.12@reader.easyusenet.nl</segment>
+            <segment bytes="793240" number="13">1439435395.21432.13@reader.easyusenet.nl</segment>
+            <segment bytes="793242" number="14">1439435395.21827.14@reader.easyusenet.nl</segment>
+            <segment bytes="793286" number="15">1439435395.22187.15@reader.easyusenet.nl</segment>
+            <segment bytes="793332" number="16">1439435395.23061.16@reader.easyusenet.nl</segment>
+            <segment bytes="793145" number="17">1439435395.24254.17@reader.easyusenet.nl</segment>
+            <segment bytes="793324" number="18">1439435395.24643.18@reader.easyusenet.nl</segment>
+            <segment bytes="793558" number="19">1439435395.25236.19@reader.easyusenet.nl</segment>
+            <segment bytes="793263" number="20">1439435395.26454.20@reader.easyusenet.nl</segment>
+            <segment bytes="793106" number="21">1439435395.27092.21@reader.easyusenet.nl</segment>
+            <segment bytes="793199" number="22">1439435395.28009.22@reader.easyusenet.nl</segment>
+            <segment bytes="793230" number="23">1439435395.33219.23@reader.easyusenet.nl</segment>
+            <segment bytes="793081" number="24">1439435395.34076.24@reader.easyusenet.nl</segment>
+            <segment bytes="793319" number="25">1439435395.35495.25@reader.easyusenet.nl</segment>
+            <segment bytes="793413" number="26">1439435395.37937.26@reader.easyusenet.nl</segment>
+            <segment bytes="793360" number="27">1439435395.39744.27@reader.easyusenet.nl</segment>
+            <segment bytes="793678" number="28">1439435395.40151.28@reader.easyusenet.nl</segment>
+            <segment bytes="793363" number="29">1439435395.40515.29@reader.easyusenet.nl</segment>
+            <segment bytes="793531" number="30">1439435395.41837.30@reader.easyusenet.nl</segment>
+            <segment bytes="793528" number="31">1439435395.42714.31@reader.easyusenet.nl</segment>
+            <segment bytes="793500" number="32">1439435395.43100.32@reader.easyusenet.nl</segment>
+            <segment bytes="793534" number="33">1439435395.45003.33@reader.easyusenet.nl</segment>
+            <segment bytes="793396" number="34">1439435395.46061.34@reader.easyusenet.nl</segment>
+            <segment bytes="793207" number="35">1439435395.47445.35@reader.easyusenet.nl</segment>
+            <segment bytes="793428" number="36">1439435395.48571.36@reader.easyusenet.nl</segment>
+            <segment bytes="793213" number="37">1439435395.49013.37@reader.easyusenet.nl</segment>
+            <segment bytes="793474" number="38">1439435395.49394.38@reader.easyusenet.nl</segment>
+            <segment bytes="793263" number="39">1439435395.49794.39@reader.easyusenet.nl</segment>
+            <segment bytes="793345" number="40">1439435395.50186.40@reader.easyusenet.nl</segment>
+            <segment bytes="793425" number="41">1439435395.53845.41@reader.easyusenet.nl</segment>
+            <segment bytes="793313" number="42">1439435395.54238.42@reader.easyusenet.nl</segment>
+            <segment bytes="793544" number="43">1439435395.58402.43@reader.easyusenet.nl</segment>
+            <segment bytes="793390" number="44">1439435395.60107.44@reader.easyusenet.nl</segment>
+            <segment bytes="793386" number="45">1439435395.60486.45@reader.easyusenet.nl</segment>
+            <segment bytes="793369" number="46">1439435395.61074.46@reader.easyusenet.nl</segment>
+            <segment bytes="793378" number="47">1439435395.62456.47@reader.easyusenet.nl</segment>
+            <segment bytes="793364" number="48">1439435395.63330.48@reader.easyusenet.nl</segment>
+            <segment bytes="793552" number="49">1439435395.64870.49@reader.easyusenet.nl</segment>
+            <segment bytes="793382" number="50">1439435395.65358.50@reader.easyusenet.nl</segment>
+            <segment bytes="793300" number="51">1439435395.66130.51@reader.easyusenet.nl</segment>
+            <segment bytes="793272" number="52">1439435395.66519.52@reader.easyusenet.nl</segment>
+            <segment bytes="793512" number="53">1439435395.71038.53@reader.easyusenet.nl</segment>
+            <segment bytes="793500" number="54">1439435395.76115.54@reader.easyusenet.nl</segment>
+            <segment bytes="793382" number="55">1439435395.78238.55@reader.easyusenet.nl</segment>
+            <segment bytes="793272" number="56">1439435395.78625.56@reader.easyusenet.nl</segment>
+            <segment bytes="793473" number="57">1439435395.79024.57@reader.easyusenet.nl</segment>
+            <segment bytes="793525" number="58">1439435395.80084.58@reader.easyusenet.nl</segment>
+            <segment bytes="793547" number="59">1439435395.81206.59@reader.easyusenet.nl</segment>
+            <segment bytes="793632" number="60">1439435395.81571.60@reader.easyusenet.nl</segment>
+            <segment bytes="793290" number="61">1439435395.82777.61@reader.easyusenet.nl</segment>
+            <segment bytes="793253" number="62">1439435395.83152.62@reader.easyusenet.nl</segment>
+            <segment bytes="793660" number="63">1439435395.83528.63@reader.easyusenet.nl</segment>
+            <segment bytes="793503" number="64">1439435395.85580.64@reader.easyusenet.nl</segment>
+            <segment bytes="793326" number="65">1439435395.89277.65@reader.easyusenet.nl</segment>
+            <segment bytes="83528" number="66">1439435395.93225.66@reader.easyusenet.nl</segment>
+        </segments>
+    </file>
+    <file subject="[265047]-[FULL]-[#a.b.teevee@EFNet]-[ Mr.Robot.S01E08.REAL.720p.HDTV.x264-KILLERS ]-[24/33] - &quot;mr.robot.s01e08.real.720p.hdtv.x264-killers.r14&quot; yEnc (1/54)" poster="r@ndom.tv (r@ndom)" date="1439435396">
+        <groups>
+            <group>alt.binaries.teevee</group>
+        </groups>
+        <segments>
+            <segment bytes="793425" number="1">1439435395.94451.1@reader.easyusenet.nl</segment>
+            <segment bytes="793286" number="2">1439435395.95725.2@reader.easyusenet.nl</segment>
+            <segment bytes="793413" number="3">1439435395.96104.3@reader.easyusenet.nl</segment>
+            <segment bytes="793436" number="4">1439435395.96555.4@reader.easyusenet.nl</segment>
+            <segment bytes="793492" number="5">1439435395.96946.5@reader.easyusenet.nl</segment>
+            <segment bytes="793497" number="6">1439435395.98868.6@reader.easyusenet.nl</segment>
+            <segment bytes="793530" number="7">1439435395.99264.7@reader.easyusenet.nl</segment>
+            <segment bytes="793347" number="8">1439435395.99653.8@reader.easyusenet.nl</segment>
+            <segment bytes="793344" number="9">1439435396.00038.9@reader.easyusenet.nl</segment>
+            <segment bytes="793556" number="10">1439435396.00446.10@reader.easyusenet.nl</segment>
+            <segment bytes="793295" number="11">1439435396.02566.11@reader.easyusenet.nl</segment>
+            <segment bytes="793217" number="12">1439435396.04280.12@reader.easyusenet.nl</segment>
+            <segment bytes="793187" number="13">1439435396.04675.13@reader.easyusenet.nl</segment>
+            <segment bytes="793627" number="14">1439435396.08963.14@reader.easyusenet.nl</segment>
+            <segment bytes="793676" number="15">1439435396.10143.15@reader.easyusenet.nl</segment>
+            <segment bytes="793349" number="16">1439435396.11589.16@reader.easyusenet.nl</segment>
+            <segment bytes="793296" number="17">1439435396.11976.17@reader.easyusenet.nl</segment>
+            <segment bytes="793596" number="18">1439435396.12344.18@reader.easyusenet.nl</segment>
+            <segment bytes="793316" number="19">1439435396.12756.19@reader.easyusenet.nl</segment>
+            <segment bytes="793356" number="20">1439435396.13816.20@reader.easyusenet.nl</segment>
+            <segment bytes="793119" number="21">1439435396.14877.21@reader.easyusenet.nl</segment>
+            <segment bytes="793177" number="22">1439435396.16378.22@reader.easyusenet.nl</segment>
+            <segment bytes="793276" number="23">1439435396.17161.23@reader.easyusenet.nl</segment>
+            <segment bytes="793335" number="24">1439435396.22255.24@reader.easyusenet.nl</segment>
+            <segment bytes="793286" number="25">1439435396.22647.25@reader.easyusenet.nl</segment>
+            <segment bytes="793443" number="26">1439435396.23160.26@reader.easyusenet.nl</segment>
+            <segment bytes="793371" number="27">1439435396.23610.27@reader.easyusenet.nl</segment>
+            <segment bytes="793376" number="28">1439435396.25575.28@reader.easyusenet.nl</segment>
+            <segment bytes="793182" number="29">1439435396.25986.29@reader.easyusenet.nl</segment>
+            <segment bytes="793423" number="30">1439435396.27219.30@reader.easyusenet.nl</segment>
+            <segment bytes="793383" number="31">1439435396.28266.31@reader.easyusenet.nl</segment>
+            <segment bytes="793511" number="32">1439435396.31012.32@reader.easyusenet.nl</segment>
+            <segment bytes="793339" number="33">1439435396.32483.33@reader.easyusenet.nl</segment>
+            <segment bytes="793463" number="34">1439435396.34705.34@reader.easyusenet.nl</segment>
+            <segment bytes="793272" number="35">1439435396.35109.35@reader.easyusenet.nl</segment>
+            <segment bytes="793381" number="36">1439435396.35479.36@reader.easyusenet.nl</segment>
+            <segment bytes="793372" number="37">1439435396.35936.37@reader.easyusenet.nl</segment>
+            <segment bytes="793048" number="38">1439435396.36318.38@reader.easyusenet.nl</segment>
+            <segment bytes="793219" number="39">1439435396.37109.39@reader.easyusenet.nl</segment>
+            <segment bytes="793305" number="40">1439435396.37512.40@reader.easyusenet.nl</segment>
+            <segment bytes="793379" number="41">1439435396.38814.41@reader.easyusenet.nl</segment>
+            <segment bytes="793511" number="42">1439435396.44447.42@reader.easyusenet.nl</segment>
+            <segment bytes="793288" number="43">1439435396.44831.43@reader.easyusenet.nl</segment>
+            <segment bytes="793342" number="44">1439435396.45669.44@reader.easyusenet.nl</segment>
+            <segment bytes="793084" number="45">1439435396.46457.45@reader.easyusenet.nl</segment>
+            <segment bytes="793244" number="46">1439435396.48291.46@reader.easyusenet.nl</segment>
+            <segment bytes="793441" number="47">1439435396.50916.47@reader.easyusenet.nl</segment>
+            <segment bytes="793418" number="48">1439435396.54529.48@reader.easyusenet.nl</segment>
+            <segment bytes="793430" number="49">1439435396.54912.49@reader.easyusenet.nl</segment>
+            <segment bytes="793348" number="50">1439435396.57404.50@reader.easyusenet.nl</segment>
+            <segment bytes="793354" number="51">1439435396.58356.51@reader.easyusenet.nl</segment>
+            <segment bytes="793448" number="52">1439435396.59520.52@reader.easyusenet.nl</segment>
+            <segment bytes="793210" number="53">1439435396.59901.53@reader.easyusenet.nl</segment>
+            <segment bytes="310611" number="54">1439435396.61049.54@reader.easyusenet.nl</segment>
+        </segments>
+    </file>
+    <file subject="[265047]-[FULL]-[#a.b.teevee@EFNet]-[ Mr.Robot.S01E08.REAL.720p.HDTV.x264-KILLERS ]-[25/33] - &quot;mr.robot.s01e08.real.720p.hdtv.x264-killers.rar&quot; yEnc (1/66)" poster="r@ndom.tv (r@ndom)" date="1439435397">
+        <groups>
+            <group>alt.binaries.teevee</group>
+        </groups>
+        <segments>
+            <segment bytes="793346" number="1">1439435396.62217.1@reader.easyusenet.nl</segment>
+            <segment bytes="793415" number="2">1439435396.62599.2@reader.easyusenet.nl</segment>
+            <segment bytes="793342" number="3">1439435396.62964.3@reader.easyusenet.nl</segment>
+            <segment bytes="793340" number="4">1439435396.63353.4@reader.easyusenet.nl</segment>
+            <segment bytes="793295" number="5">1439435396.64265.5@reader.easyusenet.nl</segment>
+            <segment bytes="793459" number="6">1439435396.65246.6@reader.easyusenet.nl</segment>
+            <segment bytes="793294" number="7">1439435396.65705.7@reader.easyusenet.nl</segment>
+            <segment bytes="793385" number="8">1439435396.68692.8@reader.easyusenet.nl</segment>
+            <segment bytes="793115" number="9">1439435396.70011.9@reader.easyusenet.nl</segment>
+            <segment bytes="793275" number="10">1439435396.70566.10@reader.easyusenet.nl</segment>
+            <segment bytes="793375" number="11">1439435396.70981.11@reader.easyusenet.nl</segment>
+            <segment bytes="793484" number="12">1439435396.71376.12@reader.easyusenet.nl</segment>
+            <segment bytes="793493" number="13">1439435396.73002.13@reader.easyusenet.nl</segment>
+            <segment bytes="793382" number="14">1439435396.82693.14@reader.easyusenet.nl</segment>
+            <segment bytes="793480" number="15">1439435396.83075.15@reader.easyusenet.nl</segment>
+            <segment bytes="793448" number="16">1439435396.85569.16@reader.easyusenet.nl</segment>
+            <segment bytes="793387" number="17">1439435396.86927.17@reader.easyusenet.nl</segment>
+            <segment bytes="793221" number="18">1439435396.88591.18@reader.easyusenet.nl</segment>
+            <segment bytes="793433" number="19">1439435396.88980.19@reader.easyusenet.nl</segment>
+            <segment bytes="793323" number="20">1439435396.89344.20@reader.easyusenet.nl</segment>
+            <segment bytes="793400" number="21">1439435396.89713.21@reader.easyusenet.nl</segment>
+            <segment bytes="793311" number="22">1439435396.90110.22@reader.easyusenet.nl</segment>
+            <segment bytes="793270" number="23">1439435396.91341.23@reader.easyusenet.nl</segment>
+            <segment bytes="793433" number="24">1439435396.93205.24@reader.easyusenet.nl</segment>
+            <segment bytes="793364" number="25">1439435396.93587.25@reader.easyusenet.nl</segment>
+            <segment bytes="793229" number="26">1439435396.94803.26@reader.easyusenet.nl</segment>
+            <segment bytes="793438" number="27">1439435396.95174.27@reader.easyusenet.nl</segment>
+            <segment bytes="793527" number="28">1439435396.96507.28@reader.easyusenet.nl</segment>
+            <segment bytes="793290" number="29">1439435396.96909.29@reader.easyusenet.nl</segment>
+            <segment bytes="793553" number="30">1439435396.97366.30@reader.easyusenet.nl</segment>
+            <segment bytes="793366" number="31">1439435396.98500.31@reader.easyusenet.nl</segment>
+            <segment bytes="793162" number="32">1439435397.01630.32@reader.easyusenet.nl</segment>
+            <segment bytes="793381" number="33">1439435397.02019.33@reader.easyusenet.nl</segment>
+            <segment bytes="793646" number="34">1439435397.02374.34@reader.easyusenet.nl</segment>
+            <segment bytes="793181" number="35">1439435397.03944.35@reader.easyusenet.nl</segment>
+            <segment bytes="793311" number="36">1439435397.07695.36@reader.easyusenet.nl</segment>
+            <segment bytes="793324" number="37">1439435397.12298.37@reader.easyusenet.nl</segment>
+            <segment bytes="793224" number="38">1439435397.12858.38@reader.easyusenet.nl</segment>
+            <segment bytes="793459" number="39">1439435397.13245.39@reader.easyusenet.nl</segment>
+            <segment bytes="793164" number="40">1439435397.13620.40@reader.easyusenet.nl</segment>
+            <segment bytes="793321" number="41">1439435397.15148.41@reader.easyusenet.nl</segment>
+            <segment bytes="793301" number="42">1439435397.16197.42@reader.easyusenet.nl</segment>
+            <segment bytes="793158" number="43">1439435397.18336.43@reader.easyusenet.nl</segment>
+            <segment bytes="793361" number="44">1439435397.20266.44@reader.easyusenet.nl</segment>
+            <segment bytes="793255" number="45">1439435397.20670.45@reader.easyusenet.nl</segment>
+            <segment bytes="793400" number="46">1439435397.21083.46@reader.easyusenet.nl</segment>
+            <segment bytes="793485" number="47">1439435397.21945.47@reader.easyusenet.nl</segment>
+            <segment bytes="793309" number="48">1439435397.22321.48@reader.easyusenet.nl</segment>
+            <segment bytes="793645" number="49">1439435397.23152.49@reader.easyusenet.nl</segment>
+            <segment bytes="793497" number="50">1439435397.27011.50@reader.easyusenet.nl</segment>
+            <segment bytes="793337" number="51">1439435397.32900.51@reader.easyusenet.nl</segment>
+            <segment bytes="793150" number="52">1439435397.33292.52@reader.easyusenet.nl</segment>
+            <segment bytes="793380" number="53">1439435397.35364.53@reader.easyusenet.nl</segment>
+            <segment bytes="793289" number="54">1439435397.36195.54@reader.easyusenet.nl</segment>
+            <segment bytes="793256" number="55">1439435397.36774.55@reader.easyusenet.nl</segment>
+            <segment bytes="793491" number="56">1439435397.37158.56@reader.easyusenet.nl</segment>
+            <segment bytes="793243" number="57">1439435397.37561.57@reader.easyusenet.nl</segment>
+            <segment bytes="793367" number="58">1439435397.37928.58@reader.easyusenet.nl</segment>
+            <segment bytes="793342" number="59">1439435397.38343.59@reader.easyusenet.nl</segment>
+            <segment bytes="793411" number="60">1439435397.39217.60@reader.easyusenet.nl</segment>
+            <segment bytes="793354" number="61">1439435397.39649.61@reader.easyusenet.nl</segment>
+            <segment bytes="793523" number="62">1439435397.40241.62@reader.easyusenet.nl</segment>
+            <segment bytes="793234" number="63">1439435397.41275.63@reader.easyusenet.nl</segment>
+            <segment bytes="793072" number="64">1439435397.44767.64@reader.easyusenet.nl</segment>
+            <segment bytes="793566" number="65">1439435397.45513.65@reader.easyusenet.nl</segment>
+            <segment bytes="83738" number="66">1439435397.45906.66@reader.easyusenet.nl</segment>
+        </segments>
+    </file>
+    <file subject="[265047]-[FULL]-[#a.b.teevee@EFNet]-[ Mr.Robot.S01E08.REAL.720p.HDTV.x264-KILLERS ]-[26/33] - &quot;mr.robot.s01e08.real.720p.hdtv.x264-killers.sfv&quot; yEnc (1/1)" poster="r@ndom.tv (r@ndom)" date="1439435397">
+        <groups>
+            <group>alt.binaries.teevee</group>
+        </groups>
+        <segments>
+            <segment bytes="2001" number="1">1439435397.45948.1@reader.easyusenet.nl</segment>
+        </segments>
+    </file>
+    <file subject="[265047]-[FULL]-[#a.b.teevee@EFNet]-[ Mr.Robot.S01E08.REAL.720p.HDTV.x264-KILLERS ]-[27/33] - &quot;mr.robot.s01e08.real.720p.hdtv.x264-killers.srr&quot; yEnc (1/1)" poster="r@ndom.tv (r@ndom)" date="1439435397">
+        <groups>
+            <group>alt.binaries.teevee</group>
+        </groups>
+        <segments>
+            <segment bytes="37372" number="1">1439435397.46086.1@reader.easyusenet.nl</segment>
+        </segments>
+    </file>
+    <file subject="[265047]-[FULL]-[#a.b.teevee@EFNet]-[ Mr.Robot.S01E08.REAL.720p.HDTV.x264-KILLERS ]-[28/33] - &quot;mr.robot.s01e08.real.720p.hdtv.x264-killers.vol00+01.par2&quot; yEnc (1/3)" poster="r@ndom.tv (r@ndom)" date="1439435397">
+        <groups>
+            <group>alt.binaries.teevee</group>
+        </groups>
+        <segments>
+            <segment bytes="793362" number="1">1439435397.46991.1@reader.easyusenet.nl</segment>
+            <segment bytes="793420" number="2">1439435397.47384.2@reader.easyusenet.nl</segment>
+            <segment bytes="17114" number="3">1439435397.47753.3@reader.easyusenet.nl</segment>
+        </segments>
+    </file>
+    <file subject="[265047]-[FULL]-[#a.b.teevee@EFNet]-[ Mr.Robot.S01E08.REAL.720p.HDTV.x264-KILLERS ]-[29/33] - &quot;mr.robot.s01e08.real.720p.hdtv.x264-killers.vol01+02.par2&quot; yEnc (1/5)" poster="r@ndom.tv (r@ndom)" date="1439435397">
+        <groups>
+            <group>alt.binaries.teevee</group>
+        </groups>
+        <segments>
+            <segment bytes="793318" number="1">1439435397.48433.1@reader.easyusenet.nl</segment>
+            <segment bytes="793320" number="2">1439435397.48832.2@reader.easyusenet.nl</segment>
+            <segment bytes="793330" number="3">1439435397.50272.3@reader.easyusenet.nl</segment>
+            <segment bytes="793343" number="4">1439435397.51796.4@reader.easyusenet.nl</segment>
+            <segment bytes="33006" number="5">1439435397.56846.5@reader.easyusenet.nl</segment>
+        </segments>
+    </file>
+    <file subject="[265047]-[FULL]-[#a.b.teevee@EFNet]-[ Mr.Robot.S01E08.REAL.720p.HDTV.x264-KILLERS ]-[30/33] - &quot;mr.robot.s01e08.real.720p.hdtv.x264-killers.vol03+04.par2&quot; yEnc (1/9)" poster="r@ndom.tv (r@ndom)" date="1439435397">
+        <groups>
+            <group>alt.binaries.teevee</group>
+        </groups>
+        <segments>
+            <segment bytes="793470" number="1">1439435397.59935.1@reader.easyusenet.nl</segment>
+            <segment bytes="793447" number="2">1439435397.61291.2@reader.easyusenet.nl</segment>
+            <segment bytes="793281" number="3">1439435397.61671.3@reader.easyusenet.nl</segment>
+            <segment bytes="793348" number="4">1439435397.62043.4@reader.easyusenet.nl</segment>
+            <segment bytes="793402" number="5">1439435397.62409.5@reader.easyusenet.nl</segment>
+            <segment bytes="793523" number="6">1439435397.62812.6@reader.easyusenet.nl</segment>
+            <segment bytes="793477" number="7">1439435397.63230.7@reader.easyusenet.nl</segment>
+            <segment bytes="793445" number="8">1439435397.63685.8@reader.easyusenet.nl</segment>
+            <segment bytes="48856" number="9">1439435397.66482.9@reader.easyusenet.nl</segment>
+        </segments>
+    </file>
+    <file subject="[265047]-[FULL]-[#a.b.teevee@EFNet]-[ Mr.Robot.S01E08.REAL.720p.HDTV.x264-KILLERS ]-[31/33] - &quot;mr.robot.s01e08.real.720p.hdtv.x264-killers.vol07+08.par2&quot; yEnc (1/17)" poster="r@ndom.tv (r@ndom)" date="1439435397">
+        <groups>
+            <group>alt.binaries.teevee</group>
+        </groups>
+        <segments>
+            <segment bytes="793445" number="1">1439435397.67983.1@reader.easyusenet.nl</segment>
+            <segment bytes="793447" number="2">1439435397.68515.2@reader.easyusenet.nl</segment>
+            <segment bytes="793727" number="3">1439435397.69895.3@reader.easyusenet.nl</segment>
+            <segment bytes="793498" number="4">1439435397.70271.4@reader.easyusenet.nl</segment>
+            <segment bytes="793515" number="5">1439435397.70662.5@reader.easyusenet.nl</segment>
+            <segment bytes="793390" number="6">1439435397.74040.6@reader.easyusenet.nl</segment>
+            <segment bytes="793694" number="7">1439435397.74447.7@reader.easyusenet.nl</segment>
+            <segment bytes="793582" number="8">1439435397.74845.8@reader.easyusenet.nl</segment>
+            <segment bytes="793552" number="9">1439435397.75338.9@reader.easyusenet.nl</segment>
+            <segment bytes="793511" number="10">1439435397.76347.10@reader.easyusenet.nl</segment>
+            <segment bytes="793291" number="11">1439435397.77321.11@reader.easyusenet.nl</segment>
+            <segment bytes="793482" number="12">1439435397.81042.12@reader.easyusenet.nl</segment>
+            <segment bytes="793474" number="13">1439435397.82542.13@reader.easyusenet.nl</segment>
+            <segment bytes="793336" number="14">1439435397.84622.14@reader.easyusenet.nl</segment>
+            <segment bytes="793424" number="15">1439435397.85659.15@reader.easyusenet.nl</segment>
+            <segment bytes="793372" number="16">1439435397.89056.16@reader.easyusenet.nl</segment>
+            <segment bytes="65034" number="17">1439435397.90089.17@reader.easyusenet.nl</segment>
+        </segments>
+    </file>
+    <file subject="[265047]-[FULL]-[#a.b.teevee@EFNet]-[ Mr.Robot.S01E08.REAL.720p.HDTV.x264-KILLERS ]-[32/33] - &quot;mr.robot.s01e08.real.720p.hdtv.x264-killers.vol15+16.par2&quot; yEnc (1/33)" poster="r@ndom.tv (r@ndom)" date="1439435398">
+        <groups>
+            <group>alt.binaries.teevee</group>
+        </groups>
+        <segments>
+            <segment bytes="793471" number="1">1439435397.90165.1@reader.easyusenet.nl</segment>
+            <segment bytes="793414" number="2">1439435397.90539.2@reader.easyusenet.nl</segment>
+            <segment bytes="793559" number="3">1439435397.91137.3@reader.easyusenet.nl</segment>
+            <segment bytes="793311" number="4">1439435397.91968.4@reader.easyusenet.nl</segment>
+            <segment bytes="793465" number="5">1439435397.94617.5@reader.easyusenet.nl</segment>
+            <segment bytes="793447" number="6">1439435397.96054.6@reader.easyusenet.nl</segment>
+            <segment bytes="793537" number="7">1439435397.96433.7@reader.easyusenet.nl</segment>
+            <segment bytes="793539" number="8">1439435397.99562.8@reader.easyusenet.nl</segment>
+            <segment bytes="793622" number="9">1439435397.99937.9@reader.easyusenet.nl</segment>
+            <segment bytes="793507" number="10">1439435398.00720.10@reader.easyusenet.nl</segment>
+            <segment bytes="793619" number="11">1439435398.02737.11@reader.easyusenet.nl</segment>
+            <segment bytes="793478" number="12">1439435398.03133.12@reader.easyusenet.nl</segment>
+            <segment bytes="793498" number="13">1439435398.03671.13@reader.easyusenet.nl</segment>
+            <segment bytes="793633" number="14">1439435398.05187.14@reader.easyusenet.nl</segment>
+            <segment bytes="793202" number="15">1439435398.05624.15@reader.easyusenet.nl</segment>
+            <segment bytes="793663" number="16">1439435398.06880.16@reader.easyusenet.nl</segment>
+            <segment bytes="793412" number="17">1439435398.07748.17@reader.easyusenet.nl</segment>
+            <segment bytes="793564" number="18">1439435398.09724.18@reader.easyusenet.nl</segment>
+            <segment bytes="793355" number="19">1439435398.10743.19@reader.easyusenet.nl</segment>
+            <segment bytes="793225" number="20">1439435398.12833.20@reader.easyusenet.nl</segment>
+            <segment bytes="793543" number="21">1439435398.15137.21@reader.easyusenet.nl</segment>
+            <segment bytes="793368" number="22">1439435398.16395.22@reader.easyusenet.nl</segment>
+            <segment bytes="793573" number="23">1439435398.16811.23@reader.easyusenet.nl</segment>
+            <segment bytes="793365" number="24">1439435398.18370.24@reader.easyusenet.nl</segment>
+            <segment bytes="793397" number="25">1439435398.18774.25@reader.easyusenet.nl</segment>
+            <segment bytes="793338" number="26">1439435398.22583.26@reader.easyusenet.nl</segment>
+            <segment bytes="793407" number="27">1439435398.23635.27@reader.easyusenet.nl</segment>
+            <segment bytes="793445" number="28">1439435398.24451.28@reader.easyusenet.nl</segment>
+            <segment bytes="793471" number="29">1439435398.25673.29@reader.easyusenet.nl</segment>
+            <segment bytes="793358" number="30">1439435398.26442.30@reader.easyusenet.nl</segment>
+            <segment bytes="793277" number="31">1439435398.29539.31@reader.easyusenet.nl</segment>
+            <segment bytes="793460" number="32">1439435398.29927.32@reader.easyusenet.nl</segment>
+            <segment bytes="81331" number="33">1439435398.32906.33@reader.easyusenet.nl</segment>
+        </segments>
+    </file>
+    <file subject="[265047]-[FULL]-[#a.b.teevee@EFNet]-[ Mr.Robot.S01E08.REAL.720p.HDTV.x264-KILLERS ]-[33/33] - &quot;mr.robot.s01e08.real.720p.hdtv.x264-killers.vol31+21.par2&quot; yEnc (1/43)" poster="r@ndom.tv (r@ndom)" date="1439435398">
+        <groups>
+            <group>alt.binaries.teevee</group>
+        </groups>
+        <segments>
+            <segment bytes="793397" number="1">1439435398.33380.1@reader.easyusenet.nl</segment>
+            <segment bytes="793711" number="2">1439435398.33790.2@reader.easyusenet.nl</segment>
+            <segment bytes="793454" number="3">1439435398.34194.3@reader.easyusenet.nl</segment>
+            <segment bytes="793333" number="4">1439435398.37092.4@reader.easyusenet.nl</segment>
+            <segment bytes="793366" number="5">1439435398.39702.5@reader.easyusenet.nl</segment>
+            <segment bytes="793564" number="6">1439435398.40431.6@reader.easyusenet.nl</segment>
+            <segment bytes="793350" number="7">1439435398.42130.7@reader.easyusenet.nl</segment>
+            <segment bytes="793509" number="8">1439435398.42752.8@reader.easyusenet.nl</segment>
+            <segment bytes="793526" number="9">1439435398.44749.9@reader.easyusenet.nl</segment>
+            <segment bytes="793455" number="10">1439435398.45126.10@reader.easyusenet.nl</segment>
+            <segment bytes="793735" number="11">1439435398.45525.11@reader.easyusenet.nl</segment>
+            <segment bytes="793342" number="12">1439435398.46895.12@reader.easyusenet.nl</segment>
+            <segment bytes="793398" number="13">1439435398.48757.13@reader.easyusenet.nl</segment>
+            <segment bytes="793287" number="14">1439435398.49153.14@reader.easyusenet.nl</segment>
+            <segment bytes="793462" number="15">1439435398.49544.15@reader.easyusenet.nl</segment>
+            <segment bytes="793552" number="16">1439435398.51177.16@reader.easyusenet.nl</segment>
+            <segment bytes="793448" number="17">1439435398.51929.17@reader.easyusenet.nl</segment>
+            <segment bytes="793239" number="18">1439435398.52330.18@reader.easyusenet.nl</segment>
+            <segment bytes="793350" number="19">1439435398.53892.19@reader.easyusenet.nl</segment>
+            <segment bytes="793525" number="20">1439435398.54276.20@reader.easyusenet.nl</segment>
+            <segment bytes="793388" number="21">1439435398.54661.21@reader.easyusenet.nl</segment>
+            <segment bytes="793542" number="22">1439435398.55857.22@reader.easyusenet.nl</segment>
+            <segment bytes="793488" number="23">1439435398.58098.23@reader.easyusenet.nl</segment>
+            <segment bytes="793487" number="24">1439435398.59169.24@reader.easyusenet.nl</segment>
+            <segment bytes="793517" number="25">1439435398.59570.25@reader.easyusenet.nl</segment>
+            <segment bytes="793208" number="26">1439435398.63673.26@reader.easyusenet.nl</segment>
+            <segment bytes="793410" number="27">1439435398.65614.27@reader.easyusenet.nl</segment>
+            <segment bytes="793403" number="28">1439435398.66799.28@reader.easyusenet.nl</segment>
+            <segment bytes="793516" number="29">1439435398.70143.29@reader.easyusenet.nl</segment>
+            <segment bytes="793165" number="30">1439435398.71030.30@reader.easyusenet.nl</segment>
+            <segment bytes="793553" number="31">1439435398.72596.31@reader.easyusenet.nl</segment>
+            <segment bytes="793306" number="32">1439435398.73142.32@reader.easyusenet.nl</segment>
+            <segment bytes="793404" number="33">1439435398.73785.33@reader.easyusenet.nl</segment>
+            <segment bytes="793793" number="34">1439435398.74184.34@reader.easyusenet.nl</segment>
+            <segment bytes="793364" number="35">1439435398.76762.35@reader.easyusenet.nl</segment>
+            <segment bytes="793445" number="36">1439435398.77143.36@reader.easyusenet.nl</segment>
+            <segment bytes="793361" number="37">1439435398.77909.37@reader.easyusenet.nl</segment>
+            <segment bytes="793500" number="38">1439435398.78602.38@reader.easyusenet.nl</segment>
+            <segment bytes="793395" number="39">1439435398.79072.39@reader.easyusenet.nl</segment>
+            <segment bytes="793417" number="40">1439435398.80538.40@reader.easyusenet.nl</segment>
+            <segment bytes="793530" number="41">1439435398.81257.41@reader.easyusenet.nl</segment>
+            <segment bytes="793637" number="42">1439435398.82516.42@reader.easyusenet.nl</segment>
+            <segment bytes="81624" number="43">1439435398.83107.43@reader.easyusenet.nl</segment>
+        </segments>
+    </file>
+    <file subject="[265047]-[FULL]-[#a.b.teevee@EFNet]-[ Mr.Robot.S01E08.REAL.720p.HDTV.x264-KILLERS ]-[1/1] - &quot;Mr.Robot.S01E08.REAL.720p.HDTV.x264-KILLERS.nzb&quot; yEnc (1/1)" poster="r@ndom.tv (r@ndom)" date="1439435399">
+        <groups>
+            <group>alt.binaries.teevee</group>
+        </groups>
+        <segments>
+            <segment bytes="126292" number="1">1439435399.49818.1@reader.easyusenet.nl</segment>
+        </segments>
+    </file>
+</nzb>

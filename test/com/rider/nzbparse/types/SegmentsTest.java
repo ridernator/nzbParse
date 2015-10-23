@@ -4,17 +4,17 @@ import org.junit.Assert;
 import org.junit.Test;
 
 /**
- * Test of the Segments class
+ * Test of the SegmentsObject class
  *
  * @author Ciaron Rider
  */
 public class SegmentsTest {
     /**
-     * Test of addSegment and getSegments methods, of class Segments.
+     * Test of addSegment and getSegments methods, of class SegmentsObject.
      */
     @Test
     public void testAddSegment() {
-        final Segments segments = new Segments();
+        final SegmentsObject segments = new SegmentsObject();
         Assert.assertEquals(0, segments.getSegments().size());
 
         final Segment segment1 = new Segment(1, "testName", 2);
