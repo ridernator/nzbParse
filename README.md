@@ -6,4 +6,4 @@ Also provides some query methods for use on nzbs (calculate age, size etc).
 
 **Usage :**
 
-See the NzbParser.java file in the com.rider.nzbParse package
+See the NzbParser.java file in the com.rider.nzbparse package
