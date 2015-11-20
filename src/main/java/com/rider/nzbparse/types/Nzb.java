@@ -4,7 +4,6 @@ import com.rider.nzbparse.comparators.FileItemComparator;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
-import java.util.Date;
 import java.util.List;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -224,7 +223,7 @@ public final class Nzb {
      * @return The published date (in ms since 1970) of the oldest or newest
      * item in the nzb
      */
-    private long calculatePublishDateInMs(final boolean oldest) {
+    private long calculatePublishDate(final boolean oldest) {
         long returnVal = 0;
 
         // If the nzb has some files
@@ -253,8 +252,8 @@ public final class Nzb {
      *
      * @return The age (in ms since 1970) of the oldest item in the nzb
      */
-    public long calculateOldestAgeInMs() {
-        return System.currentTimeMillis() - calculateOldestPublishDateInMs();
+    public long calculateOldestAge() {
+        return System.currentTimeMillis() - calculateOldestPublishDate();
     }
 
     /**
@@ -262,8 +261,8 @@ public final class Nzb {
      *
      * @return The age (in ms since 1970) of the oldest item in the nzb
      */
-    public long calculateNewestAgeInMs() {
-        return System.currentTimeMillis() - calculateOldestPublishDateInMs();
+    public long calculateNewestAge() {
+        return System.currentTimeMillis() - calculateNewestPublishDate();
     }
 
     /**
@@ -272,8 +271,8 @@ public final class Nzb {
      * @return The published date (in ms since 1970) of the oldest item in the
      * nzb
      */
-    public long calculateOldestPublishDateInMs() {
-        return calculatePublishDateInMs(true);
+    public long calculateOldestPublishDate() {
+        return calculatePublishDate(true);
     }
 
     /**
@@ -282,8 +281,8 @@ public final class Nzb {
      * @return The published date (in ms since 1970) of the newest item in the
      * nzb
      */
-    public long calculateNewestPublishDateInMs() {
-        return calculatePublishDateInMs(false);
+    public long calculateNewestPublishDate() {
+        return calculatePublishDate(false);
     }
 
     @Override
