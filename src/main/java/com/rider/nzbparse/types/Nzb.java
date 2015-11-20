@@ -229,17 +229,17 @@ public final class Nzb {
 
         // If the nzb has some files
         if (!getFiles().isEmpty()) {
-            // Set oldest date to the first file's date
+            // Set return value to the first file's date
             returnVal = getFiles().get(0).getDate();
 
             // For each file in the nzb
             for (final FileItem file : getFiles()) {
                 if (oldest) { // Are we looking for the oldest
-                    // If the files date is older than our stored date then set our stores date to the file's date
-                    returnVal = Math.max(returnVal, file.getDate());
-                } else { // Or the newest
-                    // If the files date is newwe than our stored date then set our stores date to the file's date
+                    // If the files date is older than our stored date then set our stored date to the file's date
                     returnVal = Math.min(returnVal, file.getDate());
+                } else { // Or the newest
+                    // If the files date is newer than our stored date then set our stored date to the file's date
+                    returnVal = Math.max(returnVal, file.getDate());
                 }
             }
         }
@@ -284,24 +284,6 @@ public final class Nzb {
      */
     public long calculateNewestPublishDateInMs() {
         return calculatePublishDateInMs(false);
-    }
-
-    /**
-     * Calculate the published date the oldest item in the nzb.
-     *
-     * @return The published date of the oldest item in the nzb
-     */
-    public Date calculateOldestPublishDate() {
-        return new Date(calculateOldestPublishDateInMs());
-    }
-
-    /**
-     * Calculate the published date the newest item in the nzb.
-     *
-     * @return The published date of the newest item in the nzb
-     */
-    public Date calculateNewestPublishDate() {
-        return new Date(calculateNewestPublishDateInMs());
     }
 
     @Override
