@@ -12,6 +12,18 @@ import org.junit.Test;
  */
 public class NzbTest {
     /**
+     * Method used for comparing two ages to the nearest second.
+     *
+     * @param first First age
+     * @param second Second age
+     * @return True if the ages are within 1s of each other or false if not
+     */
+    private boolean ageCompare(final long first,
+                               final long second) {
+        return Math.abs(first - second) < 1000;
+    }
+
+    /**
      * Test of addFile, of class Nzb.
      */
     @Test
@@ -172,7 +184,7 @@ public class NzbTest {
         nzb.addMetaDatum(metaDatum1);
         nzb.addMetaDatum(metaDatum2);
 
-        Nzb copyTo = new Nzb(nzb);
+        final Nzb copyTo = new Nzb(nzb);
 
         Assert.assertTrue("Copy constructor in \"Nzb\" does not set \"files\" properly", copyTo.getFiles().contains(fileItem1));
         Assert.assertTrue("Copy constructor in \"Nzb\" does not set \"files\" properly", copyTo.getFiles().contains(fileItem2));
@@ -180,7 +192,7 @@ public class NzbTest {
         Assert.assertTrue("Copy constructor in \"Nzb\" does not set \"metaData\" properly", copyTo.getMetaData().contains(metaDatum2));
 
         try {
-            copyTo = new Nzb(null);
+            new Nzb(null);
             Assert.fail("Passing null to copy constructor of \"Nzb\" did not throw NullPointerException");
         } catch (final NullPointerException exception) {
             // Expected
@@ -258,6 +270,145 @@ public class NzbTest {
         Assert.assertEquals("\"sort\" method in \"Nzb\" does not sort files properly", file2, nzb.getFiles().get(1));
         Assert.assertEquals("\"sort\" method in \"Nzb\" does not sort files' segments properly", segment1, nzb.getFiles().get(1).getSegments().get(0));
         Assert.assertEquals("\"sort\" method in \"Nzb\" does not sort files' segments properly", segment2, nzb.getFiles().get(1).getSegments().get(1));
+    }
+
+    /**
+     * Test of calculateSize, of class Nzb.
+     */
+    @Test
+    public void testCalculateSize() {
+        final Nzb nzb = new Nzb();
+
+        final FileItem file1 = new FileItem("subject1", "poster1", 1);
+        final FileItem file2 = new FileItem("subject2", "poster2", 2);
+
+        file1.addSegment(new Segment(0, "test1", 10));
+        file1.addSegment(new Segment(1, "test2", 20));
+
+        file2.addSegment(new Segment(0, "test3", 30));
+        file2.addSegment(new Segment(1, "test4", 40));
+
+        Assert.assertEquals("Error in \"calculateSize\" in \"Nzb\"", 0, nzb.calculateSize());
+
+        nzb.addFile(file1);
+        Assert.assertEquals("Error in \"calculateSize\" in \"Nzb\"", 30, nzb.calculateSize());
+
+        nzb.addFile(file2);
+        Assert.assertEquals("Error in \"calculateSize\" in \"Nzb\"", 100, nzb.calculateSize());
+
+        nzb.removeFile(file1);
+        Assert.assertEquals("Error in \"calculateSize\" in \"Nzb\"", 70, nzb.calculateSize());
+
+        nzb.removeFile(file2);
+        Assert.assertEquals("Error in \"calculateSize\" in \"Nzb\"", 0, nzb.calculateSize());
+    }
+
+    /**
+     * Test of calculateNewestPublishDate, of class Nzb.
+     */
+    @Test
+    public void testCalculateNewestPublishDate() {
+        final Nzb nzb = new Nzb();
+
+        final FileItem file1 = new FileItem("subject1", "poster1", 1);
+        final FileItem file2 = new FileItem("subject2", "poster2", 2);
+        final FileItem file3 = new FileItem("subject3", "poster2", 3);
+
+        nzb.addFile(file1);
+        Assert.assertEquals("Error in \"calculateNewestPublishDate\" in \"Nzb\"", 1000, nzb.calculateNewestPublishDate());
+
+        nzb.addFile(file2);
+        Assert.assertEquals("Error in \"calculateNewestPublishDate\" in \"Nzb\"", 2000, nzb.calculateNewestPublishDate());
+
+        nzb.addFile(file3);
+        Assert.assertEquals("Error in \"calculateNewestPublishDate\" in \"Nzb\"", 3000, nzb.calculateNewestPublishDate());
+
+        nzb.removeFile(file2);
+        Assert.assertEquals("Error in \"calculateNewestPublishDate\" in \"Nzb\"", 3000, nzb.calculateNewestPublishDate());
+
+        nzb.removeFile(file3);
+        Assert.assertEquals("Error in \"calculateNewestPublishDate\" in \"Nzb\"", 1000, nzb.calculateNewestPublishDate());
+    }
+
+    /**
+     * Test of calculateOldestPublishDate, of class Nzb.
+     */
+    @Test
+    public void testCalculateOldestPublishDate() {
+        final Nzb nzb = new Nzb();
+
+        final FileItem file1 = new FileItem("subject1", "poster1", 1);
+        final FileItem file2 = new FileItem("subject2", "poster2", 2);
+        final FileItem file3 = new FileItem("subject3", "poster2", 3);
+
+        nzb.addFile(file1);
+        Assert.assertEquals("Error in \"calculateOldestPublishDate\" in \"Nzb\"", 1000, nzb.calculateOldestPublishDate());
+
+        nzb.addFile(file2);
+        Assert.assertEquals("Error in \"calculateOldestPublishDate\" in \"Nzb\"", 1000, nzb.calculateOldestPublishDate());
+
+        nzb.addFile(file3);
+        Assert.assertEquals("Error in \"calculateOldestPublishDate\" in \"Nzb\"", 1000, nzb.calculateOldestPublishDate());
+
+        nzb.removeFile(file1);
+        Assert.assertEquals("Error in \"calculateOldestPublishDate\" in \"Nzb\"", 2000, nzb.calculateOldestPublishDate());
+
+        nzb.removeFile(file2);
+        Assert.assertEquals("Error in \"calculateOldestPublishDate\" in \"Nzb\"", 3000, nzb.calculateOldestPublishDate());
+    }
+
+    /**
+     * Test of calculateNewestAge, of class Nzb.
+     */
+    @Test
+    public void testCalculateNewestAge() {
+        final Nzb nzb = new Nzb();
+
+        final FileItem file1 = new FileItem("subject1", "poster1", 1);
+        final FileItem file2 = new FileItem("subject2", "poster2", 2);
+        final FileItem file3 = new FileItem("subject3", "poster3", 3);
+
+        nzb.addFile(file1);
+        Assert.assertTrue("Error in \"calculateNewestAge\" in \"Nzb\"", ageCompare(System.currentTimeMillis() - 1000, nzb.calculateNewestAge()));
+
+        nzb.addFile(file2);
+        Assert.assertTrue("Error in \"calculateNewestAge\" in \"Nzb\"", ageCompare(System.currentTimeMillis() - 2000, nzb.calculateNewestAge()));
+
+        nzb.addFile(file3);
+        Assert.assertTrue("Error in \"calculateNewestAge\" in \"Nzb\"", ageCompare(System.currentTimeMillis() - 3000, nzb.calculateNewestAge()));
+
+        nzb.removeFile(file2);
+        Assert.assertTrue("Error in \"calculateNewestAge\" in \"Nzb\"", ageCompare(System.currentTimeMillis() - 3000, nzb.calculateNewestAge()));
+
+        nzb.removeFile(file3);
+        Assert.assertTrue("Error in \"calculateNewestAge\" in \"Nzb\"", ageCompare(System.currentTimeMillis() - 1000, nzb.calculateNewestAge()));
+    }
+
+    /**
+     * Test of calculateOldestAge, of class Nzb.
+     */
+    @Test
+    public void testCalculateOldestAge() {
+        final Nzb nzb = new Nzb();
+
+        final FileItem file1 = new FileItem("subject1", "poster1", 1);
+        final FileItem file2 = new FileItem("subject2", "poster2", 2);
+        final FileItem file3 = new FileItem("subject3", "poster2", 3);
+
+        nzb.addFile(file1);
+        Assert.assertTrue("Error in \"calculateOldestAge\" in \"Nzb\"", ageCompare(System.currentTimeMillis() - 1000, nzb.calculateOldestAge()));
+
+        nzb.addFile(file2);
+        Assert.assertTrue("Error in \"calculateOldestAge\" in \"Nzb\"", ageCompare(System.currentTimeMillis() - 1000, nzb.calculateOldestAge()));
+
+        nzb.addFile(file3);
+        Assert.assertTrue("Error in \"calculateOldestAge\" in \"Nzb\"", ageCompare(System.currentTimeMillis() - 1000, nzb.calculateOldestAge()));
+
+        nzb.removeFile(file1);
+        Assert.assertTrue("Error in \"calculateOldestAge\" in \"Nzb\"", ageCompare(System.currentTimeMillis() - 2000, nzb.calculateOldestAge()));
+
+        nzb.removeFile(file2);
+        Assert.assertTrue("Error in \"calculateOldestAge\" in \"Nzb\"", ageCompare(System.currentTimeMillis() - 3000, nzb.calculateOldestAge()));
     }
 
     /**
