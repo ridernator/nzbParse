@@ -5,6 +5,7 @@ import com.rider.nzbparse.types.Group;
 import com.rider.nzbparse.types.MetaDatum;
 import com.rider.nzbparse.types.Nzb;
 import com.rider.nzbparse.types.Segment;
+import java.io.File;
 import java.io.FileNotFoundException;
 import javax.xml.bind.JAXBException;
 import javax.xml.parsers.ParserConfigurationException;
@@ -51,9 +52,13 @@ public class NzbParserTest {
 
             nzbOut.addMetaDatum(metadatum1);
 
-            parser.marshal(nzbOut, "nzb.nzb");
+            final File nzbOutFile = new File("nzb.nzb");
+            nzbOutFile.deleteOnExit();
+
+            parser.marshal(nzbOut, nzbOutFile);
 
             final Nzb nzbIn = parser.unmarshal("nzb.nzb");
+            
 
             Assert.assertEquals("nzb file read in differs fron nzb file written out", nzbOut, nzbIn);
         } catch (final ParserConfigurationException exception) {
